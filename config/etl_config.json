@@ -1,0 +1,26 @@
+{
+  "database": {
+    "type": "mongodb",
+    "connection_string": "mongodb://localhost:27017/",
+    "database": "product_catalog",
+    "collection": "products",
+    "batch_size": 1000
+  },  
+  "suppliers": {
+    "midocean": {
+      "supplier_name": "MidOcean",
+      "api": {
+        "api_key": "",
+        "language": "en",
+        "use_sample_data": true,
+        "sample_data_path": "sample data/MidOcean Sample Data.json"
+      },
+      "batch_size": 100
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/etl.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}

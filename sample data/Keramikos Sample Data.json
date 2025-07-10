@@ -1,0 +1,3656 @@
+// Keramikos Sample Data:
+{
+  "all-products-and-prices": {
+    "GET": "https://keramikos-data.uk/api/PriceData/all-products-and-prices",
+    "Response": {
+      "data": [
+        {
+          "ProductId": 1,
+          "Name": "Atlantic White",
+          "Prodcode": "ATLWHI",
+          "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/ATLWHI.jpg",
+          "ShapeName": "Atlantic",
+          "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/ATLWHI.png",
+          "Description": "A straight mug with a slightly exaggerated lip with a comfortable sized handle, the perfect give away to sit on any desk.",
+          "Brand": "Keramikos",
+          "QuantityPerBox": 36,
+          "Discontinued": false,
+          "PrintDirect": true,
+          "PrintTransfer": true,
+          "PrintDigital": true,
+          "PrintDyeSublimation": false,
+          "PrintFullColour": false,
+          "CategoryName": "Earthenware",
+          "IsEcoProduct": false,
+          "CreatePageUri": null,
+          "ProductSpecifications": [
+            {
+              "Id": 1,
+              "ProductId": 1,
+              "SpecificationText": "Weight (g)",
+              "SpecificationValue": "275"
+            },
+            {
+              "Id": 2,
+              "ProductId": 1,
+              "SpecificationText": "Capacity (ml)",
+              "SpecificationValue": "300"
+            },
+            {
+              "Id": 3,
+              "ProductId": 1,
+              "SpecificationText": "Height (mm)",
+              "SpecificationValue": "93"
+            },
+            {
+              "Id": 4,
+              "ProductId": 1,
+              "SpecificationText": "Diameter (mm)",
+              "SpecificationValue": "81"
+            }
+          ],
+          "OptionItems": [],
+          "AdditionalCharges": [],
+          "DespatchPrices": [
+            {
+              "QuantityFrom": 36,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 72,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 108,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 252,
+              "Cost": 27.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 504,
+              "Cost": 32.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 1008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 2016,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 3024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 4008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 5024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 10008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            }
+          ],
+          "PrintTypes": [
+            {
+              "PrintTypeName": "Direct",
+              "PrintCodeId": 1,
+              "PrintArea": "185 x 70mm",
+              "TypicalLeadTimes": "Typically 7-10 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.43
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.86
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.72
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.55
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.37
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.36
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.35
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.35
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.35
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.33
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.3
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.5
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.93
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.79
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.62
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.42
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.4
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.39
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.39
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.39
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.37
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.34
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.57
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.0
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.86
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.69
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.47
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.44
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.43
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.43
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.43
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.41
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.38
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.64
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.07
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.93
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.76
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.52
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.48
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.47
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.47
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.47
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.45
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.42
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            },
+            {
+              "PrintTypeName": "Transfer",
+              "PrintCodeId": 2,
+              "PrintArea": "220 x 80mm",
+              "TypicalLeadTimes": "Typically 15 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 4.62
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.05
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.82
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.52
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.3
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.22
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.21
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.18
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.16
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.08
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.05
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 4.69
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.12
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.89
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.59
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.37
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.3
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.28
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.25
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.23
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.15
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.13
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 4.76
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.19
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.96
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.66
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.44
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.38
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.35
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.32
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.3
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.22
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.21
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 4.83
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.26
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.03
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.73
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.51
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.46
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.42
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.39
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.37
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.29
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.29
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductId": 2,
+          "Name": "Belfast Earthenware Mug",
+          "Prodcode": "BELFAST",
+          "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/BELFAST.jpg",
+          "ShapeName": "Belfast",
+          "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/BELFAST.png",
+          "Description": "A new addition to the earthenware range, the Belfast has a solid and comfortable feel and a generous capacity.",
+          "Brand": "Keramikos",
+          "QuantityPerBox": 24,
+          "Discontinued": false,
+          "PrintDirect": false,
+          "PrintTransfer": true,
+          "PrintDigital": true,
+          "PrintDyeSublimation": false,
+          "PrintFullColour": false,
+          "CategoryName": "Earthenware",
+          "IsEcoProduct": false,
+          "CreatePageUri": null,
+          "ProductSpecifications": [
+            {
+              "Id": 5,
+              "ProductId": 2,
+              "SpecificationText": "Diameter (mm)",
+              "SpecificationValue": "95"
+            },
+            {
+              "Id": 6,
+              "ProductId": 2,
+              "SpecificationText": "Height (mm)",
+              "SpecificationValue": "105"
+            },
+            {
+              "Id": 7,
+              "ProductId": 2,
+              "SpecificationText": "Capacity (ml)",
+              "SpecificationValue": "495"
+            },
+            {
+              "Id": 8,
+              "ProductId": 2,
+              "SpecificationText": "Weight (g)",
+              "SpecificationValue": "376"
+            }
+          ],
+          "OptionItems": [],
+          "AdditionalCharges": [],
+          "DespatchPrices": [
+            {
+              "QuantityFrom": 36,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 72,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 108,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 252,
+              "Cost": 27.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 504,
+              "Cost": 32.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 1008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 2016,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 3024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            }
+          ],
+          "PrintTypes": [
+            {
+              "PrintTypeName": "Transfer",
+              "PrintCodeId": 2,
+              "PrintArea": "250 x 50mm",
+              "TypicalLeadTimes": "Typically 15 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 48,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 4.42
+                },
+                {
+                  "QuantityFrom": 96,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.23
+                },
+                {
+                  "QuantityFrom": 240,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.01
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.48
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.4
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.34
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.28
+                },
+                {
+                  "QuantityFrom": 48,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 4.49
+                },
+                {
+                  "QuantityFrom": 96,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.3
+                },
+                {
+                  "QuantityFrom": 240,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.08
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.53
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.44
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.38
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.32
+                },
+                {
+                  "QuantityFrom": 48,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 4.56
+                },
+                {
+                  "QuantityFrom": 96,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.37
+                },
+                {
+                  "QuantityFrom": 240,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.15
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.58
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.48
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.42
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.36
+                },
+                {
+                  "QuantityFrom": 48,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 4.63
+                },
+                {
+                  "QuantityFrom": 96,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.44
+                },
+                {
+                  "QuantityFrom": 240,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.22
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.52
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.46
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.4
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 48,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 96,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 240,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 48,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 96,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 240,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 48,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 96,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 240,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 48,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 96,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 240,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductId": 3,
+          "Name": "Bell Black",
+          "Prodcode": "BELBLA",
+          "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/BELBLA.jpg",
+          "ShapeName": "Bell",
+          "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/BELBLA.png",
+          "Description": "The unique Bell mug is an attractive alternative to the usual styles of the earthenware shapes.",
+          "Brand": "Keramikos",
+          "QuantityPerBox": 36,
+          "Discontinued": false,
+          "PrintDirect": true,
+          "PrintTransfer": true,
+          "PrintDigital": false,
+          "PrintDyeSublimation": false,
+          "PrintFullColour": false,
+          "CategoryName": "Earthenware",
+          "IsEcoProduct": false,
+          "CreatePageUri": null,
+          "ProductSpecifications": [
+            {
+              "Id": 9,
+              "ProductId": 3,
+              "SpecificationText": "Diameter (mm)",
+              "SpecificationValue": "80"
+            },
+            {
+              "Id": 10,
+              "ProductId": 3,
+              "SpecificationText": "Height (mm)",
+              "SpecificationValue": "93"
+            },
+            {
+              "Id": 11,
+              "ProductId": 3,
+              "SpecificationText": "Capacity (ml)",
+              "SpecificationValue": "270"
+            },
+            {
+              "Id": 12,
+              "ProductId": 3,
+              "SpecificationText": "Weight (g)",
+              "SpecificationValue": "240"
+            }
+          ],
+          "OptionItems": [],
+          "AdditionalCharges": [],
+          "DespatchPrices": [
+            {
+              "QuantityFrom": 36,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 72,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 108,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 252,
+              "Cost": 27.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 504,
+              "Cost": 32.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 1008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 2016,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 3024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 4008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 5024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 10008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            }
+          ],
+          "PrintTypes": [
+            {
+              "PrintTypeName": "Transfer",
+              "PrintCodeId": 2,
+              "PrintArea": "215 x 50mm",
+              "TypicalLeadTimes": "Typically 15 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 5.21
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.48
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.23
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.9
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.66
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 5.28
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.55
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.3
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.97
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.73
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 5.35
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.62
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.37
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.04
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.8
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 5.42
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.69
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.44
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.11
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.87
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            },
+            {
+              "PrintTypeName": "Direct",
+              "PrintCodeId": 1,
+              "PrintArea": "185 x 40mm",
+              "TypicalLeadTimes": "Typically 7-10 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.63
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.06
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.92
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.75
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.58
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.55
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.54
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.7
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.13
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.99
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.82
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.63
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.59
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.58
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.77
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.2
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.06
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.89
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.63
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.62
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.84
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.27
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.13
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.96
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.73
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.67
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.66
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductId": 5,
+          "Name": "Bell Midnight Blue",
+          "Prodcode": "BELMBL",
+          "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/BELMBL.jpg",
+          "ShapeName": "Bell",
+          "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/BELMBL.png",
+          "Description": "The unique Bell mug is an attractive alternative to the usual styles of the earthenware shapes. Pantone: 289c",
+          "Brand": "Keramikos",
+          "QuantityPerBox": 36,
+          "Discontinued": false,
+          "PrintDirect": true,
+          "PrintTransfer": true,
+          "PrintDigital": false,
+          "PrintDyeSublimation": false,
+          "PrintFullColour": false,
+          "CategoryName": "Earthenware",
+          "IsEcoProduct": false,
+          "CreatePageUri": null,
+          "ProductSpecifications": [
+            {
+              "Id": 17,
+              "ProductId": 5,
+              "SpecificationText": "Diameter (mm)",
+              "SpecificationValue": "80"
+            },
+            {
+              "Id": 18,
+              "ProductId": 5,
+              "SpecificationText": "Height (mm)",
+              "SpecificationValue": "93"
+            },
+            {
+              "Id": 19,
+              "ProductId": 5,
+              "SpecificationText": "Capacity (ml)",
+              "SpecificationValue": "270"
+            },
+            {
+              "Id": 20,
+              "ProductId": 5,
+              "SpecificationText": "Weight (g)",
+              "SpecificationValue": "240"
+            }
+          ],
+          "OptionItems": [],
+          "AdditionalCharges": [],
+          "DespatchPrices": [
+            {
+              "QuantityFrom": 36,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 72,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 108,
+              "Cost": 22.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 252,
+              "Cost": 27.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 504,
+              "Cost": 32.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 1008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 2016,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 3024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 4008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 5024,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            },
+            {
+              "QuantityFrom": 10008,
+              "Cost": 0.0,
+              "DisplayPOA": false
+            }
+          ],
+          "PrintTypes": [
+            {
+              "PrintTypeName": "Transfer",
+              "PrintCodeId": 2,
+              "PrintArea": "215 x 50mm",
+              "TypicalLeadTimes": "Typically 15 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 5.21
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.48
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.23
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.9
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.66
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.56
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 5.28
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.55
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.3
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.97
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.73
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.63
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 5.35
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.62
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.37
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.04
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.8
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.7
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 5.42
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.69
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.44
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.11
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.87
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.77
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            },
+            {
+              "PrintTypeName": "Direct",
+              "PrintCodeId": 1,
+              "PrintArea": "185 x 40mm",
+              "TypicalLeadTimes": "Typically 7-10 working days from art approval.",
+              "PrintPrices": [
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 3.63
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 2.06
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.92
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.75
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.58
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.56
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.55
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 1,
+                  "UnitPrice": 1.54
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 3.7
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 2.13
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.99
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.82
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.63
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.6
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.59
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 2,
+                  "UnitPrice": 1.58
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 3.77
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.2
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 2.06
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.89
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.64
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.63
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 3,
+                  "UnitPrice": 1.62
+                },
+                {
+                  "QuantityFrom": 36,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 3.84
+                },
+                {
+                  "QuantityFrom": 72,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.27
+                },
+                {
+                  "QuantityFrom": 108,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 2.13
+                },
+                {
+                  "QuantityFrom": 252,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.96
+                },
+                {
+                  "QuantityFrom": 504,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.73
+                },
+                {
+                  "QuantityFrom": 1008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 2016,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 3024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 4008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.68
+                },
+                {
+                  "QuantityFrom": 5024,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.67
+                },
+                {
+                  "QuantityFrom": 10008,
+                  "NumberOfColours": 4,
+                  "UnitPrice": 1.66
+                }
+              ],
+              "OriginationPrices": [
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 36,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 72,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 108,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 252,
+                  "Cost": 22.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 1,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 36,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 72,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 108,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 252,
+                  "Cost": 44.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 2,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 36,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 72,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 108,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 252,
+                  "Cost": 66.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 3,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 36,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 72,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 108,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 252,
+                  "Cost": 88.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 504,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 1008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 2016,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 3024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 4008,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 5024,
+                  "Cost": 0.0
+                },
+                {
+                  "NumberOfColours": 4,
+                  "QuantityFrom": 10008,
+                  "Cost": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "categories": {
+    "GET": "https://keramikos-data.uk/api/productdata/categories",
+    "Response": [
+      {
+        "id": 1,
+        "categoryName": "Dye Sublimation",
+        "description": "The special coating on Dye Sublimation products allow for colourful and photographic designs to be printed, even in small production runs.",
+        "imageUri": null,
+        "displayOrder": 20
+      },
+      {
+        "id": 2,
+        "categoryName": "Porcelain",
+        "description": "For a premium quality product, porcelain is always an excellent choice.",
+        "imageUri": null,
+        "displayOrder": 40
+      },
+      {
+        "id": 3,
+        "categoryName": "Bone China",
+        "description": "With a more delicate finish than earthenware, bone china products have a more refined feel.",
+        "imageUri": null,
+        "displayOrder": 30
+      }
+    ]
+  },
+  "print-types": {
+    "GET": "https://keramikos-data.uk/api/ProductData/print-types",
+    "Response": [
+      {
+        "id": 1,
+        "name": "Direct",
+        "notes": "Screen printing. Ideal for bulk printing designs with clearly delineated blocks of colour.",
+        "imageUri": "https://keramikos.co.uk/wp-content/uploads/print-type-direct-cambridge.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Transfer",
+        "notes": "Transfer printing is ideal for intricate designs with fine detail or tight registration. As the transfers are applied by hand, this process is more labour intensive than direct printing.",
+        "imageUri": "https://keramikos.co.uk/wp-content/uploads/print-type-transfer-cambridge.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Dye Sublimation",
+        "notes": "The Dye Sublimation print process is an excellent option for colourful designs of photographic images. The process is fast and cost-effective for smaller print runs.",
+        "imageUri": "https://keramikos.co.uk/wp-content/uploads/print-type-dye-sub-durham.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Digital Printing",
+        "notes": "Instead of films or screens, high quality CMYK printed images are used. These are cover coated and hand applied as a transfer. This is then fired into the glaze making a durable and lifelong print.",
+        "imageUri": "https://keramikos.co.uk/wp-content/uploads/print-type-digital-cambridge.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Full Colour",
+        "notes": "Full colour print effect using a four colour transfer for ceramic products, or an in mould labelling process for plastics.",
+        "imageUri": "https://keramikos.co.uk/wp-content/uploads/print-type-full-colour.jpg"
+      }
+    ]
+  },
+  "prices": {
+    "GET": "https://keramikos-data.uk/api/pricedata/prices",
+    "Response": {
+      "productId": 1,
+      "prodCode": "ATLWHI",
+      "productName": "Atlantic White",
+      "printTypeName": "Digital Printing",
+      "printTypeId": 4,
+      "printPrices": [
+        {
+          "quantityFrom": 36,
+          "numberOfColours": 4,
+          "unitPrice": 4.83
+        },
+        {
+          "quantityFrom": 72,
+          "numberOfColours": 4,
+          "unitPrice": 3.26
+        },
+        {
+          "quantityFrom": 108,
+          "numberOfColours": 4,
+          "unitPrice": 3.03
+        },
+        {
+          "quantityFrom": 252,
+          "numberOfColours": 4,
+          "unitPrice": 2.73
+        },
+        {
+          "quantityFrom": 504,
+          "numberOfColours": 4,
+          "unitPrice": 2.51
+        },
+        {
+          "quantityFrom": 1008,
+          "numberOfColours": 4,
+          "unitPrice": 2.46
+        },
+        {
+          "quantityFrom": 2016,
+          "numberOfColours": 4,
+          "unitPrice": 2.42
+        },
+        {
+          "quantityFrom": 3024,
+          "numberOfColours": 4,
+          "unitPrice": 2.39
+        },
+        {
+          "quantityFrom": 4008,
+          "numberOfColours": 4,
+          "unitPrice": 2.37
+        },
+        {
+          "quantityFrom": 5024,
+          "numberOfColours": 4,
+          "unitPrice": 2.29
+        },
+        {
+          "quantityFrom": 10008,
+          "numberOfColours": 4,
+          "unitPrice": 2.29
+        }
+      ],
+      "originationPrices": [
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 36,
+          "cost": 88.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 72,
+          "cost": 88.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 108,
+          "cost": 88.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 252,
+          "cost": 88.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 504,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 1008,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 2016,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 3024,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 4008,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 5024,
+          "cost": 0.0
+        },
+        {
+          "numberOfColours": 4,
+          "quantityFrom": 10008,
+          "cost": 0.0
+        }
+      ],
+      "additionalCharges": [],
+      "despatchPrices": [
+        {
+          "quantityFrom": 36,
+          "cost": 22.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 72,
+          "cost": 22.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 108,
+          "cost": 22.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 252,
+          "cost": 27.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 504,
+          "cost": 32.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 1008,
+          "cost": 0.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 2016,
+          "cost": 0.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 3024,
+          "cost": 0.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 4008,
+          "cost": 0.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 5024,
+          "cost": 0.0,
+          "displayPOA": false
+        },
+        {
+          "quantityFrom": 10008,
+          "cost": 0.0,
+          "displayPOA": false
+        }
+      ]
+    }
+  }
+}
