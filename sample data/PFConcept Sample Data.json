@@ -1,519 +1,505 @@
-PFConcept Sample Data
-
-<!-- Product Feed Start -->
 {
-  "model": {
-    "description": "Clasica unisex crewneck sweater",
-    "extDesc": "Classic sweatshirt with 1x1 elastane rib in collar, cuffs and waistband. Reinforced covered seams in collar. Removable label. The model is 185 cm and is wearing size L.",
-    "keywords": "roly, Sweater, Sweaters, hoodie, hoodies, sweatshirt, sweatshirts, hooded sweater, hooded sweaters,Knitted,Knits, jumpers",
-    "productComments": "Please check the size chart before ordering. Roly follows Spanish sizing which has a more slim-fit design.",
-    "attributes": {
-      "attribute": [
-        {
-          "attributeSetting": "No",
-          "_code": "pa_withZipper"
-        },
-        {
-          "attributeSetting": "Unisex",
-          "_code": "pa_gender"
-        },
-        {
-          "attributeSetting": "OEKO-TEX®",
-          "_code": "pa_certifications_environmental"
-        },
-        {
-          "attributeSetting": "SMETA",
-          "_code": "pa_certifications_social"
-        }
-      ]
-    },
-    "supplierAddress": "Gor Factory, s.a.,Ctra. Santomera / Abanilla Km 8.8,30620 Fortuna - Murcia - Spain",
-    "items": {
-      "item": [
-        {
-          "size": "XS",
-          "sizeGrid": "XS,S,M,L,XL,2XL,3XL",
-          "sizeRange": "XS-3XL",
-          "gender": "Unisex",
-          "measurements": {
-            "weightGr": "",
-            "grammage": "280 g/m2",
-            "lengthCm": "",
-            "heightCm": "",
-            "widthCm": "",
-            "diameterCm": "",
-            "circumferenceCm": "",
-            "SizeCombined": "",
-            "giftboxLengthCm": "",
-            "giftboxHeightCm": "",
-            "giftboxWidthCm": "",
-            "giftboxDiameterCm": "",
-            "giftboxSizeCombined": ""
+  "productFeed": {
+    "model": {
+      "description": "Clasica unisex crewneck sweater",
+      "extDesc": "Classic sweatshirt with 1x1 elastane rib in collar, cuffs and waistband. Reinforced covered seams in collar. Removable label. The model is 185 cm and is wearing size L.",
+      "keywords": "roly, Sweater, Sweaters, hoodie, hoodies, sweatshirt, sweatshirts, hooded sweater, hooded sweaters,Knitted,Knits, jumpers",
+      "productComments": "Please check the size chart before ordering. Roly follows Spanish sizing which has a more slim-fit design.",
+      "attributes": {
+        "attribute": [
+          {
+            "attributeSetting": "No",
+            "_code": "pa_withZipper"
           },
-          "qtyPerCarton": "30",
-          "decorationSettings": {
-            "decoDefault": {
-              "method": "Screenprint",
-              "leadTime": "2",
-              "leadTimeMaxQty": "250",
-              "impLocationDefault": "left chest",
-              "impWidthDefaultMm": "120",
-              "impHeightDefaultMm": "120",
-              "impDiameterDefaultMm": "",
-              "maxColoursDefault": "5",
-              "impSizeDefaultMm": "120 x 120 mm",
-              "imageImprintDefault": "R10701B_2_1_2408.jpg",
-              "decorationMandatory": "No",
-              "decoComments": ""
+          {
+            "attributeSetting": "Unisex",
+            "_code": "pa_gender"
+          },
+          {
+            "attributeSetting": "OEKO-TEX®",
+            "_code": "pa_certifications_environmental"
+          },
+          {
+            "attributeSetting": "SMETA",
+            "_code": "pa_certifications_social"
+          }
+        ]
+      },
+      "supplierAddress": "Gor Factory, s.a.,Ctra. Santomera / Abanilla Km 8.8,30620 Fortuna - Murcia - Spain",
+      "items": {
+        "item": [
+          {
+            "size": "XS",
+            "sizeGrid": "XS,S,M,L,XL,2XL,3XL",
+            "sizeRange": "XS-3XL",
+            "gender": "Unisex",
+            "measurements": {
+              "weightGr": "",
+              "grammage": "280 g/m2",
+              "lengthCm": "",
+              "heightCm": "",
+              "widthCm": "",
+              "diameterCm": "",
+              "circumferenceCm": "",
+              "SizeCombined": "",
+              "giftboxLengthCm": "",
+              "giftboxHeightCm": "",
+              "giftboxWidthCm": "",
+              "giftboxDiameterCm": "",
+              "giftboxSizeCombined": ""
             },
-            "packaging": {
-              "decoPackagingIndiv": "NO",
-              "decoPackagingIndivType": "",
-              "decoPackaging": "30 / Polybag"
-            }
-          },
-          "grossWeightKg": "12",
-          "nettWeightKg": "11,4",
-          "exportLcm": "55",
-          "exportWcm": "36",
-          "exportHcm": "38",
-          "countryOfOrigin": "BANGLADESH",
-          "hsCode": "6110309900000000000000",
-          "brand": "Roly",
-          "categoryData": {
-            "groupCode": "mc2",
-            "groupDesc": "Clothing",
-            "catCode": "sc206",
-            "catDesc": "Sweaters"
-          },
-          "colors": {
-            "color": {
-              "colorDesc": "Yellow",
-              "baseColor": "Yellow",
-              "hexColor": "FAE700",
-              "pmsColorReference": "115 C",
-              "_colorCode": "YELLOW"
-            }
-          },
-          "penInkColor": "",
-          "material": "Knit of 50% Cotton and 50% Polyester, 280 g/m2",
-          "simpleMaterial": "Cotton,Polyester",
-          "battery": {
-            "batteryIncluded": "No",
-            "batteryNr": "0",
-            "batterySizes": {
-              "types": [
-                {
-                  "batterySize": "",
-                  "batteryType": "",
-                  "_seq": "1"
-                },
-                {
-                  "batterySize": "",
-                  "batteryType": "",
-                  "_seq": "2"
-                }
+            "qtyPerCarton": "30",
+            "decorationSettings": {
+              "decoDefault": {
+                "method": "Screenprint",
+                "leadTime": "2",
+                "leadTimeMaxQty": "250",
+                "impLocationDefault": "left chest",
+                "impWidthDefaultMm": "120",
+                "impHeightDefaultMm": "120",
+                "impDiameterDefaultMm": "",
+                "maxColoursDefault": "5",
+                "impSizeDefaultMm": "120 x 120 mm",
+                "imageImprintDefault": "R10701B_2_1_2408.jpg",
+                "decorationMandatory": "No",
+                "decoComments": ""
+              },
+              "packaging": {
+                "decoPackagingIndiv": "NO",
+                "decoPackagingIndivType": "",
+                "decoPackaging": "30 / Polybag"
+              }
+            },
+            "grossWeightKg": "12",
+            "nettWeightKg": "11,4",
+            "exportLcm": "55",
+            "exportWcm": "36",
+            "exportHcm": "38",
+            "countryOfOrigin": "BANGLADESH",
+            "hsCode": "6110309900000000000000",
+            "brand": "Roly",
+            "categoryData": {
+              "groupCode": "mc2",
+              "groupDesc": "Clothing",
+              "catCode": "sc206",
+              "catDesc": "Sweaters"
+            },
+            "colors": {
+              "color": {
+                "colorDesc": "Yellow",
+                "baseColor": "Yellow",
+                "hexColor": "FAE700",
+                "pmsColorReference": "115 C",
+                "_colorCode": "YELLOW"
+              }
+            },
+            "penInkColor": "",
+            "material": "Knit of 50% Cotton and 50% Polyester, 280 g/m2",
+            "simpleMaterial": "Cotton,Polyester",
+            "battery": {
+              "batteryIncluded": "No",
+              "batteryNr": "0",
+              "batterySizes": {
+                "types": [
+                  {
+                    "batterySize": "",
+                    "batteryType": "",
+                    "_seq": "1"
+                  },
+                  {
+                    "batterySize": "",
+                    "batteryType": "",
+                    "_seq": "2"
+                  }
+                ]
+              },
+              "batteryWeight": ""
+            },
+            "eanCode": "8713159626756",
+            "launchDate": "01-01-2024",
+            "imageData": {
+              "imageMain": "R10701B.jpg",
+              "imageLogoY1": "R10701B_F1_SP_Y1.jpg",
+              "imageLogoY2": "",
+              "imageLogoY3": "",
+              "imagePackage": "",
+              "imageFront": "",
+              "imageBack": "R10701B_B1.jpg",
+              "imageExtra1": "",
+              "imageExtra2": "",
+              "imageExtra3": "",
+              "imageDetail1": "",
+              "imageDetail2": "",
+              "imageDetail3": "",
+              "imageGroup": "",
+              "imageMood1": "R10701B_M1.jpg",
+              "imageMood2": "R10701B_M2.jpg",
+              "imageMood3": "R10701B_M3.jpg",
+              "imageModel": "R10701B_M2.jpg"
+            },
+            "videoUrl1": "https://player.vimeo.com/video/899219556",
+            "videoUrl2": "",
+            "markSegment": "Label",
+            "addOn": "",
+            "catalogues": {
+              "catalog": {
+                "year": "",
+                "page": "",
+                "_type": ""
+              }
+            },
+            "themes": {
+              "theme": [
+                "Collections-clothing-roly-selection",
+                "Collections-clothing-unisex-clothing",
+                "Pillow_unisex_clothing",
+                "Roly",
+                "3d_logo_tool",
+                "Pillow_trade_fairs",
+                "Collections2-Roly_Selection",
+                "Dtf-transfer"
               ]
             },
-            "batteryWeight": ""
+            "relatedItems": {
+              "related": [
+                "R1071",
+                "38210",
+                "38231",
+                "38232",
+                "37512",
+                "37513",
+                "K1070"
+              ]
+            },
+            "greenPoints": {
+              "greenPointsTotal": "16",
+              "co2footprint": "3,64"
+            },
+            "isDiscontinued": "false",
+            "_itemCode": "R10701B0"
+          }
+        ]
+      },
+      "_modelCode": "R1070"
+    }
+  },
+  "productPriceFeed": {
+    "model": {
+      "description": "Clasica unisex crewneck sweater",
+      "items": {
+        "item": [
+          {
+            "currency": "GBP",
+            "clearance": "",
+            "decoCharge": "MR07,DTF02,DTRTS01,EMBF03,TRAT03",
+            "minDecoQty": "50",
+            "scales": {
+              "scale": [
+                {
+                  "priceBar": "1",
+                  "nettPrice": "6.37",
+                  "type": "N",
+                  "industryCol": "11.67"
+                },
+                {
+                  "priceBar": "100",
+                  "nettPrice": "6.37",
+                  "type": "N",
+                  "industryCol": "11.55"
+                },
+                {
+                  "priceBar": "250",
+                  "nettPrice": "6.37",
+                  "type": "N",
+                  "industryCol": "11.43"
+                },
+                {
+                  "priceBar": "1000",
+                  "nettPrice": "6.37",
+                  "type": "N",
+                  "industryCol": "11.3"
+                }
+              ],
+              "_numberOfScales": "4"
+            },
+            "_itemcode": "R10701B0"
+          }
+        ],
+        "_numberOfItems": "210"
+      },
+      "_modelcode": "R1070"
+    }
+  },
+  "productStockFeed": {
+    "PFCStockFeed": {
+      "stockFeed": {
+        "models": {
+          "model": {
+            "description": "Clasica unisex crewneck sweater",
+            "items": {
+              "item": {
+                "stockDirect": "63",
+                "stockNextPo": "875",
+                "stockDateNextPo": "2025-06-17",
+                "StockFuture": "200",
+                "stockLocation": "PL",
+                "_itemCode": "R10701B0"
+              }
+            },
+            "_modelCode": "R1070"
+          }
+        },
+        "_creationDateTime": "2025-06-04T00:43:02.443",
+        "_language": "EN",
+        "_department": "CGB1",
+        "_version": "v3"
+      },
+      "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }
+  },
+  "productPrintFeed": {
+    "model": {
+      "description": "Riviera water-resistant outdoor picnic blanket",
+      "items": {
+        "item": {
+          "printfeedrefs": {
+            "printfeedref": [
+              {
+                "imagePrintLine": "10013700_2_1226_74.jpg",
+                "_ref": "1"
+              },
+              {
+                "imagePrintLine": "10013700_7_1226_74.jpg",
+                "_ref": "2"
+              },
+              {
+                "imagePrintLine": "10013700_33_1226_74.jpg",
+                "_ref": "3"
+              },
+              {
+                "imagePrintLine": "10013700_49_1226_74.jpg",
+                "_ref": "4"
+              }
+            ]
           },
-          "eanCode": "8713159626756",
-          "launchDate": "01-01-2024",
-          "imageData": {
-            "imageMain": "R10701B.jpg",
-            "imageLogoY1": "R10701B_F1_SP_Y1.jpg",
-            "imageLogoY2": "",
-            "imageLogoY3": "",
-            "imagePackage": "",
-            "imageFront": "",
-            "imageBack": "R10701B_B1.jpg",
-            "imageExtra1": "",
-            "imageExtra2": "",
-            "imageExtra3": "",
-            "imageDetail1": "",
-            "imageDetail2": "",
-            "imageDetail3": "",
-            "imageGroup": "",
-            "imageMood1": "R10701B_M1.jpg",
-            "imageMood2": "R10701B_M2.jpg",
-            "imageMood3": "R10701B_M3.jpg",
-            "imageModel": "R10701B_M2.jpg"
-          },
-          "videoUrl1": "https://player.vimeo.com/video/899219556",
-          "videoUrl2": "",
-          "markSegment": "Label",
-          "addOn": "",
-          "catalogues": {
-            "catalog": {
-              "year": "",
-              "page": "",
-              "_type": ""
+          "_itemCode": "10013700"
+        }
+      },
+      "_modelCode": "100137"
+    }
+  },
+  "ProductPrintPriceFeed": {
+    "PFCPrintpricefeed": {
+      "decoCharges": {
+        "decoCharge": {
+          "printCode": "D3D01",
+          "impMethod": "Digital print gloss 1",
+          "LTMCharge": "0.0",
+          "priceDependence": "None",
+          "logoSizes": {
+            "logoSize": {
+              "amountColors": {
+                "amountColor": {
+                  "amountSetupCharges": {
+                    "amountSetupCharge": {
+                      "SetupCharge": "32.0",
+                      "decoPrices": {
+                        "decoPrice": [
+                          {
+                            "_decoPriceFromQty": "1",
+                            "__text": "0.7"
+                          },
+                          {
+                            "_decoPriceFromQty": "50",
+                            "__text": "0.5"
+                          },
+                          {
+                            "_decoPriceFromQty": "100",
+                            "__text": "0.43"
+                          },
+                          {
+                            "_decoPriceFromQty": "250",
+                            "__text": "0.36"
+                          },
+                          {
+                            "_decoPriceFromQty": "500",
+                            "__text": "0.32"
+                          },
+                          {
+                            "_decoPriceFromQty": "1000",
+                            "__text": "0.27"
+                          },
+                          {
+                            "_decoPriceFromQty": "2500",
+                            "__text": "0.25"
+                          },
+                          {
+                            "_decoPriceFromQty": "5000",
+                            "__text": "0.23"
+                          },
+                          {
+                            "_decoPriceFromQty": "10000",
+                            "__text": "0.23"
+                          },
+                          {
+                            "_decoPriceFromQty": "20000",
+                            "__text": "0.22"
+                          }
+                        ]
+                      },
+                      "_amountSetupChargeId": "1"
+                    }
+                  },
+                  "_amountColorsId": "Full color"
+                }
+              },
+              "_logoSizeCm2": "0",
+              "_itemCodeId": "DCD3D001"
             }
-          },
-          "themes": {
-            "theme": [
-              "Collections-clothing-roly-selection",
-              "Collections-clothing-unisex-clothing",
-              "Pillow_unisex_clothing",
-              "Roly",
-              "3d_logo_tool",
-              "Pillow_trade_fairs",
-              "Collections2-Roly_Selection",
-              "Dtf-transfer"
+          }
+        },
+        "_createdDateTime": "2025-05-31T16:02:38.480",
+        "_currency": "GBP",
+        "_language": "EN",
+        "_department": "CNL2",
+        "_version": "V3"
+      },
+      "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }
+  },
+  "ProductPrintLabelFeed": {
+    "model": {
+      "description": "Clasica unisex crewneck sweater",
+      "items": {
+        "item": {
+          "printfeedrefs": {
+            "printfeedref": [
+              {
+                "imagePrintLine": "R10701B_2_1_2408.jpg",
+                "_ref": "16790"
+              },
+              {
+                "imagePrintLine": "R10701B_7_1_2408.jpg",
+                "_ref": "16791"
+              },
+              {
+                "imagePrintLine": "R10701B_32_1_2408.jpg",
+                "_ref": "16792"
+              },
+              {
+                "imagePrintLine": "R10701B_42_1_2408.jpg",
+                "_ref": "16793"
+              },
+              {
+                "imagePrintLine": "R10701B_49_1_2408.jpg",
+                "_ref": "16794"
+              },
+              {
+                "imagePrintLine": "R10701B_2_1_2409.jpg",
+                "_ref": "16795"
+              },
+              {
+                "imagePrintLine": "R10701B_7_1_2409.jpg",
+                "_ref": "16796"
+              },
+              {
+                "imagePrintLine": "R10701B_32_1_2409.jpg",
+                "_ref": "16797"
+              },
+              {
+                "imagePrintLine": "R10701B_42_1_2409.jpg",
+                "_ref": "16798"
+              },
+              {
+                "imagePrintLine": "R10701B_49_1_2409.jpg",
+                "_ref": "16799"
+              },
+              {
+                "imagePrintLine": "R10701B_2_1_2431.jpg",
+                "_ref": "16800"
+              },
+              {
+                "imagePrintLine": "R10701B_7_1_2431.jpg",
+                "_ref": "16801"
+              },
+              {
+                "imagePrintLine": "R10701B_32_1_2431.jpg",
+                "_ref": "16802"
+              },
+              {
+                "imagePrintLine": "R10701B_42_1_2431.jpg",
+                "_ref": "16803"
+              },
+              {
+                "imagePrintLine": "R10701B_49_1_2431.jpg",
+                "_ref": "16804"
+              },
+              {
+                "imagePrintLine": "R10701B_2_2_2434.jpg",
+                "_ref": "16805"
+              },
+              {
+                "imagePrintLine": "R10701B_7_2_2434.jpg",
+                "_ref": "16806"
+              },
+              {
+                "imagePrintLine": "R10701B_32_2_2434.jpg",
+                "_ref": "16807"
+              },
+              {
+                "imagePrintLine": "R10701B_42_2_2434.jpg",
+                "_ref": "16808"
+              },
+              {
+                "imagePrintLine": "R10701B_49_2_2434.jpg",
+                "_ref": "16809"
+              },
+              {
+                "imagePrintLine": "R10701B_2_12_2412.jpg",
+                "_ref": "16810"
+              },
+              {
+                "imagePrintLine": "R10701B_7_12_2412.jpg",
+                "_ref": "16811"
+              },
+              {
+                "imagePrintLine": "R10701B_32_12_2412.jpg",
+                "_ref": "16812"
+              },
+              {
+                "imagePrintLine": "R10701B_42_12_2412.jpg",
+                "_ref": "16813"
+              },
+              {
+                "imagePrintLine": "R10701B_49_12_2412.jpg",
+                "_ref": "16814"
+              },
+              {
+                "imagePrintLine": "R10701B_2_12_2418.jpg",
+                "_ref": "16815"
+              },
+              {
+                "imagePrintLine": "R10701B_7_12_2418.jpg",
+                "_ref": "16816"
+              },
+              {
+                "imagePrintLine": "R10701B_32_12_2418.jpg",
+                "_ref": "16817"
+              },
+              {
+                "imagePrintLine": "R10701B_42_12_2418.jpg",
+                "_ref": "16818"
+              },
+              {
+                "imagePrintLine": "R10701B_49_12_2418.jpg",
+                "_ref": "16819"
+              }
             ]
           },
-          "relatedItems": {
-            "related": [
-              "R1071",
-              "38210",
-              "38231",
-              "38232",
-              "37512",
-              "37513",
-              "K1070"
-            ]
-          },
-          "greenPoints": {
-            "greenPointsTotal": "16",
-            "co2footprint": "3,64"
-          },
-          "isDiscontinued": "false",
           "_itemCode": "R10701B0"
         }
-      ]
-    },
-    "_modelCode": "R1070"
-  }
-}
-
-<!-- Product Feed End -->
-<!-- Product Price Feed start -->
-{
-  "model": {
-    "description": "Clasica unisex crewneck sweater",
-    "items": {
-      "item": [
-        {
-          "currency": "GBP",
-          "clearance": "",
-          "decoCharge": "MR07,DTF02,DTRTS01,EMBF03,TRAT03",
-          "minDecoQty": "50",
-          "scales": {
-            "scale": [
-              {
-                "priceBar": "1",
-                "nettPrice": "6.37",
-                "type": "N",
-                "industryCol": "11.67"
-              },
-              {
-                "priceBar": "100",
-                "nettPrice": "6.37",
-                "type": "N",
-                "industryCol": "11.55"
-              },
-              {
-                "priceBar": "250",
-                "nettPrice": "6.37",
-                "type": "N",
-                "industryCol": "11.43"
-              },
-              {
-                "priceBar": "1000",
-                "nettPrice": "6.37",
-                "type": "N",
-                "industryCol": "11.3"
-              }
-            ],
-            "_numberOfScales": "4"
-          },
-          "_itemcode": "R10701B0"
-        }
-      ],
-      "_numberOfItems": "210"
-    },
-    "_modelcode": "R1070"
-  }
-}
-<!-- Product Price Feed end -->
-<!-- Product Stock Feed start -->
-{
-  "PFCStockFeed": {
-    "stockFeed": {
-      "models": {
-        "model": {
-          "description": "Clasica unisex crewneck sweater",
-          "items": {
-            "item": {
-              "stockDirect": "63",
-              "stockNextPo": "875",
-              "stockDateNextPo": "2025-06-17",
-              "StockFuture": "200",
-              "stockLocation": "PL",
-              "_itemCode": "R10701B0"
-            }
-          },
-          "_modelCode": "R1070"
-        }
       },
-      "_creationDateTime": "2025-06-04T00:43:02.443",
-      "_language": "EN",
-      "_department": "CGB1",
-      "_version": "v3"
-    },
-    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+      "_modelCode": "R1070"
+    }
   }
 }
-<!-- Product Stock Feed end -->
-<!-- Product Print Feed start -->
-{
-  "model": {
-    "description": "Riviera water-resistant outdoor picnic blanket",
-    "items": {
-      "item": {
-        "printfeedrefs": {
-          "printfeedref": [
-            {
-              "imagePrintLine": "10013700_2_1226_74.jpg",
-              "_ref": "1"
-            },
-            {
-              "imagePrintLine": "10013700_7_1226_74.jpg",
-              "_ref": "2"
-            },
-            {
-              "imagePrintLine": "10013700_33_1226_74.jpg",
-              "_ref": "3"
-            },
-            {
-              "imagePrintLine": "10013700_49_1226_74.jpg",
-              "_ref": "4"
-            }
-          ]
-        },
-        "_itemCode": "10013700"
-      }
-    },
-    "_modelCode": "100137"
-  }
-}
-<!-- Product Print Feed end -->
-<!-- Product print price Feed start -->
-{
-  "PFCPrintpricefeed": {
-    "decoCharges": {
-      "decoCharge": {
-        "printCode": "D3D01",
-        "impMethod": "Digital print gloss 1",
-        "LTMCharge": "0.0",
-        "priceDependence": "None",
-        "logoSizes": {
-          "logoSize": {
-            "amountColors": {
-              "amountColor": {
-                "amountSetupCharges": {
-                  "amountSetupCharge": {
-                    "SetupCharge": "32.0",
-                    "decoPrices": {
-                      "decoPrice": [
-                        {
-                          "_decoPriceFromQty": "1",
-                          "__text": "0.7"
-                        },
-                        {
-                          "_decoPriceFromQty": "50",
-                          "__text": "0.5"
-                        },
-                        {
-                          "_decoPriceFromQty": "100",
-                          "__text": "0.43"
-                        },
-                        {
-                          "_decoPriceFromQty": "250",
-                          "__text": "0.36"
-                        },
-                        {
-                          "_decoPriceFromQty": "500",
-                          "__text": "0.32"
-                        },
-                        {
-                          "_decoPriceFromQty": "1000",
-                          "__text": "0.27"
-                        },
-                        {
-                          "_decoPriceFromQty": "2500",
-                          "__text": "0.25"
-                        },
-                        {
-                          "_decoPriceFromQty": "5000",
-                          "__text": "0.23"
-                        },
-                        {
-                          "_decoPriceFromQty": "10000",
-                          "__text": "0.23"
-                        },
-                        {
-                          "_decoPriceFromQty": "20000",
-                          "__text": "0.22"
-                        }
-                      ]
-                    },
-                    "_amountSetupChargeId": "1"
-                  }
-                },
-                "_amountColorsId": "Full color"
-              }
-            },
-            "_logoSizeCm2": "0",
-            "_itemCodeId": "DCD3D001"
-          }
-        }
-      },
-      "_createdDateTime": "2025-05-31T16:02:38.480",
-      "_currency": "GBP",
-      "_language": "EN",
-      "_department": "CNL2",
-      "_version": "V3"
-    },
-    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-  }
-}
-<!-- Product print price Feed end -->
-<!-- Product print label Feed start -->
-{
-  "model": {
-    "description": "Clasica unisex crewneck sweater",
-    "items": {
-      "item": {
-        "printfeedrefs": {
-          "printfeedref": [
-            {
-              "imagePrintLine": "R10701B_2_1_2408.jpg",
-              "_ref": "16790"
-            },
-            {
-              "imagePrintLine": "R10701B_7_1_2408.jpg",
-              "_ref": "16791"
-            },
-            {
-              "imagePrintLine": "R10701B_32_1_2408.jpg",
-              "_ref": "16792"
-            },
-            {
-              "imagePrintLine": "R10701B_42_1_2408.jpg",
-              "_ref": "16793"
-            },
-            {
-              "imagePrintLine": "R10701B_49_1_2408.jpg",
-              "_ref": "16794"
-            },
-            {
-              "imagePrintLine": "R10701B_2_1_2409.jpg",
-              "_ref": "16795"
-            },
-            {
-              "imagePrintLine": "R10701B_7_1_2409.jpg",
-              "_ref": "16796"
-            },
-            {
-              "imagePrintLine": "R10701B_32_1_2409.jpg",
-              "_ref": "16797"
-            },
-            {
-              "imagePrintLine": "R10701B_42_1_2409.jpg",
-              "_ref": "16798"
-            },
-            {
-              "imagePrintLine": "R10701B_49_1_2409.jpg",
-              "_ref": "16799"
-            },
-            {
-              "imagePrintLine": "R10701B_2_1_2431.jpg",
-              "_ref": "16800"
-            },
-            {
-              "imagePrintLine": "R10701B_7_1_2431.jpg",
-              "_ref": "16801"
-            },
-            {
-              "imagePrintLine": "R10701B_32_1_2431.jpg",
-              "_ref": "16802"
-            },
-            {
-              "imagePrintLine": "R10701B_42_1_2431.jpg",
-              "_ref": "16803"
-            },
-            {
-              "imagePrintLine": "R10701B_49_1_2431.jpg",
-              "_ref": "16804"
-            },
-            {
-              "imagePrintLine": "R10701B_2_2_2434.jpg",
-              "_ref": "16805"
-            },
-            {
-              "imagePrintLine": "R10701B_7_2_2434.jpg",
-              "_ref": "16806"
-            },
-            {
-              "imagePrintLine": "R10701B_32_2_2434.jpg",
-              "_ref": "16807"
-            },
-            {
-              "imagePrintLine": "R10701B_42_2_2434.jpg",
-              "_ref": "16808"
-            },
-            {
-              "imagePrintLine": "R10701B_49_2_2434.jpg",
-              "_ref": "16809"
-            },
-            {
-              "imagePrintLine": "R10701B_2_12_2412.jpg",
-              "_ref": "16810"
-            },
-            {
-              "imagePrintLine": "R10701B_7_12_2412.jpg",
-              "_ref": "16811"
-            },
-            {
-              "imagePrintLine": "R10701B_32_12_2412.jpg",
-              "_ref": "16812"
-            },
-            {
-              "imagePrintLine": "R10701B_42_12_2412.jpg",
-              "_ref": "16813"
-            },
-            {
-              "imagePrintLine": "R10701B_49_12_2412.jpg",
-              "_ref": "16814"
-            },
-            {
-              "imagePrintLine": "R10701B_2_12_2418.jpg",
-              "_ref": "16815"
-            },
-            {
-              "imagePrintLine": "R10701B_7_12_2418.jpg",
-              "_ref": "16816"
-            },
-            {
-              "imagePrintLine": "R10701B_32_12_2418.jpg",
-              "_ref": "16817"
-            },
-            {
-              "imagePrintLine": "R10701B_42_12_2418.jpg",
-              "_ref": "16818"
-            },
-            {
-              "imagePrintLine": "R10701B_49_12_2418.jpg",
-              "_ref": "16819"
-            }
-          ]
-        },
-        "_itemCode": "R10701B0"
-      }
-    },
-    "_modelCode": "R1070"
-  }
-}
-<!-- Product print label Feed end -->
-

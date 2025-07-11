@@ -3,6 +3,7 @@
         "id": "midocean",
         "name": "MidOcean",
         "api_version": "2.0",
+        "api_key": "string", // (CSV, XML, API, Excel, etc.)
         "contact_info": {
           "website": "https://www.midocean.com",
           "api_base": "https://api.midocean.com/gateway/"
