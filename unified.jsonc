@@ -1,0 +1,218 @@
+// {lang} => e.g., "en", "fr"
+
+{
+  /* ---------- origin ---------- */
+  "supplier": {
+    "id": "string", // e.g. "midocean"
+    "name": "string", // "midocean"
+    "api_version": "string",
+    "contact_info": {
+      "website": "string",
+      "api_base": "string"
+    }
+  },
+
+  /* ---------- IDENTITY ---------- */
+  "parent_product_code": "string", // master code, common to all variants
+  "source_product_code": "string", // aa0131, ar1249 …
+  "variant_code": "string", // unique within supplier feed
+  "sku": "string", // can duplicate variant_code or follow supplier logic
+  "gtin": "string", // EAN/UPC if present
+  "status": "Active", // or “Outlet”, “Discontinued”
+
+  /* ---------- CORE CONTENT ---------- */
+  "brand": { "{lang}": "string" },
+  "name": { "{lang}": "string" },
+  "descriptions": {
+    "short": { "{lang}": "string" },
+    "long": { "{lang}": "string" }
+  },
+  "keywords": { "{lang}": ["string"] },
+  "price": "string",
+  "currency": "string",
+  "minimum_order_quantity": 25,
+
+
+  /* ---------- CATEGORY INFO ---------- */
+  "category": {
+    "{lang}": "string"
+  },
+  "sub_category": {
+    "{lang}": "string"
+  },
+  "category_hierarchy": [
+    { "id": "drinkware", "name": "Drinkware", "level": 1, "parent_id": null },
+    { "id": "mugs", "name": "Mugs", "level": 2, "parent_id": "drinkware" }
+  ],
+
+  /* ---------- VARIANT-SPECIFIC ATTRIBUTES ---------- */
+  "variant_attributes": {
+    "color": [{
+      "name": "Black",
+      "pms": "Black", // if supplied
+      "hex": "#000000",
+      "group": "Black",
+      "is_primary": true
+    }],
+    "size": "XL",
+    "gender": "Unisex",
+    "material_override": "Cotton" // optional overrides of product-level props
+  },
+
+  /* ---------- FLEXIBLE ATTRIBUTES MAP ---------- */
+  "product_extra_data": {
+    "material": "Ceramic",
+    "microwave_safe": true,
+    "bpa_free": true,
+    "battery": {
+      "included": false,
+      "quantity": 0,
+      "sizes": [],
+      "weight_g": 0
+    }
+  },
+  
+  "print_extra_data": {
+    "print_positions": ["Front", "Back"],
+    "print_options": ["Laser", "Pad"]
+  },
+
+  /* ---------- DIMENSIONS & PACKAGING (FOR THIS VARIANT) ---------- */
+  "measurements": {
+    "length": { "value": 21, "unit": "cm" },
+    "width": { "value": 14, "unit": "cm" },
+    "height": { "value": 1.6, "unit": "cm" },
+    "weight": { "net": 0.288, "gross": 0.302, "unit": "kg" },
+    "capacity": { "value": 0.6, "unit": "l" }
+  },
+  "packaging": {
+    "inner_carton_qty": 0,
+    "outer_carton_qty": 50,
+    "carton_dimensions": {
+      "length": 46,
+      "width": 32,
+      "height": 28,
+      "unit": "cm"
+    },
+    "carton_weight": { "gross": 16.2, "net": 15.1, "unit": "kg" },
+    "packaging_type": "Polybag"
+  },
+
+  /* ---------- MEDIA ---------- */
+  "images": [
+    {
+      "url": "https://...",
+      "type": "main",
+      "alt_text": "Black ceramic mug front",
+      "position": 1,
+      "is_primary": true
+    }
+  ],
+  "artwork_templates": [
+    {
+      "url": "https://supplier.example.com/art/abc123-template.pdf",
+      "type": "Screen Print"
+    }
+  ],
+  "digital_assets": [
+    {
+      "url": "https://...",
+      "type": "video",     // video, document
+      "subtype": "demo"
+    }
+  ],
+
+  /* ---------- COMPLIANCE & SUSTAINABILITY ---------- */
+  "compliance_data": {
+    "hs_code": "string",
+    "country_of_origin": "string",
+    "certificates": [{ "url": "string", "type": "doc", "subtype": "DoC" }],
+    "commodity_code": "6911100000",
+    "tariff_code": "6911100000"
+  },
+  
+  /* ---------- ECO / SUSTAINABILITY ---------- */
+  "eco": true,
+  "recycled_content_pct": 35,
+  "lca": {
+    "co2_total_kg": 0.43,
+    "co2_breakdown": {
+      "material_production": 0.21,
+      "packaging": 0.07,
+      "transport": 0.1,
+      "eol": 0.05
+    }
+  },
+  "social_audits": ["BSCI"],
+  "traceability": "Factory code or system ref",
+  "temperature_performance": {
+    "hours_hot": null,
+    "hours_cold": null
+  },
+  "leak_prevention": null,
+  "insulation_material": null,
+
+  /* ---------- PRICING ---------- */
+  "pricing": [
+    { "min_qty": 1, "max_qty": 24, "unit_price": 0.42, "currency": "GBP" },
+    { "min_qty": 25, "unit_price": 0.38, "currency": "GBP" }
+  ],
+  "price_last_modified_at": "2025-07-14T11:45:00Z",
+
+  "additional_costs": [
+    { "type": "setup", "charge": 20, "currency": "GBP" },
+    { "type": "carriage", "charge": 5.95, "currency": "GBP" }
+  ],
+
+  /* ---------- DECORATION OPTIONS ---------- */
+  "decoration_options": [
+    {
+      "method": "Screen Print",
+      "position": "Front",
+      "print_area": "120x25mm",
+      "max_colours": 4,
+      "lead_time_days": 5,
+      "setup_charge": 23.5,
+      "pricing": [{ "min_qty": 25, "unit_price": 0.42, "currency_code": "GBP", "currency_symbol": "£" }]
+    }
+  ],
+
+  /* ---------- GIFT WRAPPING ---------- */
+  "gift_wrapping_possible": false,
+
+
+  /* ---------- STOCK & STATUS ---------- */
+  "stock": {
+    "total": 100,
+    "backorderable": true,
+    "locations": [
+      { "id":"EU-01", "name": "EU-01", "country": "EU", "qty":60 },
+      { "id":"UK-02", "name": "UK-02", "country": "UK", "qty":40 }
+    ],
+    "on_hand": 150,
+    "unit": "pcs",
+    "release_date": "2023-03-15",
+    "discontinued_date": null,
+    "next_incoming": [
+      { "date":"2025-08-15", "qty":1000 }
+    ]
+  },
+
+  
+  /* ---------- RELATED INFO ---------- */
+  "related_products": ["AA0131RD", "AA0131BL"],
+  "restricted_countries": ["US", "CN"],
+
+  "metadata": {
+    "imported_at": "2025-07-09t12:34:56z",
+    "mapping_version": "v1.0",
+    "source_filename": "prices.xlsx" // for xlsx inputs
+  },
+
+  "additional_data": {
+    "custom_fields": {
+      "field1": "value1",
+      "field2": "value2"
+    }
+  }
+}
