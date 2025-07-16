@@ -295,7 +295,8 @@
           "printCode": "D3D01",
           "impMethod": "Digital print gloss 1",
           "LTMCharge": "0.0",
-          "priceDependence": "None",
+          "maxColor": "4",
+          "priceDependence": "colors",
           "logoSizes": {
             "logoSize": {
               "amountColors": {
@@ -350,7 +351,7 @@
                       "_amountSetupChargeId": "1"
                     }
                   },
-                  "_amountColorsId": "Full color"
+                  "_amountColorsId": "1"
                 }
               },
               "_logoSizeCm2": "0",
