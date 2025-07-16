@@ -1,5 +1,5 @@
 {
-	"Products":{
+	"Products": {
 		"GET": "https://feeds.xindao.com/Feeds/Download/[UNIQUE_KEY_OF_PRODUCTS_DATA]/Xindao.V5.Products-en-gb",
 		"Response": [
 			{
@@ -50,7 +50,6 @@
 				"Insulation": "Plastic",
 				"HoursHot": 2,
 				"HoursCold": 4,
-				
 				"Total CO2 emissions": 0.43,
 				"Total CO2 emissions benchmark": 0.62,
 				"LCA Total CO2 Kg emissions": 0.43,
@@ -63,20 +62,16 @@
 				"LCA CO2 Percent Packaging": 1.96,
 				"LCA CO2 Percent Transport": 8.78,
 				"LCA CO2 Percent EOL": 11.48,
-				
 				"AllImages": "https://static.xdconnects.com/ProductImages/Large/102001__S_0__e9a05b85663444d48b89f3381f881d21.jpg, https://static.xdconnects.com/ProductImages/Large/102001__B_1__087a6be7628d40e9a6ad486630493cbd.jpg, https://static.xdconnects.com/ProductImages/Large/102001__B_2__91c7a1182fff4b99b3b2ebb818c300b5.jpg, https://static.xdconnects.com/ProductImages/Large/102001__D_100__b64789700e874f36a994215cfeb55987.jpg",
 				"MainImage": "https://static.xdconnects.com/ProductImages/Large/102001__S_0__e9a05b85663444d48b89f3381f881d21.jpg",
 				"MainImage Neutral": "https://static.xdconnects.com/ProductImages/Large/102001__B_1__087a6be7628d40e9a6ad486630493cbd.jpg",
 				"ExtraImage1": "https://static.xdconnects.com/ProductImages/Large/102001__B_2__91c7a1182fff4b99b3b2ebb818c300b5.jpg",
 				"ImagePrint": "https://static.xdconnects.com/ProductImages/Large/102001__D_100__b64789700e874f36a994215cfeb55987.jpg",
-				
 				// Need to check from below
-				
 				"Product Box net weight plastic GR": 2.0,
 				"Product Box net weight other GR": 4.0,
 				"Product Box gross weight GR": 6.0,
 				"ContentVolumeLiters": 0.60,
-
 				"AllPrintCodes": "Pad Print Drinkware,Digital round 360-2,SilkScreen Round,Doming",
 				"PrintCodeDefault": "Pad Print Drinkware",
 				"PrintTechniqueDefault": "Pad print",
@@ -88,7 +83,7 @@
 				"LineDrawingDefault": "https://static.xdconnects.com/ProductDecorationImages/102001__PadPrintDrinkware_itemfrontmiddle__89bb52a30883412eb0221b7d840897fe.png",
 				"VariableDataPrinting": true,
 				"GiftWrappingPossible": true
-			},
+			}
 		]
 	},
 	"ProductPrices": {
@@ -154,7 +149,7 @@
 			},
 		]
 	},
-	"PrintPrices":{
+	"PrintPrices": {
 		"GET": "https://feeds.xindao.com/Feeds/Download/[UNIQUE_KEY_OF_PRINT_PRICES]/Xindao.V3.PrintPrices-en-gb",
 		"Response": [
 			{
@@ -517,5 +512,5 @@
 				"CurrentStock": 4309
 			}
 		]
-	}	
+	}
 }

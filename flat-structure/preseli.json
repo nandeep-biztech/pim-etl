@@ -1,25 +1,5 @@
 {
   "_id": { "$oid": "684d46ca0e52b15aba516162" },
-  "ProductName": "10mm Plant Silk Lanyard",
-  "ProductCode": "PSL10",
-  "status": "0",
-  "Description": "A textured plant silk lanyard screen printed with up to 4 spot colours on 1 or both sides. This biodegradable material produced using plant stems recycled from grain crops offers a more sustainable alternative to conventional plastic-based fabrics.\nFitted with a black plastic safety break and metal trigger clip.\nAvailable in off-white as standard or pantone matched at an additional cost.\n3 standard sizes: 10/15/20mm.\nOptional extras: additional spot colours/alternative fittings/pantone matching.\nLanyards help hold and display ID badges or security passes and carry small items like keys. They're used day-to-day by many organisations and for all sorts of special occasions, from conferences and exhibitions to sports and entertainment events. This makes them an affordable and highly effective marketing tool.",
-  "Material": "plant silk",
-  "Size": "10mm  x 900mm ",
-  "Branding": "1 side",
-  "Height": "6",
-  "Width": "370",
-  "DimensionUnit": "mm",
-  "Weight": "10",
-  "WeightUnit": "g",
-  "Images": [
-    "https://www.preseli.biz/uploads/shop/large/253915mm-Plant-silk-lanyard.jpg",
-    "https://www.preseli.biz/uploads/shop/large/68963PSL-Plant-Silk-Lanyard.jpg",
-    "https://www.preseli.biz/uploads/shop/large/84067PSL10-10mm-Plant-Silk-Lanyard.jpg",
-    "https://www.preseli.biz/uploads/shop/large/Eco-lanyards_fabric-comparison.jpg"
-  ],
-  "Artwork": "https://www.preseli.biz/uploads/shop/artwork/PSL10%2010mm%20Plant%20silk%20lanyard.pdf",
-  "DataSheet": "https://www.preseli.biz/datasheet.php?product_id=2",
   "Prices": [
     {
       "Name": "Screen",

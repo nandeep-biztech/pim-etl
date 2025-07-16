@@ -1,64 +1,5 @@
 {
   "_id": { "$oid": "684d496a0e52b15aba5163e8" },
-  "ProductId": 1,
-  "Name": "Atlantic White",
-  "Prodcode": "ATLWHI",
-  "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/ATLWHI.jpg",
-  "ShapeName": "Atlantic",
-  "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/ATLWHI.png",
-  "Description": "A straight mug with a slightly exaggerated lip with a comfortable sized handle, the perfect give away to sit on any desk.",
-  "Brand": "Keramikos",
-  "QuantityPerBox": 36,
-  "Discontinued": false,
-  "PrintDirect": true,
-  "PrintTransfer": true,
-  "PrintDigital": true,
-  "PrintDyeSublimation": false,
-  "PrintFullColour": false,
-  "CategoryName": "Earthenware",
-  "IsEcoProduct": false,
-  "CreatePageUri": null,
-  "ProductSpecifications": [
-    {
-      "Id": 1,
-      "ProductId": 1,
-      "SpecificationText": "Weight (g)",
-      "SpecificationValue": "275"
-    },
-    {
-      "Id": 2,
-      "ProductId": 1,
-      "SpecificationText": "Capacity (ml)",
-      "SpecificationValue": "300"
-    },
-    {
-      "Id": 3,
-      "ProductId": 1,
-      "SpecificationText": "Height (mm)",
-      "SpecificationValue": "93"
-    },
-    {
-      "Id": 4,
-      "ProductId": 1,
-      "SpecificationText": "Diameter (mm)",
-      "SpecificationValue": "81"
-    }
-  ],
-  "OptionItems": [],
-  "AdditionalCharges": [],
-  "DespatchPrices": [
-    { "QuantityFrom": 36, "Cost": 22, "DisplayPOA": false },
-    { "QuantityFrom": 72, "Cost": 22, "DisplayPOA": false },
-    { "QuantityFrom": 108, "Cost": 22, "DisplayPOA": false },
-    { "QuantityFrom": 252, "Cost": 27, "DisplayPOA": false },
-    { "QuantityFrom": 504, "Cost": 32, "DisplayPOA": false },
-    { "QuantityFrom": 1008, "Cost": 0, "DisplayPOA": false },
-    { "QuantityFrom": 2016, "Cost": 0, "DisplayPOA": false },
-    { "QuantityFrom": 3024, "Cost": 0, "DisplayPOA": false },
-    { "QuantityFrom": 4008, "Cost": 0, "DisplayPOA": false },
-    { "QuantityFrom": 5024, "Cost": 0, "DisplayPOA": false },
-    { "QuantityFrom": 10008, "Cost": 0, "DisplayPOA": false }
-  ],
   "PrintTypes": [
     {
       "PrintTypeName": "Direct",
@@ -328,12 +269,5 @@
         { "NumberOfColours": 4, "QuantityFrom": 10008, "Cost": 0 }
       ]
     }
-  ],
-  "CategoryDetails": {
-    "id": 4,
-    "description": "The mainstay of the promotional mugs trade, earthenware products combine durability and quality while remaining cost-effective.",
-    "imageUri": null,
-    "displayOrder": 10
-  },
-  "status": "1"
+  ]
 }

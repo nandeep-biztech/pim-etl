@@ -19,46 +19,51 @@
     }
   },
 
-  /* ---------- MAIN DATA ---------- */
-  "parent_product_code": "string|null", // master code, common to all variants (e.g., "AR1249") - OPTIONAL
-  "parent_product_id": "string|null", // internal ID from supplier (e.g., "40000011") - OPTIONAL
-  "source_product_code": "string", // aa0131, ar1249 … - REQUIRED (always provided by supplier)
-  "variant_code": "string|null", // unique within supplier feed - OPTIONAL
-  "variant_id": "string|null", // supplier's variant ID - OPTIONAL
-  "sku": "string|null", // can duplicate variant_code or follow supplier logic - OPTIONAL
-  "gtin": "string|null", // EAN/UPC if present - OPTIONAL
-  "ean_code": "string|null", // alternative GTIN field - OPTIONAL
-  "status": "Active|Outlet|Discontinued|New|EndOfLife",
-  "product_lifecycle": "Active|Outlet|Discontinued|New|EndOfLife",
-  "release_date": "2023-03-15T00:00:00Z",
-  "modified_date": "2025-07-15T10:30:00Z",
-  "discontinued_date": null,
-  "intro_date": "2022-12-30T00:00:00",
-  "type_of_product": "stock|made_to_order|custom",
-  "related_products": ["AA0131RD", "AA0131BL"],
-  "alternative_products": ["AA0131RD", "AA0131BL"],
+  /* ---------- PRODUCT DATA ---------- */
+  "product_data": {
+    "parent_product_code": "string|null", // master code, common to all variants (e.g., "AR1249") - OPTIONAL
+    "parent_product_id": "string|null", // internal ID from supplier (e.g., "40000011") - OPTIONAL
+    "source_product_code": "string", // aa0131, ar1249 … - REQUIRED (always provided by supplier)
+    "variant_code": "string|null", // unique within supplier feed - OPTIONAL
+    "variant_id": "string|null", // supplier's variant ID - OPTIONAL
+    "sku": "string|null", // can duplicate variant_code or follow supplier logic - OPTIONAL
+    "gtin": "string|null", // EAN/UPC if present - OPTIONAL
+    "ean_code": "string|null", // alternative GTIN field - OPTIONAL
+    "status": "Active|Outlet|Discontinued|New|EndOfLife",
+    "product_lifecycle": "Active|Outlet|Discontinued|New|EndOfLife",
+    "release_date": "2023-03-15T00:00:00Z",
+    "modified_date": "2025-07-15T10:30:00Z",
+    "discontinued_date": null,
+    "intro_date": "2022-12-30T00:00:00",
+    "type_of_product": "stock|made_to_order|custom",
+    "related_products": ["AA0131RD", "AA0131BL"],
+    "alternative_products": ["AA0131RD", "AA0131BL"],
 
-  /* ---------- CORE CONTENT ---------- */
-  "brand": { "{lang}": "string" },
-  "name": { "{lang}": "string" }, // Required
-  "title": { "{lang}": "string" },
-  "descriptions": {
-    "short": { "{lang}": "string" },
-    "long": { "{lang}": "string" },  // Required
-    "web": { "{lang}": "string" } // web-specific description
+    /* ---------- CORE CONTENT ---------- */
+    "brand": { "{lang}": "string" },
+    "name": { "{lang}": "string" }, // Required
+    "title": { "{lang}": "string" },
+    "descriptions": {
+      "short": { "{lang}": "string" },
+      "long": { "{lang}": "string" },  // Required
+      "web": { "{lang}": "string" } // web-specific description
+    },
+    "keywords": { "{lang}": "string" }, // comma separated list of keywords
+    "comments": "string", // additional notes/comments
+    "price": "string", // legacy price field
+    "currency": "string", // currency code
+    "minimum_order_quantity": 25
   },
-  "keywords": { "{lang}": "string" }, // comma separated list of keywords
-  "comments": "string", // additional notes/comments
-  "price": "string", // legacy price field
-  "currency": "string", // currency code
-  "minimum_order_quantity": 25,
+
   
   /* ---------- CATEGORY INFO ---------- */
-  "product_class": "string", // supplier's product class
-  "categories": [
-    { "id": "drinkware", "name": "Drinkware", "level": 1, "parent_id": null, "description": "string", "image": "string", "display_order": 1, "code": "string" },
-    { "id": "mugs", "name": "Mugs", "level": 2, "parent_id": "drinkware", "description": "string", "image": "string", "display_order": 2, "code": "string" }
-  ],
+  "category_info": {
+    "product_class": "string", // supplier's product class
+    "categories": [
+      { "id": "drinkware", "name": "Drinkware", "level": 1, "parent_id": null, "description": "string", "image": "string", "display_order": 1, "code": "string" },
+      { "id": "mugs", "name": "Mugs", "level": 2, "parent_id": "drinkware", "description": "string", "image": "string", "display_order": 2, "code": "string" }
+    ]
+  },
 
   /* ---------- VARIANT-SPECIFIC ATTRIBUTES ---------- */
   "variant_attributes": {
@@ -290,7 +295,7 @@
 
   /* ---------- DECORATION & PRINTING SERVICES ---------- */
   "printing_data": {
-    /* ---------- GENERAL DECORATION INFO ---------- */
+
     "is_printable": true,
     "print_direct": true,
     "print_transfer": true,
@@ -299,213 +304,74 @@
     "print_full_colour": false,
     "variable_data_printing": true,
     "number_of_print_positions": 4,
-    "print_manipulation": "B", // MidOcean specific
-    
+
     /* ---------- AVAILABLE DECORATION TECHNIQUES ---------- */
-    "methods": [
-      "Pad print",
-      "Screen print", 
-      "Digital print",
-      "Laser engraving",
-      "Embroidery",
-      "Heat transfer",
-      "Dye sublimation",
-      "CO2 Engraving",
-      "Silk screen round",
-      "Digital print 360°",
-      "Debossing",
-      "Button printing",
-      "Digital inlay",
-      "Laser marking",
-      "Pad printing",
-      "Screen printing",
-      "Digital printing",
-      "Embossing",
-      "Hot stamping",
-      "UV printing",
-      "Foil printing",
-      "Transfer printing"
-    ],
-    
-    /* ---------- AVAILABLE DECORATION POSITIONS ---------- */
-    "available_positions": ["Front", "Back", "Side", "Top", "Bottom", "All Around"],
-    
-    /* ---------- DECORATION SERVICES (with pricing) ---------- */
-    "services": [
+    "all_available_methods": "Pad print, Screen print", // comma separated list of decoration methods
+    "all_available_positions": "Front, Back, Side, Top, Bottom, All Around", // comma separated list of decoration positions
+
+    "details": [
       {
-        /* ---------- BASIC SERVICE INFO ---------- */
-        "print_code": "Pad Print Drinkware",
-        "print_class": "SCREEN2",
-        "method": "Screen Print",
-        "technique": "Spot Print",
-        "position": "Front",
-        "position_code": "Front",
-        "is_default": true,
-        
-        /* ---------- PRINT AREA & SPECIFICATIONS ---------- */
-        "print_area": {
-          "description": "120x25mm",
-          "width": 120,
-          "height": 25,
-          "unit": "mm",
-          "max_width_mm": 120,
-          "max_height_mm": 25
+        "printMethod": "",              // impMethod, PrintTypeName, PrintType, Name, description
+        "printArea": {
+          "description": "",            // PrintArea, impLocation
+          "width": "",                  // impWidthMm, max_print_size_width
+          "height": "",                 // impHeightMm, max_print_size_height
+          "diameter": ""                // impDiameterMm
         },
-        "max_colors": 4,
-        "full_color": false,
-        "variable_data_printing": false,
-        
-        /* ---------- LEAD TIMES ---------- */
-        "lead_time_days": 5,
-        "lead_time": "5 working days from artwork approval.",
-        "typical_lead_times": "Typically 7-10 working days from art approval.",
-        
-        /* ---------- SETUP & CHARGES ---------- */
-        "setup_charge": 23.5,
-        "setup_charge_currency": "GBP",
-        "repeat_setup_charge": 17.5,
-        "extra_color_setup_charge": "N/A",
-        "small_order_charge": 0,
-        
-        /* ---------- PRICING STRUCTURE ---------- */
-        "pricing": [
+        "printColors": {
+          "maxColors": "",              // maxColours
+          "colorSetupCharge": "",       // ExtraColourSetupCharge
+          "pantoneCharge": ""          // Pantone Charge
+        },
+        "pricing": {
+          "unitPrices": [
+            {
+              "quantityFrom": "",       // QuantityFrom, MinQuantity, decoPriceFromQty, minimum_quantity
+              "quantityTo": "",         // MaxQuantity
+              "numColours": "",         // NumberOfColours, NumColours
+              "price": ""               // UnitPrice, Price, decoPrice, Value
+            }
+          ],
+          "setupCharges": [
+            {
+              "chargeType": "",         // Setup, OriginationPrices, SetupCharge, setup, setup_repeat
+              "quantityFrom": "",
+              "numColours": "",
+              "chargeAmount": ""
+            }
+          ],
+          "leadTimes": {
+            "standardLeadTime": "",     // LeadTime, TypicalLeadTimes
+            "rushService": "",          // sureship, LTMCharge
+            "location": ""              // productionLocation
+          }
+        },
+        "coordinates": {
+          "topLeftX": "",
+          "topLeftY": "",
+          "topRightX": "",
+          "topRightY": "",
+          "bottomLeftX": "",
+          "bottomLeftY": "",
+          "bottomRightX": "",
+          "bottomRightY": "",
+          "positionType": ""            // print_position_type, Ellipse, Rectangle
+        },
+        "printImages": [
           {
-            "min_qty": 25,
-            "max_qty": 49,
-            "unit_price": 0.42,
-            "currency": "GBP",
-            "currency_symbol": "£",
-            "num_colors": 1,
-            "num_positions": 1
-          },
-          {
-            "min_qty": 50,
-            "max_qty": 99,
-            "unit_price": 0.38,
-            "currency": "GBP",
-            "currency_symbol": "£",
-            "num_colors": 1,
-            "num_positions": 1
+            "blankImage": "",           // print_position_image_blank
+            "markedImage": ""           // MarkedImageUrl, print_position_image_with_area
           }
         ],
-        
-        /* ---------- PRODUCTION SKUS ---------- */
-        "production_sku": "XCO2_1",
-        "setup_sku": "XCO2_SetUp",
-        "vdp_sku": "XCO2_VDP",
-        "moq_print_order": 1,
-        
-        /* ---------- ADDITIONAL INFO ---------- */
-        "notes": "",
-        "technique_type": "Print",
-        "print_sample_net": 25.0
-      }
-    ],
-    
-    /* ---------- PRINTING POSITIONS DETAILED (MidOcean Style) ---------- */
-    "printing_positions": [
-      {
-        "position_id": "TOP COMPASS",
-        "print_size_unit": "mm",
-        "max_print_size_height": 5.00,
-        "max_print_size_width": 25.00,
-        "rotation": 0.00,
-        "print_position_type": "Rectangle", // Rectangle, Ellipse, Polygon
-        "printing_techniques": [
-          {
-            "default": true,
-            "id": "L3",
-            "max_colours": "1"
-          }
-        ],
-        "points": [
-          {
-            "distance_from_left": 275,
-            "distance_from_top": 820,
-            "sequence_no": 1
-          }
-        ],
-        "images": [
-          {
-            "print_position_image_blank": "https://printposition-images-api-v2.cdn.midocean.com/...",
-            "print_position_image_with_area": "https://printposition-images-api-v2.cdn.midocean.com/...",
-            "variant_color": "16"
-          }
-        ]
-      }
-    ],
-    
-    /* ---------- PRINT AREA COORDINATES & VISUALS ---------- */
-    "print_area_coordinates": [
-      {
-        "position": "Front",
-        "color": "Black",
-        "image_url": "https://...",
-        "marked_image_url": "https://...",
-        "x_position": 332.500,
-        "y_position": 775.500, 
-        "width": 570.000,
-        "height": 119.000,
-        "unit": "px",
-        "diameter": null
-      }
-    ],
-    
-    /* ---------- LINE DRAWINGS & TEMPLATES ---------- */
-    "line_drawings": [
-      {
-        "technique": "Pad print",
-        "position": "item front middle",
-        "url": "https://static.xdconnects.com/ProductDecorationImages/...",
-        "vrp_url": "https://static.xdconnects.com/PrintOptionVRP/...",
-        "vrp_coordinates": {
-          "x": 707,
-          "y": 393,
-          "width": 92,
-          "height": 259
+        "additionalData": {
+          "defaultOption": "",          // DefaultPrintOption, default
+          "allowedArtFile": "",         // allowedArtFile
+          "notes": ""                   // Notes
         }
       }
-    ],
+    ]
     
-    /* ---------- ARTWORK TEMPLATES ---------- */
-    "artwork_templates": [
-      {
-        "url": "https://supplier.example.com/art/abc123-template.pdf",
-        "type": "Screen Print",
-        "template_type": "Spot Print",
-        "format": "PDF|AI|EPS"
-      }
-    ],
-    
-    /* ---------- PRINT TEMPLATES (MidOcean) ---------- */
-    "print_template": "https://printtemplates-v2.cdn.midocean.com/AR1249-print-template.pdf",
-    
-    /* ---------- PRINTING TECHNIQUE DESCRIPTIONS (Multi-language) ---------- */
-    "printing_technique_descriptions": [
-      {
-        "id": "B",
-        "name": [
-          { "en": "Debossing" },
-          { "fr": "Embossage" },
-          { "de": "Prägung" }
-        ]
-      },
-      {
-        "id": "BP", 
-        "name": [
-          { "en": "Button printing" },
-          { "fr": "Boutons" },
-          { "de": "Button Druck" }
-        ]
-      }
-    ],
-    
-    /* ---------- DECORATION CODES SUMMARY ---------- */
-    "decoration_codes": {
-      "all_available": ["Pad Print Drinkware", "Digital round 360-2", "SilkScreen Round", "Doming", "CO2 Engraving"],
-      "default": "Pad Print Drinkware",
-      "count": 5
-    }
+
   },
 
   /* ---------- METADATA & TRACKING ---------- */
