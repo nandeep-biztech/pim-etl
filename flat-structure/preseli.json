@@ -1,0 +1,318 @@
+{
+  "_id": { "$oid": "684d46ca0e52b15aba516162" },
+  "ProductName": "10mm Plant Silk Lanyard",
+  "ProductCode": "PSL10",
+  "status": "0",
+  "Description": "A textured plant silk lanyard screen printed with up to 4 spot colours on 1 or both sides. This biodegradable material produced using plant stems recycled from grain crops offers a more sustainable alternative to conventional plastic-based fabrics.\nFitted with a black plastic safety break and metal trigger clip.\nAvailable in off-white as standard or pantone matched at an additional cost.\n3 standard sizes: 10/15/20mm.\nOptional extras: additional spot colours/alternative fittings/pantone matching.\nLanyards help hold and display ID badges or security passes and carry small items like keys. They're used day-to-day by many organisations and for all sorts of special occasions, from conferences and exhibitions to sports and entertainment events. This makes them an affordable and highly effective marketing tool.",
+  "Material": "plant silk",
+  "Size": "10mm  x 900mm ",
+  "Branding": "1 side",
+  "Height": "6",
+  "Width": "370",
+  "DimensionUnit": "mm",
+  "Weight": "10",
+  "WeightUnit": "g",
+  "Images": [
+    "https://www.preseli.biz/uploads/shop/large/253915mm-Plant-silk-lanyard.jpg",
+    "https://www.preseli.biz/uploads/shop/large/68963PSL-Plant-Silk-Lanyard.jpg",
+    "https://www.preseli.biz/uploads/shop/large/84067PSL10-10mm-Plant-Silk-Lanyard.jpg",
+    "https://www.preseli.biz/uploads/shop/large/Eco-lanyards_fabric-comparison.jpg"
+  ],
+  "Artwork": "https://www.preseli.biz/uploads/shop/artwork/PSL10%2010mm%20Plant%20silk%20lanyard.pdf",
+  "DataSheet": "https://www.preseli.biz/datasheet.php?product_id=2",
+  "Prices": [
+    {
+      "Name": "Screen",
+      "Quantity": "100",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.80",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "20.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "25.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "10.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "250",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.63",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "20.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "25.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "10.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "500",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.55",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "20.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "25.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "10.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "1000",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.42",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "20.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "25.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "10.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "2500",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.41",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "24.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "5000",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.38",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "40.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "10000",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.37",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "70.00",
+          "Unit": "Total"
+        }
+      ]
+    },
+    {
+      "Name": "Screen",
+      "Quantity": "25000",
+      "PriceDetails": [
+        {
+          "Type": "Product",
+          "Description": "Printed 1 Colour 1 Side (per product)",
+          "Value": "0.36",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Additional Print Charge per Colour per Position (per unit)",
+          "Value": "0.02",
+          "Unit": "Per Unit"
+        },
+        {
+          "Type": "Setup",
+          "Description": "Print Set Up per Colour (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Additional Charge",
+          "Description": "Pantone Charge (total)",
+          "Value": "0.00",
+          "Unit": "Total"
+        },
+        {
+          "Type": "Carriage",
+          "Description": "Carriage to 1 UK Mainland Address (total)*Exc.Highlands",
+          "Value": "110.00",
+          "Unit": "Total"
+        }
+      ]
+    }
+  ],
+  "LeadTime": "15 working days",
+  "EndUserWebsite": "https://www.promobestsellers.co.uk/product/10mm-plant-silk-lanyard",
+  "Colors": ["off-white", "pantone matched at an additional cost"],
+  "CatalogueId": "41",
+  "CatalogueName": "Lanyards"
+}

@@ -1,0 +1,212 @@
+{
+  "_id": { "$oid": "685d1e755d0bc5e4d23a8314" },
+  "master_code": "AR1249",
+  "master_id": "40000011",
+  "type_of_products": { "fr": "stock", "en": "stock" },
+  "commodity_code": "9014 1000",
+  "number_of_print_positions": "4",
+  "country_of_origin": { "fr": "CN", "en": "CN" },
+  "brand": { "fr": "midocean", "en": "midocean" },
+  "product_name": { "fr": "TARGET", "en": "TARGET" },
+  "category_code": "MOBL&G_SRVCOP",
+  "product_class": {
+    "fr": "Sport & receation accessories",
+    "en": "Sport & receation accessories"
+  },
+  "dimensions": "10,5X8X2 CM",
+  "length": "10.5",
+  "length_unit": "cm",
+  "width": "8",
+  "width_unit": "cm",
+  "height": "2",
+  "height_unit": "cm",
+  "volume": "0.34",
+  "volume_unit": "cdm3",
+  "gross_weight": "0.138",
+  "gross_weight_unit": "kg",
+  "net_weight": "0.111",
+  "net_weight_unit": "kg",
+  "inner_carton_quantity": "10",
+  "outer_carton_quantity": "80",
+  "carton_length": "0.57",
+  "carton_length_unit": "m",
+  "carton_width": "0.24",
+  "carton_width_unit": "m",
+  "carton_height": "0.215",
+  "carton_height_unit": "m",
+  "carton_volume": "0.029",
+  "carton_volume_unit": "m3",
+  "carton_gross_weight": "10.96",
+  "carton_gross_weight_unit": "kg",
+  "timestamp": "2025-06-12T18:05:39",
+  "digital_assets": [
+    {
+      "url": "https://cdn1.midocean.com/document/declaration-of-sustainability/ar1249-green.pdf",
+      "type": "document",
+      "subtype": "declaration_of_sustainability"
+    },
+    {
+      "url": "https://cdn1.midocean.com/document/declaration-of-conformity/ar1249-doc.pdf",
+      "type": "document",
+      "subtype": "declaration_of_conformity"
+    },
+    {
+      "url": "https://cdn1.midocean.com/document/test-reach/ar1249-test-reach.pdf",
+      "type": "document",
+      "subtype": "test_reach"
+    }
+  ],
+  "short_description": {
+    "fr": "Target Boussole",
+    "en": "Target nautical compass"
+  },
+  "long_description": {
+    "fr": "Boussole classique en aluminium. Livrée en boite métal.",
+    "en": "Classic style nautical compass in aluminium. Packed in tin box."
+  },
+  "material": { "fr": "Acier Inoxydable", "en": "Stainless Steel" },
+  "printable": "yes",
+  "variant_id": "10134325",
+  "master_code_sku": "AR1249_AR1249-16",
+  "sku": "AR1249-16",
+  "release_date": "2015-01-01",
+  "discontinued_date": "2099-12-31",
+  "product_proposition_category": "308",
+  "category_level1": { "fr": "Bureau & Ecriture", "en": "Office & Writing" },
+  "category_level2": {
+    "fr": "Accesoires de bureau",
+    "en": "Office accessories "
+  },
+  "category_level3": {
+    "fr": "Lampes de bureau",
+    "en": "Desk lights & Accessories"
+  },
+  "color_description": { "fr": "Argent Mat", "en": "Matt Silver" },
+  "color_group": { "fr": "Argent", "en": "Silver" },
+  "plc_status": "16",
+  "plc_status_description": "COLLECTION",
+  "gtin": "8719941007840",
+  "color_code": "16",
+  "pms_color": { "fr": "SILVER", "en": "SILVER" },
+  "variant_digital_assets": [
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16.jpg",
+      "type": "image",
+      "subtype": "item_picture_front"
+    },
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16-side.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16-side.jpg",
+      "type": "image",
+      "subtype": "item_picture_side"
+    },
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16-open.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16-open.jpg",
+      "type": "image",
+      "subtype": "item_picture_open"
+    },
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16-print.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16-print.jpg",
+      "type": "image",
+      "subtype": "item_picture_printed"
+    },
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16-ambiant.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16-ambiant.jpg",
+      "type": "image",
+      "subtype": "item_ambiant_picture"
+    },
+    {
+      "url": "https://cdn1.midocean.com/image/700X700/ar1249-16-box.jpg",
+      "url_highress": "https://cdn1.midocean.com/image/original/ar1249-16-box.jpg",
+      "type": "image",
+      "subtype": "item_picture_box"
+    }
+  ],
+  "item_color_numbers": ["16"],
+  "print_manipulation": "B",
+  "print_template": "https://printtemplates-v2.cdn.midocean.com/AR1249-print-template.pdf",
+  "position_id": "PD BOX",
+  "rotation": 0,
+  "print_size_unit": "mm",
+  "max_print_size_height": 82,
+  "max_print_size_width": 105,
+  "print_position_type": "Polygon",
+  "printing_techniques": [
+    {
+      "id": "PD3",
+      "description": "Print digital",
+      "pricing_type": "NumberOfPositions",
+      "setup": "27,00",
+      "setup_repeat": "18,00",
+      "next_colour_cost_indicator": "false",
+      "var_costs": [
+        {
+          "range_id": "",
+          "area_from": "0",
+          "area_to": "0",
+          "scales": [
+            { "minimum_quantity": "1", "price": "0,63", "next_price": "" },
+            { "minimum_quantity": "50", "price": "0,47", "next_price": "" },
+            { "minimum_quantity": "100", "price": "0,43", "next_price": "" },
+            { "minimum_quantity": "250", "price": "0,35", "next_price": "" },
+            { "minimum_quantity": "500", "price": "0,34", "next_price": "" },
+            { "minimum_quantity": "1.000", "price": "0,29", "next_price": "" },
+            { "minimum_quantity": "2.500", "price": "0,24", "next_price": "" },
+            { "minimum_quantity": "5.000", "price": "0,24", "next_price": "" },
+            { "minimum_quantity": "10.000", "price": "0,24", "next_price": "" },
+            { "minimum_quantity": "20.000", "price": "0,24", "next_price": "" }
+          ]
+        }
+      ],
+      "default": true,
+      "max_colours": "0"
+    }
+  ],
+  "points": [
+    { "distance_from_left": 10, "distance_from_top": 72, "sequence_no": 1 },
+    { "distance_from_left": 32, "distance_from_top": 30, "sequence_no": 2 },
+    { "distance_from_left": 62, "distance_from_top": 8, "sequence_no": 3 },
+    { "distance_from_left": 930, "distance_from_top": 14, "sequence_no": 4 },
+    { "distance_from_left": 961, "distance_from_top": 32, "sequence_no": 5 },
+    { "distance_from_left": 983, "distance_from_top": 52, "sequence_no": 6 },
+    { "distance_from_left": 989, "distance_from_top": 76, "sequence_no": 7 },
+    { "distance_from_left": 995, "distance_from_top": 94, "sequence_no": 8 },
+    { "distance_from_left": 993, "distance_from_top": 712, "sequence_no": 9 },
+    { "distance_from_left": 987, "distance_from_top": 736, "sequence_no": 10 },
+    { "distance_from_left": 977, "distance_from_top": 750, "sequence_no": 11 },
+    { "distance_from_left": 963, "distance_from_top": 762, "sequence_no": 12 },
+    { "distance_from_left": 936, "distance_from_top": 782, "sequence_no": 13 },
+    { "distance_from_left": 908, "distance_from_top": 790, "sequence_no": 14 },
+    { "distance_from_left": 78, "distance_from_top": 788, "sequence_no": 15 },
+    { "distance_from_left": 40, "distance_from_top": 772, "sequence_no": 16 },
+    { "distance_from_left": 18, "distance_from_top": 760, "sequence_no": 17 },
+    { "distance_from_left": 0, "distance_from_top": 710, "sequence_no": 18 }
+  ],
+  "images": [
+    {
+      "print_position_image_blank": "https://printposition-images-api-v2.cdn.midocean.com/AR1249-16_POS4-no-area.jpg",
+      "print_position_image_with_area": "https://printposition-images-api-v2.cdn.midocean.com/AR1249-16_POS4.jpg",
+      "variant_color": "16"
+    }
+  ],
+  "status": "1",
+  "print_manipulation_details": {
+    "code": "B",
+    "description": "Medium",
+    "price": "0,11"
+  },
+  "currency": "GBP",
+  "date": "2025-06-26",
+  "first_arrival_date": "2025-08-05",
+  "first_arrival_qty": 4000,
+  "modified_at": "2025-06-26T11:45:14+02:00",
+  "next_arrival_date": "",
+  "next_arrival_qty": "",
+  "price": "3,63",
+  "qty": 3510,
+  "valid_until": "2026-01-31"
+}

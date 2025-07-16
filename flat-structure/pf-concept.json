@@ -1,0 +1,1011 @@
+{
+  "_id": { "$oid": "6875d814258320c96259830f" },
+  "modelCode": "100002",
+  "itemCode": "10000200",
+  "description": {
+    "fr": "Bouteille d'eau Oregon de 400 ml en aluminium avec mousqueton",
+    "en": "Oregon 400 ml aluminium water bottle with carabiner"
+  },
+  "extDesc": {
+    "fr": "Rester hydraté à tout moment est possible avec cette bouteille d'eau de 400 ml en aluminium durable et légère. C'est le compagnon idéal pour l'exercice, les excursions d'une journée ou au bureau. La bouteille Oregon à paroi simple a un effet de finition mate et offre beaucoup d'espace pour ajouter tout type de logo. Attachez solidement le mousqueton (ne convient pas pour l'escalade) à un sac pour éviter de le perdre. Sans BPA, testé et approuvé par la législation allemande sur la sécurité alimentaire (LFGB), et testé pour la teneur en phtalates conformément à la réglementation REACH.",
+    "en": "Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH.  "
+  },
+  "keywords": {
+    "fr": "eau, bouteille, boissons",
+    "en": "water, bottle, drinks"
+  },
+  "productComments": {
+    "fr": "Cet article est désormais disponible en version acier inoxydable recyclé.",
+    "en": "This item is now available in a recycled stainless steel version."
+  },
+  "supplierAddress": {
+    "fr": "PF Concept International Coöperatief U.A.,2371 DX Roelofarendsveen,The Netherlands,http://www.pfconcept.com/contact/,PF Concept UK,Neptune House, Sycamore Trading Est,Squires Gate La, Blackpool, FY4 3RL,United Kingdom,http://www.pfconcept.com/contact/",
+    "en": "PF Concept International Coöperatief U.A.,2371 DX Roelofarendsveen,The Netherlands,http://www.pfconcept.com/contact/,PF Concept UK,Neptune House, Sycamore Trading Est,Squires Gate La, Blackpool, FY4 3RL,United Kingdom,http://www.pfconcept.com/contact/"
+  },
+  "attributes": {
+    "fr": [
+      {
+        "productAttributeCode": "pa_capacityMilliliters",
+        "attributeSetting": 400
+      },
+      {
+        "productAttributeCode": "pa_drinkwareExtraFeatures",
+        "attributeSetting": "Étanchéité"
+      },
+      {
+        "productAttributeCode": "pa_lidFeatures",
+        "attributeSetting": "Bouchon à vis, Poignée de transport, Boucle facile à transporter"
+      },
+      {
+        "productAttributeCode": "pa_affordableprice",
+        "attributeSetting": "Yes"
+      },
+      {
+        "productAttributeCode": "pa_certifications_social",
+        "attributeSetting": "BSCI"
+      }
+    ],
+    "en": [
+      {
+        "productAttributeCode": "pa_capacityMilliliters",
+        "attributeSetting": 400
+      },
+      {
+        "productAttributeCode": "pa_drinkwareExtraFeatures",
+        "attributeSetting": "Leakproof"
+      },
+      {
+        "productAttributeCode": "pa_lidFeatures",
+        "attributeSetting": "Screw cap, Carry handle, Easy to carry loop"
+      },
+      {
+        "productAttributeCode": "pa_affordableprice",
+        "attributeSetting": "Yes"
+      },
+      {
+        "productAttributeCode": "pa_certifications_social",
+        "attributeSetting": "BSCI"
+      }
+    ]
+  },
+  "weightGr": { "fr": "70", "en": "70" },
+  "grammage": { "fr": "", "en": "" },
+  "lengthCm": { "fr": "", "en": "" },
+  "heightCm": { "fr": "17,5", "en": "17,5" },
+  "widthCm": { "fr": "", "en": "" },
+  "diameterCm": { "fr": "6,5", "en": "6,5" },
+  "circumferenceCm": { "fr": "", "en": "" },
+  "SizeCombined": { "fr": "17,5 x Ø 6,5 cm", "en": "17,5 x Ø 6,5 cm" },
+  "giftboxLengthCm": { "fr": "", "en": "" },
+  "giftboxHeightCm": { "fr": "", "en": "" },
+  "giftboxWidthCm": { "fr": "", "en": "" },
+  "giftboxDiameterCm": { "fr": "", "en": "" },
+  "giftboxSizeCombined": { "fr": "", "en": "" },
+  "method": { "fr": "Tampographie", "en": "Padprint" },
+  "leadTime": { "fr": "2", "en": "2" },
+  "leadTimeMaxQty": { "fr": "1000", "en": "1000" },
+  "impLocationDefault": { "fr": "Devant", "en": "front" },
+  "impWidthDefaultMm": { "fr": "30", "en": "30" },
+  "impHeightDefaultMm": { "fr": "70", "en": "70" },
+  "impDiameterDefaultMm": { "fr": "", "en": "" },
+  "maxColoursDefault": { "fr": "4", "en": "4" },
+  "impSizeDefaultMm": { "fr": "30 x 70 mm", "en": "30 x 70 mm" },
+  "imageImprintDefault": {
+    "fr": "10000200_1_4799_34.jpg",
+    "en": "10000200_1_4799_34.jpg"
+  },
+  "decorationMandatory": { "fr": "No", "en": "No" },
+  "decoComments": {
+    "fr": "Screenround : En production, l'emplacement de la maquette ne peut pas être toujours aligné de la même manière pour tous les articles. Screenround multicolore : Espace d'au moins 1 mm entre les éléments de couleurs différentes.",
+    "en": "Screenround: Due to the rotation of the machine, placement of the artwork is not always aligned equally for all items. Screenround multicolour: At least 1 mm gap between elements in different colours."
+  },
+  "decoPackagingIndiv": { "fr": "Yes", "en": "Yes" },
+  "decoPackagingIndivType": { "fr": "Manual", "en": "Manual" },
+  "decoPackaging": { "fr": "30 / Egg crate", "en": "30 / Egg crate" },
+  "colors": {
+    "fr": [
+      {
+        "colorCode": "APPLE",
+        "colorDesc": "Vert pomme",
+        "baseColor": "Vert",
+        "hexColor": "BDD776",
+        "pmsColorReference": "382C"
+      },
+      {
+        "colorCode": "PEARL",
+        "colorDesc": "Perle",
+        "baseColor": "Blanc",
+        "hexColor": "F0EAD6",
+        "pmsColorReference": ""
+      }
+    ],
+    "en": [
+      {
+        "colorCode": "APPLE",
+        "colorDesc": "Apple green",
+        "baseColor": "Green",
+        "hexColor": "BDD776",
+        "pmsColorReference": "382C"
+      },
+      {
+        "colorCode": "PEARL",
+        "colorDesc": "Pearl",
+        "baseColor": "White",
+        "hexColor": "F0EAD6",
+        "pmsColorReference": ""
+      }
+    ]
+  },
+  "groupCode": { "fr": "mc4", "en": "mc4" },
+  "groupDesc": { "fr": "Drinkware", "en": "Drinkware" },
+  "catCode": { "fr": "sc45", "en": "sc45" },
+  "catDesc": { "fr": "Bouteilles d'eau", "en": "Water Bottles" },
+  "themes": {
+    "fr": [
+      "Collections-gifting-moments-festival",
+      "Collections_theme_collection_must Haves",
+      "Collections-back-to-school-2024",
+      "1234",
+      "Drinkware_engraving",
+      "3d_logo_tool",
+      "Uk_fast_delivery",
+      "360-laser-engraving",
+      "Pillow_sports_running",
+      "Collections2_best_sellers",
+      "Pillow_desk_essentials",
+      "Sports_event_products",
+      "Oregon Water Bottle",
+      "Back_to_school",
+      "Cyo_festival",
+      "Multiple-stock-locations-UK-PL",
+      "Sports-bottles-on-a-budget",
+      "Drinkware-on-a-budget",
+      "Oregon"
+    ],
+    "en": [
+      "Collections-gifting-moments-festival",
+      "Collections_theme_collection_must Haves",
+      "Collections-back-to-school-2024",
+      "1234",
+      "Drinkware_engraving",
+      "3d_logo_tool",
+      "Uk_fast_delivery",
+      "360-laser-engraving",
+      "Pillow_sports_running",
+      "Collections2_best_sellers",
+      "Pillow_desk_essentials",
+      "Sports_event_products",
+      "Oregon Water Bottle",
+      "Back_to_school",
+      "Cyo_festival",
+      "Multiple-stock-locations-UK-PL",
+      "Sports-bottles-on-a-budget",
+      "Drinkware-on-a-budget",
+      "Oregon"
+    ]
+  },
+  "batteryIncluded": { "fr": "", "en": "" },
+  "batteryNr": { "fr": "0", "en": "0" },
+  "batterySizes": {
+    "fr": [
+      { "types": { "seq": "1" }, "batterySize": "", "batteryType": "" },
+      { "types": { "seq": "2" }, "batterySize": "", "batteryType": "" }
+    ],
+    "en": [
+      { "types": { "seq": "1" }, "batterySize": "", "batteryType": "" },
+      { "types": { "seq": "2" }, "batterySize": "", "batteryType": "" }
+    ]
+  },
+  "batteryWeight": { "fr": "", "en": "" },
+  "type": { "fr": "", "en": "" },
+  "year": { "fr": "", "en": "" },
+  "page": { "fr": "", "en": "" },
+  "size": { "fr": "", "en": "" },
+  "sizeGrid": { "fr": "", "en": "" },
+  "sizeRange": { "fr": "", "en": "" },
+  "gender": { "fr": "", "en": "" },
+  "penInkColor": { "fr": "", "en": "" },
+  "simpleMaterial": { "fr": ["Aluminium"], "en": ["Aluminium"] },
+  "videoUrl1": {
+    "fr": "https://player.vimeo.com/video/745715515",
+    "en": "https://player.vimeo.com/video/745715515"
+  },
+  "videoUrl2": { "fr": "", "en": "" },
+  "qtyPerCarton": { "fr": "60", "en": "60" },
+  "grossWeightKg": { "fr": "6", "en": "6" },
+  "nettWeightKg": { "fr": "5,7", "en": "5,7" },
+  "exportLcm": { "fr": "35", "en": "35" },
+  "exportWcm": { "fr": "42", "en": "42" },
+  "exportHcm": { "fr": "37", "en": "37" },
+  "countryOfOrigin": { "fr": "CHINE", "en": "PRC" },
+  "hsCode": { "fr": "7615108090000000000000", "en": "7615108090000000000000" },
+  "brand": { "fr": "Unbranded", "en": "Unbranded" },
+  "material": { "fr": "Aluminium", "en": "Aluminium" },
+  "eanCode": { "fr": "8713159038610   ", "en": "8713159038610   " },
+  "launchDate": { "fr": "01-03-2014", "en": "01-03-2014" },
+  "markSegment": { "fr": "Bullet", "en": "Bullet" },
+  "addOn": { "fr": "", "en": "" },
+  "isDiscontinued": { "fr": "true", "en": "true" },
+  "relatedItems": {
+    "fr": ["100297", "100559", "100738", "100654", "100778"],
+    "en": ["100297", "100559", "100738", "100654", "100778"]
+  },
+  "greenPointsTotal": { "fr": "14", "en": "14" },
+  "co2footprint": { "fr": "", "en": "" },
+  "imageMain": { "fr": "10000200.jpg", "en": "10000200.jpg" },
+  "imageLogoY1": { "fr": "10000200_DRD_Y1.jpg", "en": "10000200_DRD_Y1.jpg" },
+  "imageLogoY2": { "fr": "10000200_SR_Y2.jpg", "en": "10000200_SR_Y2.jpg" },
+  "imageLogoY3": { "fr": "", "en": "" },
+  "imagePackage": { "fr": "", "en": "" },
+  "imageFront": { "fr": "10000200_F1.jpg", "en": "10000200_F1.jpg" },
+  "imageBack": { "fr": "", "en": "" },
+  "imageExtra1": { "fr": "", "en": "" },
+  "imageExtra2": { "fr": "", "en": "" },
+  "imageExtra3": { "fr": "", "en": "" },
+  "imageDetail1": { "fr": "", "en": "" },
+  "imageDetail2": { "fr": "", "en": "" },
+  "imageDetail3": { "fr": "", "en": "" },
+  "imageGroup": { "fr": "", "en": "" },
+  "imageMood1": { "fr": "10000200_M1.jpg", "en": "10000200_M1.jpg" },
+  "imageMood2": { "fr": "", "en": "" },
+  "imageMood3": { "fr": "", "en": "" },
+  "imageModel": { "fr": "", "en": "" },
+  "status": "0",
+  "creationDateTime": "2025-07-14T02:27:28.510",
+  "currency": "GBP",
+  "decoCharge": "GPE02,DRD03,PAD03",
+  "department": "CNL2",
+  "language": "EN",
+  "minDecoQty": 50,
+  "modelDescription": "Oregon 400 ml aluminium water bottle with carabiner",
+  "promotion": "",
+  "scales": [
+    {
+      "priceBar": 1,
+      "nettPrice": 1.16,
+      "type": "N",
+      "industryCol": 2.28,
+      "standardPrice": ""
+    },
+    {
+      "priceBar": 100,
+      "nettPrice": 1.16,
+      "type": "N",
+      "industryCol": 2.23,
+      "standardPrice": ""
+    },
+    {
+      "priceBar": 250,
+      "nettPrice": 1.16,
+      "type": "N",
+      "industryCol": 2.19,
+      "standardPrice": ""
+    },
+    {
+      "priceBar": 1000,
+      "nettPrice": 1.16,
+      "type": "N",
+      "industryCol": 2.16,
+      "standardPrice": ""
+    }
+  ],
+  "StockFuture": "18",
+  "stockDateNextPo": "2025-07-22",
+  "stockDirect": "307",
+  "stockLocation": "UK",
+  "stockNextPo": "9",
+  "printData": [
+    {
+      "printfeedref_ref": "1",
+      "imagePrintLine": "10000200_3_1175_441_uk.jpg",
+      "printFeedRow": {
+        "ref": "1",
+        "impMethodCode": "3",
+        "impMethod": "Screenround",
+        "printCode": "GPE02",
+        "impLocationCode": "wrap (1 color)",
+        "impLocation": "wrap (1 color)",
+        "maxColours": "1",
+        "impWidthMm": "170",
+        "impHeightMm": "80",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "136",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "UK",
+        "leadTime": "3",
+        "leadTimeQty": "500",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "1",
+        "default_val": "false",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "20",
+        "coorTopLeftY": "1095",
+        "coorTopRightX": "2378",
+        "coorTopRightY": "1095",
+        "coorBottomLeftX": "20",
+        "coorBottomLeftY": "2204",
+        "coorBottomRightX": "2378",
+        "coorBottomRightY": "2204",
+        "print_price_data": {
+          "printCode": "GPE02",
+          "impMethod": "Screenprint A fast",
+          "LTMCharge": 0,
+          "priceDependence": "Colors",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE021",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 25,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.18 },
+                { "decoPriceFromQty": "50", "price": 0.88 },
+                { "decoPriceFromQty": "100", "price": 0.62 },
+                { "decoPriceFromQty": "250", "price": 0.46 },
+                { "decoPriceFromQty": "500", "price": 0.43 },
+                { "decoPriceFromQty": "1000", "price": 0.35 },
+                { "decoPriceFromQty": "2500", "price": 0.31 },
+                { "decoPriceFromQty": "5000", "price": 0.28 },
+                { "decoPriceFromQty": "10000", "price": 0.27 },
+                { "decoPriceFromQty": "20000", "price": 0.25 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE022",
+              "amountColorsId": "2",
+              "amountSetupChargeId": "2",
+              "setupCharge": 50,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 2.14 },
+                { "decoPriceFromQty": "50", "price": 1.6 },
+                { "decoPriceFromQty": "100", "price": 1.03 },
+                { "decoPriceFromQty": "250", "price": 0.84 },
+                { "decoPriceFromQty": "500", "price": 0.7 },
+                { "decoPriceFromQty": "1000", "price": 0.57 },
+                { "decoPriceFromQty": "2500", "price": 0.5 },
+                { "decoPriceFromQty": "5000", "price": 0.45 },
+                { "decoPriceFromQty": "10000", "price": 0.43 },
+                { "decoPriceFromQty": "20000", "price": 0.42 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE023",
+              "amountColorsId": "3",
+              "amountSetupChargeId": "3",
+              "setupCharge": 75,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 3.09 },
+                { "decoPriceFromQty": "50", "price": 2.35 },
+                { "decoPriceFromQty": "100", "price": 1.49 },
+                { "decoPriceFromQty": "250", "price": 1.2 },
+                { "decoPriceFromQty": "500", "price": 0.99 },
+                { "decoPriceFromQty": "1000", "price": 0.75 },
+                { "decoPriceFromQty": "2500", "price": 0.7 },
+                { "decoPriceFromQty": "5000", "price": 0.65 },
+                { "decoPriceFromQty": "10000", "price": 0.63 },
+                { "decoPriceFromQty": "20000", "price": 0.61 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE024",
+              "amountColorsId": "4",
+              "amountSetupChargeId": "4",
+              "setupCharge": 100,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 4.07 },
+                { "decoPriceFromQty": "50", "price": 3.09 },
+                { "decoPriceFromQty": "100", "price": 1.95 },
+                { "decoPriceFromQty": "250", "price": 1.59 },
+                { "decoPriceFromQty": "500", "price": 1.28 },
+                { "decoPriceFromQty": "1000", "price": 1 },
+                { "decoPriceFromQty": "2500", "price": 0.9 },
+                { "decoPriceFromQty": "5000", "price": 0.84 },
+                { "decoPriceFromQty": "10000", "price": 0.81 },
+                { "decoPriceFromQty": "20000", "price": 0.77 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "2",
+      "imagePrintLine": "10000200_35_1175_3852_uk.jpg",
+      "printFeedRow": {
+        "ref": "2",
+        "impMethodCode": "35",
+        "impMethod": "360 Digital Print",
+        "printCode": "DRD03",
+        "impLocationCode": "wrap",
+        "impLocation": "wrap",
+        "maxColours": "full color",
+        "impWidthMm": "210",
+        "impHeightMm": "100",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "210",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "UK",
+        "leadTime": "4",
+        "leadTimeQty": "250",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "2",
+        "default_val": "false",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "20",
+        "coorTopLeftY": "791",
+        "coorTopRightX": "2380",
+        "coorTopRightY": "791",
+        "coorBottomLeftX": "20",
+        "coorBottomLeftY": "1916",
+        "coorBottomRightX": "2380",
+        "coorBottomRightY": "1916",
+        "print_price_data": {
+          "printCode": "DRD03",
+          "impMethod": "Digital round drinkware 3",
+          "LTMCharge": 0,
+          "priceDependence": "None",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCDRD003",
+              "amountColorsId": "Full color",
+              "amountSetupChargeId": "1",
+              "setupCharge": 32,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.33 },
+                { "decoPriceFromQty": "50", "price": 1.05 },
+                { "decoPriceFromQty": "100", "price": 0.91 },
+                { "decoPriceFromQty": "250", "price": 0.83 },
+                { "decoPriceFromQty": "500", "price": 0.81 },
+                { "decoPriceFromQty": "1000", "price": 0.78 },
+                { "decoPriceFromQty": "2500", "price": 0.76 },
+                { "decoPriceFromQty": "5000", "price": 0.76 },
+                { "decoPriceFromQty": "10000", "price": 0.75 },
+                { "decoPriceFromQty": "20000", "price": 0.73 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "3",
+      "imagePrintLine": "10000200_1_4799_34_uk.jpg",
+      "printFeedRow": {
+        "ref": "3",
+        "impMethodCode": "1",
+        "impMethod": "Padprint",
+        "printCode": "PAD03",
+        "impLocationCode": "front",
+        "impLocation": "front",
+        "maxColours": "4",
+        "impWidthMm": "30",
+        "impHeightMm": "70",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "21",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "UK",
+        "leadTime": "2",
+        "leadTimeQty": "500",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "3",
+        "default_val": "false",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "254",
+        "coorTopLeftY": "1187",
+        "coorTopRightX": "668",
+        "coorTopRightY": "1187",
+        "coorBottomLeftX": "254",
+        "coorBottomLeftY": "2152",
+        "coorBottomRightX": "668",
+        "coorBottomRightY": "2152",
+        "print_price_data": {
+          "printCode": "PAD03",
+          "impMethod": "Pad print medium",
+          "LTMCharge": 0,
+          "priceDependence": "Colors",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD031",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 25,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 0.51 },
+                { "decoPriceFromQty": "50", "price": 0.39 },
+                { "decoPriceFromQty": "100", "price": 0.3 },
+                { "decoPriceFromQty": "250", "price": 0.29 },
+                { "decoPriceFromQty": "500", "price": 0.26 },
+                { "decoPriceFromQty": "1000", "price": 0.25 },
+                { "decoPriceFromQty": "2500", "price": 0.24 },
+                { "decoPriceFromQty": "5000", "price": 0.23 },
+                { "decoPriceFromQty": "10000", "price": 0.23 },
+                { "decoPriceFromQty": "20000", "price": 0.22 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD032",
+              "amountColorsId": "2",
+              "amountSetupChargeId": "2",
+              "setupCharge": 50,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 0.96 },
+                { "decoPriceFromQty": "50", "price": 0.7 },
+                { "decoPriceFromQty": "100", "price": 0.46 },
+                { "decoPriceFromQty": "250", "price": 0.39 },
+                { "decoPriceFromQty": "500", "price": 0.36 },
+                { "decoPriceFromQty": "1000", "price": 0.33 },
+                { "decoPriceFromQty": "2500", "price": 0.3 },
+                { "decoPriceFromQty": "5000", "price": 0.29 },
+                { "decoPriceFromQty": "10000", "price": 0.29 },
+                { "decoPriceFromQty": "20000", "price": 0.24 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD033",
+              "amountColorsId": "3",
+              "amountSetupChargeId": "3",
+              "setupCharge": 75,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.45 },
+                { "decoPriceFromQty": "50", "price": 1.02 },
+                { "decoPriceFromQty": "100", "price": 0.69 },
+                { "decoPriceFromQty": "250", "price": 0.56 },
+                { "decoPriceFromQty": "500", "price": 0.46 },
+                { "decoPriceFromQty": "1000", "price": 0.41 },
+                { "decoPriceFromQty": "2500", "price": 0.4 },
+                { "decoPriceFromQty": "5000", "price": 0.38 },
+                { "decoPriceFromQty": "10000", "price": 0.37 },
+                { "decoPriceFromQty": "20000", "price": 0.37 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD034",
+              "amountColorsId": "4",
+              "amountSetupChargeId": "4",
+              "setupCharge": 100,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.91 },
+                { "decoPriceFromQty": "50", "price": 1.33 },
+                { "decoPriceFromQty": "100", "price": 0.86 },
+                { "decoPriceFromQty": "250", "price": 0.73 },
+                { "decoPriceFromQty": "500", "price": 0.62 },
+                { "decoPriceFromQty": "1000", "price": 0.5 },
+                { "decoPriceFromQty": "2500", "price": 0.49 },
+                { "decoPriceFromQty": "5000", "price": 0.48 },
+                { "decoPriceFromQty": "10000", "price": 0.47 },
+                { "decoPriceFromQty": "20000", "price": 0.45 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "4",
+      "imagePrintLine": "10000200_1_4799_35_uk.jpg",
+      "printFeedRow": {
+        "ref": "4",
+        "impMethodCode": "1",
+        "impMethod": "Padprint",
+        "printCode": "PAD03",
+        "impLocationCode": "back",
+        "impLocation": "back",
+        "maxColours": "4",
+        "impWidthMm": "30",
+        "impHeightMm": "70",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "21",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "UK",
+        "leadTime": "2",
+        "leadTimeQty": "500",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "3",
+        "default_val": "false",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "440",
+        "coorTopLeftY": "1169",
+        "coorTopRightX": "843",
+        "coorTopRightY": "1169",
+        "coorBottomLeftX": "440",
+        "coorBottomLeftY": "2107",
+        "coorBottomRightX": "843",
+        "coorBottomRightY": "2107",
+        "print_price_data": {
+          "printCode": "PAD03",
+          "impMethod": "Pad print medium",
+          "LTMCharge": 0,
+          "priceDependence": "Colors",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD031",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 25,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 0.51 },
+                { "decoPriceFromQty": "50", "price": 0.39 },
+                { "decoPriceFromQty": "100", "price": 0.3 },
+                { "decoPriceFromQty": "250", "price": 0.29 },
+                { "decoPriceFromQty": "500", "price": 0.26 },
+                { "decoPriceFromQty": "1000", "price": 0.25 },
+                { "decoPriceFromQty": "2500", "price": 0.24 },
+                { "decoPriceFromQty": "5000", "price": 0.23 },
+                { "decoPriceFromQty": "10000", "price": 0.23 },
+                { "decoPriceFromQty": "20000", "price": 0.22 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD032",
+              "amountColorsId": "2",
+              "amountSetupChargeId": "2",
+              "setupCharge": 50,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 0.96 },
+                { "decoPriceFromQty": "50", "price": 0.7 },
+                { "decoPriceFromQty": "100", "price": 0.46 },
+                { "decoPriceFromQty": "250", "price": 0.39 },
+                { "decoPriceFromQty": "500", "price": 0.36 },
+                { "decoPriceFromQty": "1000", "price": 0.33 },
+                { "decoPriceFromQty": "2500", "price": 0.3 },
+                { "decoPriceFromQty": "5000", "price": 0.29 },
+                { "decoPriceFromQty": "10000", "price": 0.29 },
+                { "decoPriceFromQty": "20000", "price": 0.24 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD033",
+              "amountColorsId": "3",
+              "amountSetupChargeId": "3",
+              "setupCharge": 75,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.45 },
+                { "decoPriceFromQty": "50", "price": 1.02 },
+                { "decoPriceFromQty": "100", "price": 0.69 },
+                { "decoPriceFromQty": "250", "price": 0.56 },
+                { "decoPriceFromQty": "500", "price": 0.46 },
+                { "decoPriceFromQty": "1000", "price": 0.41 },
+                { "decoPriceFromQty": "2500", "price": 0.4 },
+                { "decoPriceFromQty": "5000", "price": 0.38 },
+                { "decoPriceFromQty": "10000", "price": 0.37 },
+                { "decoPriceFromQty": "20000", "price": 0.37 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCPAD034",
+              "amountColorsId": "4",
+              "amountSetupChargeId": "4",
+              "setupCharge": 100,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.91 },
+                { "decoPriceFromQty": "50", "price": 1.33 },
+                { "decoPriceFromQty": "100", "price": 0.86 },
+                { "decoPriceFromQty": "250", "price": 0.73 },
+                { "decoPriceFromQty": "500", "price": 0.62 },
+                { "decoPriceFromQty": "1000", "price": 0.5 },
+                { "decoPriceFromQty": "2500", "price": 0.49 },
+                { "decoPriceFromQty": "5000", "price": 0.48 },
+                { "decoPriceFromQty": "10000", "price": 0.47 },
+                { "decoPriceFromQty": "20000", "price": 0.45 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "5",
+      "imagePrintLine": "10000200_3_5623_441_uk.jpg",
+      "printFeedRow": {
+        "ref": "5",
+        "impMethodCode": "3",
+        "impMethod": "Screenround",
+        "printCode": "GPE02",
+        "impLocationCode": "wrap",
+        "impLocation": "wrap",
+        "maxColours": "3",
+        "impWidthMm": "150",
+        "impHeightMm": "90",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "135",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "UK",
+        "leadTime": "3",
+        "leadTimeQty": "500",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "1",
+        "default_val": "true",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "20",
+        "coorTopLeftY": "985",
+        "coorTopRightX": "2041",
+        "coorTopRightY": "985",
+        "coorBottomLeftX": "20",
+        "coorBottomLeftY": "2198",
+        "coorBottomRightX": "2041",
+        "coorBottomRightY": "2198",
+        "print_price_data": {
+          "printCode": "GPE02",
+          "impMethod": "Screenprint A fast",
+          "LTMCharge": 0,
+          "priceDependence": "Colors",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE021",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 25,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.18 },
+                { "decoPriceFromQty": "50", "price": 0.88 },
+                { "decoPriceFromQty": "100", "price": 0.62 },
+                { "decoPriceFromQty": "250", "price": 0.46 },
+                { "decoPriceFromQty": "500", "price": 0.43 },
+                { "decoPriceFromQty": "1000", "price": 0.35 },
+                { "decoPriceFromQty": "2500", "price": 0.31 },
+                { "decoPriceFromQty": "5000", "price": 0.28 },
+                { "decoPriceFromQty": "10000", "price": 0.27 },
+                { "decoPriceFromQty": "20000", "price": 0.25 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE022",
+              "amountColorsId": "2",
+              "amountSetupChargeId": "2",
+              "setupCharge": 50,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 2.14 },
+                { "decoPriceFromQty": "50", "price": 1.6 },
+                { "decoPriceFromQty": "100", "price": 1.03 },
+                { "decoPriceFromQty": "250", "price": 0.84 },
+                { "decoPriceFromQty": "500", "price": 0.7 },
+                { "decoPriceFromQty": "1000", "price": 0.57 },
+                { "decoPriceFromQty": "2500", "price": 0.5 },
+                { "decoPriceFromQty": "5000", "price": 0.45 },
+                { "decoPriceFromQty": "10000", "price": 0.43 },
+                { "decoPriceFromQty": "20000", "price": 0.42 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE023",
+              "amountColorsId": "3",
+              "amountSetupChargeId": "3",
+              "setupCharge": 75,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 3.09 },
+                { "decoPriceFromQty": "50", "price": 2.35 },
+                { "decoPriceFromQty": "100", "price": 1.49 },
+                { "decoPriceFromQty": "250", "price": 1.2 },
+                { "decoPriceFromQty": "500", "price": 0.99 },
+                { "decoPriceFromQty": "1000", "price": 0.75 },
+                { "decoPriceFromQty": "2500", "price": 0.7 },
+                { "decoPriceFromQty": "5000", "price": 0.65 },
+                { "decoPriceFromQty": "10000", "price": 0.63 },
+                { "decoPriceFromQty": "20000", "price": 0.61 }
+              ]
+            },
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCGPE024",
+              "amountColorsId": "4",
+              "amountSetupChargeId": "4",
+              "setupCharge": 100,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 4.07 },
+                { "decoPriceFromQty": "50", "price": 3.09 },
+                { "decoPriceFromQty": "100", "price": 1.95 },
+                { "decoPriceFromQty": "250", "price": 1.59 },
+                { "decoPriceFromQty": "500", "price": 1.28 },
+                { "decoPriceFromQty": "1000", "price": 1 },
+                { "decoPriceFromQty": "2500", "price": 0.9 },
+                { "decoPriceFromQty": "5000", "price": 0.84 },
+                { "decoPriceFromQty": "10000", "price": 0.81 },
+                { "decoPriceFromQty": "20000", "price": 0.77 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "6",
+      "imagePrintLine": "10000200_41_1175_1377.jpg",
+      "printFeedRow": {
+        "ref": "6",
+        "impMethodCode": "41",
+        "impMethod": "360 Laser engraving",
+        "printCode": "LASR04",
+        "impLocationCode": "wrap",
+        "impLocation": "wrap",
+        "maxColours": "1",
+        "impWidthMm": "207",
+        "impHeightMm": "90",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "186",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "",
+        "allowedColorType": "",
+        "productionLocation": "PL",
+        "leadTime": "4",
+        "leadTimeQty": "250",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "2",
+        "default_val": "false",
+        "sureship": "false",
+        "sshMaxColors": "0",
+        "sshMaxQty": "0",
+        "coorTopLeftX": "20",
+        "coorTopLeftY": "768",
+        "coorTopRightX": "2380",
+        "coorTopRightY": "768",
+        "coorBottomLeftX": "20",
+        "coorBottomLeftY": "1795",
+        "coorBottomRightX": "2380",
+        "coorBottomRightY": "1795",
+        "print_price_data": {
+          "printCode": "LASR04",
+          "impMethod": "Laser engraving round 360 4",
+          "LTMCharge": 0,
+          "priceDependence": "None",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCLASR41",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 20,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.91 },
+                { "decoPriceFromQty": "50", "price": 1.31 },
+                { "decoPriceFromQty": "100", "price": 1.05 },
+                { "decoPriceFromQty": "250", "price": 0.72 },
+                { "decoPriceFromQty": "500", "price": 0.7 },
+                { "decoPriceFromQty": "1000", "price": 0.6 },
+                { "decoPriceFromQty": "2500", "price": 0.57 },
+                { "decoPriceFromQty": "5000", "price": 0.57 },
+                { "decoPriceFromQty": "10000", "price": 0.56 },
+                { "decoPriceFromQty": "20000", "price": 0.55 }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "printfeedref_ref": "7",
+      "imagePrintLine": "10000200_6_4799_34.jpg",
+      "printFeedRow": {
+        "ref": "7",
+        "impMethodCode": "6",
+        "impMethod": "Laser engraving",
+        "printCode": "LAS02",
+        "impLocationCode": "front",
+        "impLocation": "front",
+        "maxColours": "1",
+        "impWidthMm": "25",
+        "impHeightMm": "100",
+        "impDiameterMm": "0",
+        "maxAreaCm2": "25",
+        "maxLogoSizeCm2": "0",
+        "allLogoSizeCm2": "",
+        "sizeCoordinateImg": "",
+        "allowedArtFile": "",
+        "minFontSize": "",
+        "minLineWeight": "",
+        "laserColor": "#dadada",
+        "allowedColorType": "",
+        "productionLocation": "PL",
+        "leadTime": "2",
+        "leadTimeQty": "1000",
+        "leadTimeFactor": "1",
+        "leadTimeRef": "4",
+        "default_val": "false",
+        "sureship": "true",
+        "sshMaxColors": "1",
+        "sshMaxQty": "500",
+        "coorTopLeftX": "288",
+        "coorTopLeftY": "911",
+        "coorTopRightX": "634",
+        "coorTopRightY": "911",
+        "coorBottomLeftX": "288",
+        "coorBottomLeftY": "2292",
+        "coorBottomRightX": "634",
+        "coorBottomRightY": "2292",
+        "print_price_data": {
+          "printCode": "LAS02",
+          "impMethod": "Laser engraving fast",
+          "LTMCharge": 0,
+          "priceDependence": "None",
+          "logoSize": [
+            {
+              "logoSizeCm2": 0,
+              "itemCodeId": "DCLAS021",
+              "amountColorsId": "1",
+              "amountSetupChargeId": "1",
+              "setupCharge": 20,
+              "decoPrice": [
+                { "decoPriceFromQty": "1", "price": 1.01 },
+                { "decoPriceFromQty": "50", "price": 0.61 },
+                { "decoPriceFromQty": "100", "price": 0.5 },
+                { "decoPriceFromQty": "250", "price": 0.47 },
+                { "decoPriceFromQty": "500", "price": 0.43 },
+                { "decoPriceFromQty": "1000", "price": 0.39 },
+                { "decoPriceFromQty": "2500", "price": 0.37 },
+                { "decoPriceFromQty": "5000", "price": 0.34 },
+                { "decoPriceFromQty": "10000", "price": 0.33 },
+                { "decoPriceFromQty": "20000", "price": 0.33 }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "version": "v3"
+}
