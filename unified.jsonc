@@ -20,67 +20,63 @@
   },
 
   /* ---------- PRODUCT DATA ---------- */
-  "product_data": {
-    "parent_product_code": "string|null", // master code, common to all variants (e.g., "AR1249") - OPTIONAL
-    "parent_product_id": "string|null", // internal ID from supplier (e.g., "40000011") - OPTIONAL
-    "source_product_code": "string", // aa0131, ar1249 … - REQUIRED (always provided by supplier)
-    "variant_code": "string|null", // unique within supplier feed - OPTIONAL
-    "variant_id": "string|null", // supplier's variant ID - OPTIONAL
-    "sku": "string|null", // can duplicate variant_code or follow supplier logic - OPTIONAL
-    "gtin": "string|null", // EAN/UPC if present - OPTIONAL
-    "ean_code": "string|null", // alternative GTIN field - OPTIONAL
-    "status": "Active|Outlet|Discontinued|New|EndOfLife",
-    "product_lifecycle": "Active|Outlet|Discontinued|New|EndOfLife",
-    "release_date": "2023-03-15T00:00:00Z",
-    "modified_date": "2025-07-15T10:30:00Z",
-    "discontinued_date": null,
-    "intro_date": "2022-12-30T00:00:00",
-    "type_of_product": "stock|made_to_order|custom",
-    "related_products": ["AA0131RD", "AA0131BL"],
-    "alternative_products": ["AA0131RD", "AA0131BL"],
+  "parent_product_code": "string|null", // master code, common to all variants (e.g., "AR1249") - OPTIONAL
+  "parent_product_id": "string|null", // internal ID from supplier (e.g., "40000011") - OPTIONAL
+  "source_product_code": "string", // aa0131, ar1249 … - REQUIRED (always provided by supplier)
+  "variant_code": "string|null", // unique within supplier feed - OPTIONAL
+  "variant_id": "string|null", // supplier's variant ID - OPTIONAL
+  "sku": "string|null", // can duplicate variant_code or follow supplier logic - OPTIONAL
+  "gtin": "string|null", // EAN/UPC if present - OPTIONAL
+  "ean_code": "string|null", // alternative GTIN field - OPTIONAL
+  "status": "Active|Outlet|Discontinued|New|EndOfLife",
+  "product_lifecycle": "Active|Outlet|Discontinued|New|EndOfLife",
+  "release_date": "2023-03-15T00:00:00Z",
+  "modified_date": "2025-07-15T10:30:00Z",
+  "discontinued_date": null,
+  "intro_date": "2022-12-30T00:00:00",
+  "type_of_product": "stock|made_to_order|custom",
+  "related_products": ["AA0131RD", "AA0131BL"],
+  "alternative_products": ["AA0131RD", "AA0131BL"],
 
-    /* ---------- CORE CONTENT ---------- */
-    "brand": { "{lang}": "string" },
-    "name": { "{lang}": "string" }, // Required
-    "title": { "{lang}": "string" },
-    "descriptions": {
-      "short": { "{lang}": "string" },
-      "long": { "{lang}": "string" }, // Required
-      "web": { "{lang}": "string" } // web-specific description
-    },
-    "keywords": { "{lang}": "string" }, // comma separated list of keywords
-    "comments": "string", // additional notes/comments
-    "price": "string", // legacy price field
-    "currency": "string", // currency code
-    "minimum_order_quantity": 25
+  /* ---------- CORE CONTENT ---------- */
+  "brand": { "{lang}": "string" },
+  "name": { "{lang}": "string" }, // Required
+  "title": { "{lang}": "string" },
+  "descriptions": {
+    "short": { "{lang}": "string" },
+    "long": { "{lang}": "string" }, // Required
+    "web": { "{lang}": "string" } // web-specific description
   },
+  "keywords": { "{lang}": "string" }, // comma separated list of keywords
+  "comments": "string", // additional notes/comments
+  "price": "string", // legacy price field
+  "currency": "string", // currency code
+  "minimum_order_quantity": 25,
 
   /* ---------- CATEGORY INFO ---------- */
-  "category_info": {
-    "product_class": "string", // supplier's product class
-    "categories": [
-      {
-        "id": "drinkware",
-        "name": "Drinkware",
-        "level": 1,
-        "parent_id": null,
-        "description": "string",
-        "image": "string",
-        "display_order": 1,
-        "code": "string"
-      },
-      {
-        "id": "mugs",
-        "name": "Mugs",
-        "level": 2,
-        "parent_id": "drinkware",
-        "description": "string",
-        "image": "string",
-        "display_order": 2,
-        "code": "string"
-      }
-    ]
-  },
+  "product_class": "string", // supplier's product class
+  "categories": [
+    {
+      "id": "drinkware",
+      "name": "Drinkware",
+      "level": 1,
+      "parent_id": null,
+      "description": "string",
+      "image": "string",
+      "display_order": 1,
+      "code": "string"
+    },
+    {
+      "id": "mugs",
+      "name": "Mugs",
+      "level": 2,
+      "parent_id": "drinkware",
+      "description": "string",
+      "image": "string",
+      "display_order": 2,
+      "code": "string"
+    }
+  ],
 
   /* ---------- VARIANT-SPECIFIC ATTRIBUTES ---------- */
   "variant_attributes": {
@@ -230,22 +226,19 @@
     "recycled_content_pct": 35, // percentage of recycled content
     "co2_total": { "value": 0.43, "unit": "kg" },
     "co2_total_benchmark": { "value": 0.43, "unit": "kg" },
-    "lca": {
-      // Life Cycle Assessment
-      "co2_total": { "value": 0.43, "unit": "kg" },
-      "co2_total_benchmark": { "value": 0.43, "unit": "kg" },
-      "co2_breakdown": {
-        "material_production": { "value": 0.21, "unit": "kg" },
-        "packaging": { "value": 0.07, "unit": "kg" },
-        "transport": { "value": 0.1, "unit": "kg" },
-        "eol": { "value": 0.05, "unit": "kg" }
-      },
-      "co2_percent": {
-        "material_production": 77.78,
-        "packaging": 1.96,
-        "transport": 8.78,
-        "eol": 11.48
-      }
+    "lca_co2_total": { "value": 0.43, "unit": "kg" },
+    "lca_co2_total_benchmark": { "value": 0.43, "unit": "kg" },
+    "lca_co2_breakdown": {
+      "material_production": { "value": 0.21, "unit": "kg" },
+      "packaging": { "value": 0.07, "unit": "kg" },
+      "transport": { "value": 0.1, "unit": "kg" },
+      "eol": { "value": 0.05, "unit": "kg" }
+    },
+    "lca_co2_percent": {
+      "material_production": 77.78,
+      "packaging": 1.96,
+      "transport": 8.78,
+      "eol": 11.48
     },
     "social_audits": ["BSCI", "SMETA"],
     "traceability": "Factory code or system ref",
