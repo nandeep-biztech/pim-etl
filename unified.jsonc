@@ -37,6 +37,7 @@
   "type_of_product": "stock|made_to_order|custom",
   "related_products": ["AA0131RD", "AA0131BL"],
   "alternative_products": ["AA0131RD", "AA0131BL"],
+  "is_printable": true,
 
   /* ---------- CORE CONTENT ---------- */
   "brand": { "{lang}": "string" },
@@ -264,11 +265,7 @@
     "price_expires_date": null,
     "price_effective_date": "2025-06-13T01:06:07.307",
     "price_expiry_date": "2025-06-13T23:59:59.000",
-    "type": "List|Net|MSRP",
-    "additional_costs": [
-      { "type": "setup", "charge": 20, "currency": "GBP" },
-      { "type": "carriage", "charge": 5.95, "currency": "GBP" }
-    ]
+    "type": "List|Net|MSRP"
   },
 
   /* ---------- STOCK & STATUS ---------- */
@@ -279,7 +276,6 @@
       { "id": "EU-01", "name": "EU-01", "country": "EU", "qty": 60 },
       { "id": "UK-02", "name": "UK-02", "country": "UK", "qty": 40 }
     ],
-    "on_hand": 150,
     "unit": "pcs",
     "release_date": "2023-03-15",
     "discontinued_date": null,
@@ -303,7 +299,6 @@
 
   /* ---------- DECORATION & PRINTING SERVICES ---------- */
   "printing_data": {
-    "is_printable": true,
     "print_direct": true,
     "print_transfer": true,
     "print_digital": true,
@@ -322,6 +317,7 @@
         "print_method_code": "", // impMethodCode (PF Concept), PrintCodeId (Keramikos), PrintClass (Laltex), id (MidOcean)
         "print_position": "", // impLocation (PF Concept), PrintPosition (Laltex), position_id (MidOcean)
         "print_position_id": "", // impLocation (PF Concept), PrintPosition (Laltex), position_id (MidOcean)
+        "price_dependency": "color|size|None", // color, size, both
         "print_code": "", // unique key for printing feed data and thier price mapping
         "max_colors": "", // maxColours (PF Concept, Laltex, MidOcean)
         "print_area": {
@@ -332,8 +328,6 @@
           "unit": "mm" // Default unit for dimensions
         },
         "pricing": {
-          "color_setup_charge": "", // ExtraColourSetupCharge (Laltex), next_colour_cost_indicator (MidOcean), Additional Print Charge (Preseli)
-          "pantone_charge": "", // Pantone Charge (Preseli)
           "setup_charges": [
             {
               "charge_type": "", // Setup (Preseli), OriginationPrices (Keramikos), SetupCharge, RptSetupCharge (Laltex), setup, setup_repeat (MidOcean), setupCharge (PF Concept)
@@ -343,7 +337,7 @@
               "currency": "" // Currency of setup charge
             }
           ],
-          "pricing": [
+          "pricing_details": [
             {
               "area_from": "", // area_from (MidOcean), maxAreaCm2 (PF Concept)
               "area_to": "", // area_to (MidOcean)
@@ -355,17 +349,17 @@
               "currency": "",
               "charge_type": "",
               "type": "unit_price|size_based_pricing"
-                // unit_price (quantity_from, quantity_to, num_colours, price, currency)
-                // size_based_pricing (area_from, area_to, area_unit, quantity_from, quantity_to, num_colours, price, currency)
+              // unit_price (quantity_from, quantity_to, num_colours, price, currency)
+              // size_based_pricing (area_from, area_to, area_unit, quantity_from, quantity_to, num_colours, price, currency)
             }
-          ],
-          "lead_time": {
-            "standard_lead_time": "", // LeadTime (PF Concept, Laltex), TypicalLeadTimes (Keramikos)
-            "rush_service_available": "", // sureship (PF Concept)
-            "rush_service_charge": "", // LTMCharge (PF Concept)
-            "qty": "", // leadTimeQty (PF Concept)
-            "production_location": "" // productionLocation (PF Concept)
-          }
+          ]
+        },
+        "lead_time": {
+          "standard_lead_time": "", // LeadTime (PF Concept, Laltex), TypicalLeadTimes (Keramikos)
+          "rush_service_available": "", // sureship (PF Concept)
+          "rush_service_charge": "", // LTMCharge (PF Concept)
+          "qty": "", // leadTimeQty (PF Concept)
+          "production_location": "" // productionLocation (PF Concept)
         },
         "coordinates": {
           "top_left_x": "", // coorTopLeftX (PF Concept), Xpos (Laltex), distance_from_left (MidOcean)
