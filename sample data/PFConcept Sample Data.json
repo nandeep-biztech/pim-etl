@@ -85,13 +85,13 @@
               "catDesc": "Sweaters"
             },
             "colors": {
-              "color": {
+              "color": [{
                 "colorDesc": "Yellow",
                 "baseColor": "Yellow",
                 "hexColor": "FAE700",
                 "pmsColorReference": "115 C",
                 "_colorCode": "YELLOW"
-              }
+              }]
             },
             "penInkColor": "",
             "material": "Knit of 50% Cotton and 50% Polyester, 280 g/m2",
@@ -291,7 +291,7 @@
   "ProductPrintPriceFeed": {
     "PFCPrintpricefeed": {
       "decoCharges": {
-        "decoCharge": {
+        "decoCharge": [{
           "printCode": "D3D01",
           "impMethod": "Digital print gloss 1",
           "LTMCharge": "0.0",
@@ -358,7 +358,7 @@
               "_itemCodeId": "DCD3D001"
             }
           }
-        },
+        }],
         "_createdDateTime": "2025-05-31T16:02:38.480",
         "_currency": "GBP",
         "_language": "EN",

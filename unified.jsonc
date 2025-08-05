@@ -1,30 +1,12 @@
 // {lang} => e.g., "en", "fr"
-
 {
-  /* ---------- ORIGIN & SOURCE METADATA ---------- */
-  "supplier": {
-    "id": "string", // e.g. "midocean", "laltex", "keramikos"
-    "name": "string", // "midocean"
-    "api_version": "string", // "2.0", "v1", etc.
-    "contact_info": {
-      "website": "string",
-      "api_base": "string",
-      "address": "string"
-    },
-    "data_source": {
-      "endpoint": "string", // API endpoint used
-      "last_sync": "2025-01-15T10:30:00Z",
-      "sync_frequency": "daily|weekly|monthly",
-      "data_format": "json|xml|csv"
-    }
-  },
-
   /* ---------- PRODUCT DATA ---------- */
   "parent_product_code": "string|null", // master code, common to all variants (e.g., "AR1249") - OPTIONAL
   "parent_product_id": "string|null", // internal ID from supplier (e.g., "40000011") - OPTIONAL
   "source_product_code": "string", // aa0131, ar1249 … - REQUIRED (always provided by supplier)
   "variant_code": "string|null", // unique within supplier feed - OPTIONAL
   "variant_id": "string|null", // supplier's variant ID - OPTIONAL
+  "supplier": "string",
   "sku": "string|null", // can duplicate variant_code or follow supplier logic - OPTIONAL
   "gtin": "string|null", // EAN/UPC if present - OPTIONAL
   "ean_code": "string|null", // alternative GTIN field - OPTIONAL
@@ -102,6 +84,7 @@
 
   /* ---------- FLEXIBLE ATTRIBUTES MAP ---------- */
   "product_extra_data": {
+    "colors": ["string"], // array of color objects
     "compliance_info_available": true,
     "gift_wrapping_possible": false,
     "simple_material": "Cotton,Polyester",
@@ -111,6 +94,7 @@
     "is_eco_product": false,
     "shape_name": "Atlantic",
     "branding": "1 side",
+    "attributes":{},
     "battery": {
       "included": false,
       "quantity": 0,
@@ -118,15 +102,8 @@
       "weight_g": 0
     },
     "data_sheet": "https://www.preseli.biz/datasheet.php?product_id=2", // Preseli style
-
     "restricted_countries": ["US", "CN"],
-
     "export": false,
-
-    "custom_fields": {
-      "field1": "value1",
-      "field2": "value2"
-    },
     "product_specifications": [
       {
         "specification_text": "Weight (g)",
@@ -134,19 +111,13 @@
       }
     ],
     "option_items": [],
-    "despatch_prices": [
-      {
-        "quantity_from": 36,
-        "cost": 22.0,
-        "display_poa": false
-      }
-    ],
     "mark_segment": "Label",
     "add_on": "",
     "product_indicator": "",
     "item_indicator": "",
     "seed_type": null,
     "pen_ink_color": "",
+    "available_colours": "string",
     "launch_date": "01-01-2024"
   },
 
@@ -157,9 +128,10 @@
     "height": { "value": 1.6, "unit": "cm" },
     "diameter": { "value": 6.5, "unit": "cm" },
     "circumference": { "value": 20.4, "unit": "cm" },
-    "weight": { "net": 0.288, "gross": 0.302, "unit": "kg" },
+    "weight": { "value": 0.288, "gross": 0.302, "unit": "kg" },
     "capacity": { "value": 0.6, "unit": "l" },
-    "volume": { "value": 0.34, "unit": "cdm3" } // cdm3 means cubic decimeter
+    "volume": { "value": 0.34, "unit": "cdm3" }, // cdm3 means cubic decimeter
+    "unit": "mm"
   },
   "packaging": {
     "inner_carton": {
@@ -258,13 +230,14 @@
   /* ---------- PRICING ---------- */
   "pricing": {
     "price_list": [
-      { "min_qty": 1, "max_qty": 24, "unit_price": 0.42, "currency": "GBP" },
-      { "min_qty": 25, "unit_price": 0.38, "currency": "GBP" }
+        { "min_qty": 1, "max_qty": 24, "unit_price": 0.42, "currency": "GBP" ,"extra_info": {"type": "N", "industryCol": "11.67"}},
+        { "min_qty": 25, "unit_price": 0.38, "currency": "GBP", "extra_info": {"type": "N", "industryCol": "11.67"} }
     ],
     "price_last_modified_at": "2025-07-14T11:45:00Z",
     "price_expires_date": null,
     "price_effective_date": "2025-06-13T01:06:07.307",
     "price_expiry_date": "2025-06-13T23:59:59.000",
+    "additional_info": {},
     "type": "List|Net|MSRP"
   },
 
@@ -279,22 +252,8 @@
     "unit": "pcs",
     "release_date": "2023-03-15",
     "discontinued_date": null,
+    "extra_stock_info":	{"_language" : "EN", "_creationDateTime":""},
     "next_incoming": [{ "date": "2025-08-15", "qty": 1000 }]
-  },
-
-  /* ---------- THEMES & CATALOGUES ---------- */
-  "themes": {
-    "theme": [
-      "Collections-clothing-roly-selection",
-      "Collections-clothing-unisex-clothing"
-    ]
-  },
-  "catalogues": {
-    "catalog": {
-      "year": "",
-      "page": "",
-      "_type": ""
-    }
   },
 
   /* ---------- DECORATION & PRINTING SERVICES ---------- */
@@ -310,7 +269,15 @@
     /* ---------- AVAILABLE DECORATION TECHNIQUES ---------- */
     "all_available_methods": "Pad print, Screen print", // comma separated list of decoration methods
     "all_available_positions": "Front, Back, Side, Top, Bottom, All Around", // comma separated list of decoration positions
-
+     
+    /* ---------- ARTWORK TEMPLATES ---------- */
+    "artworks": [
+      {
+          "url": "https://supplier.example.com/art/abc123-template.pdf",
+          "type": "Screen Print",
+          "format": "PDF|AI|EPS"
+      }
+    ],
     "printing_details_summary": [
       {
         "print_method": "", // impMethod (PF Concept), PrintTypeName (Keramikos), PrintType (Laltex), Name (Preseli), description (MidOcean)
@@ -327,33 +294,33 @@
           "diameter": "", // impDiameterMm (PF Concept), Diameter (Laltex)
           "unit": "mm" // Default unit for dimensions
         },
-        "pricing": {
-          "setup_charges": [
-            {
-              "charge_type": "", // Setup (Preseli), OriginationPrices (Keramikos), SetupCharge, RptSetupCharge (Laltex), setup, setup_repeat (MidOcean), setupCharge (PF Concept)
-              "quantity_from": "", // QuantityFrom (Keramikos)
-              "num_colours": "", // NumberOfColours (Keramikos)
-              "charge_amount": "", // Cost (Keramikos), Value (Preseli), setupCharge (PF Concept, Laltex), setup (MidOcean)
-              "currency": "" // Currency of setup charge
-            }
-          ],
-          "pricing_details": [
-            {
-              "area_from": "", // area_from (MidOcean), maxAreaCm2 (PF Concept)
-              "area_to": "", // area_to (MidOcean)
-              "area_unit": "cm2", // Default unit for area
-              "quantity_from": "", // quantity thresholds
-              "quantity_to": "",
-              "num_colours": "",
-              "price": "",
-              "currency": "",
-              "charge_type": "",
-              "type": "unit_price|size_based_pricing"
-              // unit_price (quantity_from, quantity_to, num_colours, price, currency)
-              // size_based_pricing (area_from, area_to, area_unit, quantity_from, quantity_to, num_colours, price, currency)
-            }
-          ]
-        },
+        "setup_charges": [
+          {
+            "charge_type": "", // Setup (Preseli), OriginationPrices (Keramikos), SetupCharge, RptSetupCharge (Laltex), setup, setup_repeat (MidOcean), setupCharge (PF Concept)
+            "quantity_from": "", // QuantityFrom (Keramikos)
+            "num_colours": "", // NumberOfColours (Keramikos)
+            "charge_amount": "", // Cost (Keramikos), Value (Preseli), setupCharge (PF Concept, Laltex), setup (MidOcean)
+            "currency": "" // Currency of setup charge
+          }
+        ],
+        "pricing_details": [
+          {
+            "area_from": "", // area_from (MidOcean), maxAreaCm2 (PF Concept)
+            "area_to": "", // area_to (MidOcean)
+            "area_unit": "cm2", // Default unit for area
+            "quantity_from": "", // quantity thresholds
+            "quantity_to": "",
+            "sizes": { "value": 21, "unit": "cm" },
+            "num_colours": "",
+            "position": "",
+            "price": "",
+            "currency": "",
+            "charge_type": "",
+            "type": "unit_price|size_based_pricing"
+            // unit_price (quantity_from, quantity_to, num_colours, price, currency)
+            // size_based_pricing (area_from, area_to, area_unit, quantity_from, quantity_to, num_colours, price, currency)
+          }
+        ],
         "lead_time": {
           "standard_lead_time": "", // LeadTime (PF Concept, Laltex), TypicalLeadTimes (Keramikos)
           "rush_service_available": "", // sureship (PF Concept)
@@ -370,6 +337,10 @@
           "bottom_left_y": "", // coorBottomLeftY (PF Concept)
           "bottom_right_x": "", // coorBottomRightX (PF Concept)
           "bottom_right_y": "", // coorBottomRightY (PF Concept)
+          "width": "", // width (Laltex)
+          "height": "", // height (Laltex)
+          "diameter": "",// diameter (Laltex)
+          "colour": "",// colour (Laltex)
           "position_type": "" // print_position_type (MidOcean), Ellipse, Rectangle
         },
         "print_images": [
@@ -396,7 +367,8 @@
           "image_print_line": "", // imagePrintLine (PF Concept)
           "ref": "", // ref (PF Concept)
           "coor_sequence": "", // sequence_no (MidOcean)
-          "range_id": "" // range_id (MidOcean)
+          "range_id": "", // range_id (MidOcean)
+          "default_print_option": "" // default_print_option (Laltex)
         }
       }
     ]
@@ -424,17 +396,14 @@
           "shipping_charge": "", // e.g., "£18.85", may be "N/A"
           "per_carton_charge": "" // e.g., "£5.90" or "N/A"
         }
+      ],
+      "despatch_prices": [
+        {
+          "quantity_from": 36,
+          "cost": 22.0,
+          "display_poa": false
+        }
       ]
     }
-  ],
-
-  /* ---------- METADATA & TRACKING ---------- */
-  "metadata": {
-    "imported_at": "2025-07-09t12:34:56z",
-    "mapping_version": "v1.0",
-    "source_filename": "prices.xlsx", // for xlsx inputs
-    "feed_created_datetime": "2025-04-25T07:19:41.0264026+02:00",
-    "item_data_last_modified_datetime": "2025-04-09T22:00:10.3480696Z",
-    "timestamp": "2025-03-07T08:09:46"
-  }
+  ]
 }

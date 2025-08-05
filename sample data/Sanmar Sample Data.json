@@ -1,6 +1,6 @@
 {
 	"GetProductSellable":{
-		"GET": "https://ws.sanmar.com:8080/promostandards/ProductDataServiceBindingV2?wsdl",
+		"GET": "https://ws.sanmar.com:8080/promostandards/ProductDataServiceBinngV2?wsdl",
 		"Response":{
 			"ProductSellableArray": {
 				"ProductSellable": [
