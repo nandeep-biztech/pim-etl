@@ -156,7 +156,7 @@
 				},
 				"productBrand": "OGIO",
 				"export": false,
-				"ProductCategoryArray": {
+				"ProductCategoryArray": {		//?? In our structure, to manage subcategories, we need id but in this not have so how to manage?
 					"ProductCategory": {
 						"category": "Bags",
 						"subCategory": "Duffels"
@@ -164,12 +164,12 @@
 				},
 				"RelatedProductArray": {
 					"RelatedProduct": {
-						"relationType": "Companion Sell",
+						"relationType": "Companion Sell",		//?? we have only structure for store ids in array, do we need to add relationType?
 						"productId": "108085"
 					}
 				},
 				"primaryImageUrl": "https://cdnm.sanmar.com/catalog/images/108085.jpg",
-				"ProductPriceGroupArray": {
+				"ProductPriceGroupArray": {			//?? 2 prices one in api and 2nd in this
 					"ProductPriceGroup": {
 						"ProductPriceArray": {
 							"ProductPrice": {
@@ -178,17 +178,17 @@
 								"price": "46.58"
 							}
 						},
-						"groupName": "MSRP",
+						"groupName": "MSRP",		//??
 						"currency": "USD"
 					}
 				},
 				"complianceInfoAvailable": null,
 				"ProductPartArray": {
 					"ProductPart": {
-						"partId": "478783",
+						"partId": "478783",		//??
 						"primaryColor": {
 							"Color": {
-								"standardColorName": "Wasabe",
+								"standardColorName": "Wasabe",		// which one need to consider from both name?
 								"colorName": "Wasabe"
 							}
 						},
@@ -201,7 +201,7 @@
 						},
 						"ApparelSize": {
 							"apparelStyle": "Unisex",
-							"labelSize": "OSFA"
+							"labelSize": "OSFA"		//??
 						},
 						"Dimension": {
 							"dimensionUom": "FT",
@@ -212,9 +212,9 @@
 							"weight": "37.92"
 						},
 						"gtin": "00191265684859",
-						"isRushService": false,
+						"isRushService": false,		//??
 						"ShippingPackageArray": {
-							"ShippingPackage": {
+							"ShippingPackage": {			//?? this will be in shipping details or package details?
 								"packageType": "Box",
 								"quantity": "6",
 								"dimensionUom": "IN",
@@ -225,21 +225,21 @@
 								"weight": "14.24"
 							}
 						},
-						"endDate": null,
-						"effectiveDate": "2023-10-19T16:25:48.567",
-						"isCloseout": false,
-						"isCaution": false,
-						"isOnDemand": false,
-						"isHazmat": false
+						"endDate": null,    //??
+						"effectiveDate": "2023-10-19T16:25:48.567",    //??
+						"isCloseout": false,    //??
+						"isCaution": false,    //??
+						"isOnDemand": false,    //??
+						"isHazmat": false    //??
 					}
 				},
-				"lastChangeDate": "2023-10-19T16:25:48.567",
-				"creationDate": "2020-05-01T19:31:30.040",
-				"endDate": null,
-				"effectiveDate": "2023-10-19T16:25:48.567",
-				"isCaution": false,
-				"isCloseout": false,
-				"FobPointArray": {
+				"lastChangeDate": "2023-10-19T16:25:48.567",		//??
+				"creationDate": "2020-05-01T19:31:30.040",		//??
+				"endDate": null,		//??
+				"effectiveDate": "2023-10-19T16:25:48.567",		//??
+				"isCaution": false,		//??
+				"isCloseout": false,		//??
+				"FobPointArray": {		//??
 					"FobPoint": [
 						{
 							"fobId": "1",
@@ -318,15 +318,15 @@
 						"productId": "108085",
 						"partId": "478783",
 						"url": "https://cdnm.sanmar.com/imglib/mresjpg/2017/f15/108085_wasabe_ga18_crop.jpg",
-						"mediaType": "Image",
-						"ClassTypeArray": {
+						"mediaType": "Image",		//??
+						"ClassTypeArray": {		//??
 							"ClassType": {
 								"classTypeId": 1007,
 								"classTypeName": "Front"
 							}
 						},
-						"color": "Wasabe",
-						"singlePart": true
+						"color": "Wasabe",		//??
+						"singlePart": true		//??
 					},
 					{
 						"productId": "108085",
@@ -388,7 +388,7 @@
 			}
 		}
 	},
-	"GetConfigurationAndPricing": {
+	"GetConfigurationAndPricing": {		//?? 2 prices one product level and 2nd in this
 		"GET": "https://ws.sanmar.com:8080/promostandards/PricingAndConfigurationServiceBinding?WSDL",
 		"Response": {
 			"Configuration": {
@@ -399,27 +399,27 @@
 							"PartPrice": {
 								"minQuantity": 1,
 								"price": "46.58",
-								"priceUom": "EA",
+								"priceUom": "EA",		//??
 								"priceEffectiveDate": "2025-06-13T01:06:07.307",
 								"priceExpiryDate": "2025-06-13T23:59:59.000"
 							}
 						},
-						"partGroup": 1,
-						"partGroupRequired": false,
-						"partGroupDescription": "NA",
-						"ratio": "1",
-						"defaultPart": false
+						"partGroup": 1,		//??
+						"partGroupRequired": false,		//??
+						"partGroupDescription": "NA",		//??
+						"ratio": "1",		//??
+						"defaultPart": false		//??
 					}
 				},
 				"productId": "108085",
 				"currency": "USD",
-				"FobArray": {
+				"FobArray": {		//??
 					"Fob": {
-						"fobId": "6",
-						"fobPostalCode": "32219"
+						"fobId": "6",		//??
+						"fobPostalCode": "32219"		//??
 					}
 				},
-				"priceType": "List"
+				"priceType": "List"		//??
 			}
 		}
 	},
@@ -428,21 +428,21 @@
 		"Response": {
 			"Inventory": {
 				"productId": "108085",
-				"PartInventoryArray": {
+				"PartInventoryArray": {		//??	what is use of this data in inventory?
 					"PartInventory": {
 						"partId": "62822",
-						"mainPart": false,
-						"partColor": "White",
-						"labelSize": "S",
-						"partDescription": "Hanes EcoSmart - 5.2-Ounce Jersey Knit Sport Shirt     054X",
+						"mainPart": false,		//??
+						"partColor": "White",		//??
+						"labelSize": "S",		//??
+						"partDescription": "Hanes EcoSmart - 5.2-Ounce Jersey Knit Sport Shirt     054X",		//??
 						"quantityAvailable": {
 							"Quantity": {
-								"uom": "EA",
+								"uom": "EA",		//??
 								"value": "349"
 							}
 						},
-						"manufacturedItem": false,
-						"buyToOrder": false,
+						"manufacturedItem": false,		//??
+						"buyToOrder": false,		//??
 						"InventoryLocationArray": {
 							"InventoryLocation": [
 								{
@@ -452,7 +452,7 @@
 									"country": "US",
 									"inventoryLocationQuantity": {
 										"Quantity": {
-											"uom": "EA",
+											"uom": "EA",		//??
 											"value": "0"
 										}
 									}
@@ -560,10 +560,10 @@
 			}
 		}
 	},
-	"GetProductDateModified": {
+	"GetProductDateModified": {		
 		"GET": "https://ws.sanmar.com:8080/promostandards/ProductDataServiceBindingV2?wsdl",
 		"Response": {
-			"ProductDateModifiedArray": {
+			"ProductDateModifiedArray": {		//?? 
 				"ProductDateModified": [
 					{
 						"productId": "054X",
