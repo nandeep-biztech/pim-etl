@@ -1,0 +1,352 @@
+{
+  "products": {
+    "GET": "https://api.ssactivewear.com/v2/products",
+    "Response": [
+      {
+        "sku": "B00760004",
+        "gtin": "00821780001001",
+        "skuID_Master": 2343,
+        "yourSku": "",
+        "styleID": 39,
+        "brandName": "Gildan",
+        "brandID": "35",
+        "styleName": "2000",
+        "colorName": "White",
+        "colorCode": "00",
+        "colorPriceCodeName": "White",
+        "colorGroup": "79",
+        "colorGroupName": "White",
+        "colorFamilyID": "19",
+        "colorFamily": "Whites",
+        "baseCategoryID": "16",
+        "colorSwatchImage": "Images/ColorSwatch/34061_fm.jpg",
+        "colorSwatchTextColor": "#000000",
+        "colorFrontImage": "Images/Color/17130_f_fm.jpg",
+        "colorSideImage": "",
+        "colorBackImage": "Images/Color/17130_b_fm.jpg",
+        "colorDirectSideImage": "Images/Color/17130_d_fm.jpg",
+        "colorOnModelFrontImage": "Images/ModelColor/17130_omf_fm.jpg",
+        "colorOnModelSideImage": "Images/ModelColor/17130_oms_fm.jpg",
+        "colorOnModelBackImage": "Images/ModelColor/17130_omb_fm.jpg",
+        "color1": "#FFFFFF",
+        "color2": "",
+        "sizeName": "M",
+        "sizeCode": "4",
+        "sizeOrder": "B2",
+        "sizePriceCodeName": "S-XL",
+        "caseQty": 72,
+        "unitWeight": 0.4208,
+        "mapPrice": 0.01,
+        "piecePrice": 3.07,
+        "dozenPrice": 3.07,
+        "casePrice": 3.07,
+        "salePrice": 2.65,
+        "customerPrice": 2.65,
+        "saleExpiration": "2025-08-07T00:00:00",
+        "noeRetailing": false,
+        "caseWeight": 30.3,
+        "caseWidth": 16.5,
+        "caseLength": 21.0,
+        "caseHeight": 13.0,
+        "polyPackQty": 0,
+        "qty": 7500,
+        "countryOfOrigin": "DO, HN, HT, NI",
+        "warehouses": [
+          {
+            "warehouseAbbr": "KS",
+            "skuID": 263747,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "DS",
+            "skuID": 291266,
+            "qty": 500,
+            "closeout": false,
+            "dropship": true,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": true,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "TX",
+            "skuID": 1120975,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:TBD-1000+"
+          },
+          {
+            "warehouseAbbr": "GA",
+            "skuID": 1566338,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:TBD-1000+"
+          },
+          {
+            "warehouseAbbr": "NV",
+            "skuID": 1914987,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "IL",
+            "skuID": 2411238,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "OH",
+            "skuID": 3558767,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "PA",
+            "skuID": 4350664,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:TBD-1000+"
+          },
+          {
+            "warehouseAbbr": "CC",
+            "skuID": 5739272,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "CN",
+            "skuID": 6254100,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "FO",
+            "skuID": 6772394,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "GD",
+            "skuID": 7296196,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "MA",
+            "skuID": 8327859,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "PH",
+            "skuID": 8848073,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          },
+          {
+            "warehouseAbbr": "TD",
+            "skuID": 9363413,
+            "qty": 500,
+            "closeout": false,
+            "dropship": false,
+            "excludeFreeFreight": false,
+            "fullCaseOnly": false,
+            "returnable": true,
+            "expectedInventory": "EnRoute:None|OnOrder:None"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": {
+    "GET": "https://api.s&s.com/categories/v1/getcategories",
+    "Response": [
+      {
+        "categoryID": 702,
+        "name": " Lifestyle & Retail Market Guide",
+        "image": "deprecated"
+      },
+      {
+        "categoryID": 963,
+        "name": " Playbook - Corporate Fun in the Sun Events",
+        "image": "deprecated"
+      },
+      {
+        "categoryID": 262,
+        "name": "1-1.9 oz",
+        "image": "deprecated"
+      },
+      {
+        "categoryID": 330,
+        "name": "1-Ply",
+        "image": "deprecated"
+      },
+      {
+        "categoryID": 274,
+        "name": "10-10.9 oz",
+        "image": "deprecated"
+      },
+      {
+        "categoryID": 261,
+        "name": "100% Cotton Face",
+        "image": "deprecated"
+      }
+    ]
+  },
+  "styles": {
+    "GET": "https://api.s&s.com/v2/styles",
+    "Response": [
+      {
+        "styleID": 9182,
+        "partNumber": "49695",
+        "brandName": "47 Brand",
+        "styleName": "4700",
+        "uniqueStyleName": "4700",
+        "title": "Clean Up Cap",
+        "description": "<ul><li>100% cotton, garment-washed twill</li><li>Unstructured,&nbsp;six-panel, low-profile</li><li>Pre-curved visor</li><li>&#39;47 snap slide buckle closure</li></ul>",
+        "baseCategory": "Headwear",
+        "categories": "11,71,72,87,118,148,155,175,185,239,247,361,367,392,406,423,425,508,512,532,549,550,572,591,592,605,629,643,644,689,690,724,892,896,959,969,970,1065,1066,1069,1078,1083,1085",
+        "catalogPageNumber": "0",
+        "newStyle": false,
+        "comparableGroup": 93,
+        "companionGroup": 1409,
+        "brandImage": "Images/Brand/162_fm.jpg",
+        "styleImage": "Images/Style/9182_fm.jpg",
+        "prop65Chemicals": "",
+        "noeRetailing": false,
+        "boxRequired": true,
+        "sustainableStyle": false
+      },
+      {
+        "styleID": 9183,
+        "partNumber": "49795",
+        "brandName": "47 Brand",
+        "styleName": "4710",
+        "uniqueStyleName": "4710",
+        "title": "Trawler Cap",
+        "description": "<ul><li>100% cotton, garment-washed twill</li><li>100% polyester, soft mesh back</li><li>Unstructured, six-panel, low-profile</li><li>Pre-curved visor, green undersvisor</li><li>Contrasting snapback closure</li></ul>",
+        "baseCategory": "Headwear",
+        "categories": "11,71,72,85,87,147,148,155,159,175,185,215,220,239,245,246,247,363,392,406,423,425,508,512,532,549,558,559,591,592,603,689,690,892",
+        "catalogPageNumber": "0",
+        "newStyle": false,
+        "comparableGroup": 476,
+        "companionGroup": 1409,
+        "brandImage": "Images/Brand/162_fm.jpg",
+        "styleImage": "Images/Style/9183_fm.jpg",
+        "prop65Chemicals": "",
+        "noeRetailing": false,
+        "boxRequired": true,
+        "sustainableStyle": false
+      }
+    ]
+  },
+  "specs": {
+    "GET": "https://api.s&s.com/v2/specs",
+    "Response": [
+      {
+        "specID": 126377,
+        "styleID": 9182,
+        "partNumber": "49695",
+        "brandName": "47 Brand",
+        "styleName": "4700",
+        "sizeName": "Adjustable",
+        "sizeOrder": "A0",
+        "specName": "Bill/ Brim Length",
+        "value": "2 3/4\""
+      },
+      {
+        "specID": 126374,
+        "styleID": 9182,
+        "partNumber": "49695",
+        "brandName": "47 Brand",
+        "styleName": "4700",
+        "sizeName": "Adjustable",
+        "sizeOrder": "A0",
+        "specName": "Crown Height",
+        "value": "3\""
+      }
+    ]
+  },
+  "brands": {
+    "GET": "https://api.s&s.com/v2/brands",
+    "Response": [
+      {
+        "brandID": 162,
+        "name": "47 Brand",
+        "image": "Images/Brand/162_fm.png",
+        "noeRetailing": false,
+        "activeProducts": 29
+      },
+      {
+        "brandID": 209,
+        "name": "Adams Headwear",
+        "image": "Images/Brand/209_fm.png",
+        "noeRetailing": false,
+        "activeProducts": 411
+      }
+    ]
+  }
+}
