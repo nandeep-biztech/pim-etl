@@ -4475,7 +4475,7 @@
 							"print_size_unit": "mm",
 							"max_print_size_height": 5.00,
 							"max_print_size_width": 25.00,
-							"rotation": 0.00,
+							"rotation": 0.00,//??
 							"print_position_type": "Rectangle",
 							"printing_techniques": [
 								{
@@ -4488,7 +4488,7 @@
 								{
 									"distance_from_left": 275,
 									"distance_from_top": 820,
-									"sequence_no": 1
+									"sequence_no": 1 //?
 								},
 								{
 									"distance_from_left": 720,
@@ -5321,7 +5321,7 @@
 							"print_position_type": "Rectangle",
 							"printing_techniques": [
 								{
-									"default": false,
+									"default": false, 
 									"id": "B",
 									"max_colours": "1"
 								},
@@ -5614,10 +5614,10 @@
 					"pricing_type": "NumberOfPositions",
 					"setup": "45,00",
 					"setup_repeat": "23,00",
-					"next_colour_cost_indicator": "false",
+					"next_colour_cost_indicator": "false",//??
 					"var_costs": [
 						{
-							"range_id": "",
+							"range_id": "",//??
 							"area_from": "0",
 							"area_to": "0",
 							"scales": [
