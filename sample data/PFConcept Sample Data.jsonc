@@ -198,7 +198,7 @@
                 {
                   "priceBar": "1",
                   "nettPrice": "6.37",
-                  "type": "N",
+                  "type": "N",//??
                   "industryCol": "11.67"
                 },
                 {
@@ -220,12 +220,12 @@
                   "industryCol": "11.3"
                 }
               ],
-              "_numberOfScales": "4"
+              "_numberOfScales": "4"//??
             },
             "_itemcode": "R10701B0"
           }
         ],
-        "_numberOfItems": "210"
+        "_numberOfItems": "210"//??
       },
       "_modelcode": "R1070"
     }
@@ -239,9 +239,9 @@
             "items": {
               "item": {
                 "stockDirect": "63",
-                "stockNextPo": "875",
-                "stockDateNextPo": "2025-06-17",
-                "StockFuture": "200",
+                "stockNextPo": "875",//??
+                "stockDateNextPo": "2025-06-17",//??
+                "StockFuture": "200",//??
                 "stockLocation": "PL",
                 "_itemCode": "R10701B0"
               }
@@ -249,9 +249,9 @@
             "_modelCode": "R1070"
           }
         },
-        "_creationDateTime": "2025-06-04T00:43:02.443",
-        "_language": "EN",
-        "_department": "CGB1",
+        "_creationDateTime": "2025-06-04T00:43:02.443",//??
+        "_language": "EN",//??
+        "_department": "CGB1",//??
         "_version": "v3"
       },
       "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
