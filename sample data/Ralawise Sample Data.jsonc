@@ -1,0 +1,191 @@
+[
+  {
+    "Sku Code": "TS009BLACS",
+    "Alpha Sku Code": "TS009BLAC0",//??
+    "Style Code": "TS009",
+    "Manufacturer Style Code": "TS009",//??
+    "Brand": "2786",
+    "Style Name": "Hooded 2-layer softshell jacket",
+    "Colour Code": "BLAC",
+    "Colour Name": "Black",
+    "Size Code": "S",
+    "Size Name": "S",//??
+    "Specification": "Reliable 2-layer bonded softshell jacket with hood. Full-length zip with storm flap and chin guard. Three-panelled hood with adjustable toggles. Two front zipped pockets. Elasticated cuffs. Raglan sleeves. Shaped to fit. Inner hem with adjustable toggles. Showerproof. Windproof. Two inside pockets. Easy re-label system. Product contains no branded neck label. Removable Kimble or looped garment tags. Inner seam label holds important product information on one label, with a second label containing brand information which can be cut away.",//?? we can move it in long description
+    "Retail Description": "Maintain a smart and professional appearance in this hooded 2-layer softshell jacket – a style inspired by a classic. Suitable for a wide range of work and outdoor environments with its contemporary design and functional features, including a full-length zip with storm flap and chin guard, adding another layer of protection.",
+    "Product Feature 1": "",//??
+    "Product Feature 2": "",//??
+    "Product Feature 3": "",//??
+    "Size Range": "S–3XL",
+    "Sizing To Fit": "S 38\" M 41\" L 44\" XL 46\" 2XL 48\" 3XL 50\"",
+    "Size Exclusions": "",//??
+    "Washing Instructions": "Machine wash 30°. Gentle setting. Do not bleach. Iron low. Do not tumble dry. Do not dry clean.",//??
+    "Jacket Length": "",//??
+    "Leg Length": "",//??
+    "Fabric": "Outer layer: 98% Polyester, 2% Elastane. Inner layer: 100% Polyester.",//?? we can consider this in material key
+    "Weight (GSM)": "Outer and inner layer: 290gsm",
+    "Bag Capacity": "",
+    "Print Area": "",//??
+    "Embroidery Information": "",//??
+    "Bag Dimensions": "",//??
+    "Product Type": "Softshells",
+    "Gender": "Male",
+    "Age Group": "Adult",//??
+    "Accreditations": "Amfori BSCI",//??
+    "Tag": "Tagless",//??
+    "Sustainable/Organic": "No",//??
+    "Plus Sizes": "Yes",//??
+    "Categorisation": "Jackets & Coats|Softshells|Lightweight layers|Outerwear Full Collection",
+    "Primary Colour": "Black",//??
+    "Colour Shade": "Black - Black",//??
+    "Pantone": "Black (Black)",//??
+    "RGB": "",//??
+    "CMYK": "0 0 0 100 (Black)",//??
+    "Carton Quantity": 10,//??
+    "Pack Quantity": 2,//??
+    "Vat Status": "Vatable in UK",//??
+    "Carton Price": 18,//??
+    "Pack Price": 19.55,//??
+    "Single Price": 21.3,
+    "Commodity Code": "6101309000",
+    "Item Weight in KG": 0.19,//??
+    "Country of Origin": "BD",
+    "Sku Status": "Live",
+    "Primary Product Image URL": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/688aebf3/67483f9015b286ee281eee85/TS009_LS00_2025.jpg",
+    "Primary Product Image File Name": "TS009_LS00_2025.jpg",
+    "Primary Image Licence Expiry Date": "46022",
+    "Colour Image": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/e9c2a9f9/6564b793d9e4aa6ced000056/TS009_Black_FT.jpg",
+    "Colour Image File Name": "TS009_Black_FT.jpg",
+    "New Style": 0,//??
+    "New Colour": 0,//??
+    "New Size": 0,//??
+    "Size Guide": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/51caeeaa/656a02fedb80ce2d6c000072/TS009_SizeGuide.pdf",//?? if we wanted to add than we can manage it in digital_assets
+    "Spec Sheet": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/9df95766/685cf3ecba355a7f01000006/TS009_SpecSheet.pdf",//??
+    "EAN Code": "Not available"
+  },
+  {
+    "Sku Code": "TS012NAVYM",
+    "Alpha Sku Code": "TS012NAVYB",
+    "Style Code": "TS012",
+    "Manufacturer Style Code": "TS012",
+    "Brand": "2786",
+    "Style Name": "Softshell jacket",
+    "Colour Code": "NAVY",
+    "Colour Name": "Navy",
+    "Size Code": "M",
+    "Size Name": "M",
+    "Specification": "Reliable 3 layer bonded soft shell jacket. Zip through cadet collar with storm flap and chin guard. Sheds light wind and rain. Breathable. Interior smartphone friendly pocket. Storm cuffs. Shaped to fit. Inside zip closed pocket. Concealed inside zip for decoration access. Two front zippered pockets. Adjustable drawcord at hem. Windproof and water resistant. Easy re-label system. Product contains no branded neck label.* Removable Kimble or looped garment tags. Inner seam label holds important product information on one label with a second label containing brand information which can be cut-away.",
+    "Retail Description": "Timeless, adaptable and perfect for evoking a smart corporate image, our sleek fitting softshell is equally comfortable as it is stylish. With crucial functional features and soft structural elements, this is a true workwear hero suitable whatever your corporate style.",
+    "Product Feature 1": "3-layer bonded softshell",
+    "Product Feature 2": "Contemporary styling",
+    "Product Feature 3": "Windproof and water-resistant",
+    "Size Range": "S to 3XL",
+    "Sizing To Fit": "S 38\" M 41\" L 44\" XL 46\" 2XL 48\" 3XL 50\"",
+    "Size Exclusions": "",
+    "Washing Instructions": "Machine wash 30°. Gentle setting. Do not bleach. Iron low. Do not tumble dry. Do not dry clean",
+    "Jacket Length": "",
+    "Leg Length": "",
+    "Fabric": "100% Polyester woven shell bonded to a 100% Polyester microfleece lining with PU membrane",
+    "Weight (GSM)": "320gsm",
+    "Bag Capacity": "",
+    "Print Area": "",
+    "Embroidery Information": "",
+    "Bag Dimensions": "",
+    "Product Type": "Softshells",
+    "Gender": "Male",
+    "Age Group": "Adult",
+    "Accreditations": "Amfori BSCI",
+    "Tag": "Cut-away inner label",
+    "Sustainable/Organic": "No",
+    "Plus Sizes": "Yes",
+    "Categorisation": "Rebrandable|Plus Sizes|Jackets & Coats|Workwear|Softshells|Lightweight layers|Top 1000 Sellers - DM200724|Must Haves|Outerwear Full Collection|Warm Clothing",
+    "Primary Colour": "Blue",
+    "Colour Shade": "Blue - Navy",
+    "Pantone": "2965 (Navy)",
+    "RGB": "",
+    "CMYK": "100 63 16 78 (Navy)",
+    "Carton Quantity": 20,
+    "Pack Quantity": 5,
+    "Vat Status": "Vatable in UK",
+    "Carton Price": 18.5,
+    "Pack Price": 20.05,
+    "Single Price": 21.75,
+    "Commodity Code": "6210200090",
+    "Item Weight in KG": 0.75,
+    "Country of Origin": "CN",
+    "Sku Status": "Live",
+    "Primary Product Image URL": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/f2c91539/67483f9015b286ee281eee82/TS012_LS00_2025.jpg",
+    "Primary Product Image File Name": "TS012_LS00_2025.jpg",
+    "Primary Image Licence Expiry Date": "46022",
+    "Colour Image": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/555f0628/5c653f17173425182b00005fcb0504e0.jpg",
+    "Colour Image File Name": "TS012_Navy_FT.jpg",
+    "New Style": 0,
+    "New Colour": 0,
+    "New Size": 0,
+    "Size Guide": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/040fec44/61f3e530abc9960c52000032/TS012_SizeGuide.pdf",
+    "Spec Sheet": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/79b94f76/61ddaf74bdd8fa234c000011/43134276/TS012_SpecSheet.pdf",
+    "EAN Code": "Not available"
+  },
+  {
+    "Sku Code": "TS013BLACS",
+    "Alpha Sku Code": "TS013BLACA",
+    "Style Code": "TS013",
+    "Manufacturer Style Code": "TS013",
+    "Brand": "2786",
+    "Style Name": "Parka jacket",
+    "Colour Code": "BLAC",
+    "Colour Name": "Black",
+    "Size Code": "S",
+    "Size Name": "S",
+    "Specification": "Warm and versatile parka jacket. Water resistant. Wind resistant. Warm polyfill quilted lining. Concealed adjustable storm hood. Full zip with storm flap. Snug, fleece lined collar with chin guard. Storm cuffs. Two zippered front pockets. Two interior pockets. Decoration flexible concealed interior zip for decoration access. Easy re-label system. Product contains no branded neck label.* Removable Kimble or looped garment tags. Inner seam label holds important product information on one label with a second label containing brand information which can be cut-away.",
+    "Retail Description": "Ideal for work and leisure, the parka makes light work of dressing for unpredictable weather. A wardrobe essential, this classic style is thoroughly detailed all over including a structured fleece lined collar, concealed hood and knitted cuffs.",
+    "Product Feature 1": "Concealed adjustable storm hood",
+    "Product Feature 2": "Warm polyfill quilted lining",
+    "Product Feature 3": "Water-resistant and wind-resistant",
+    "Size Range": "S to 3XL",
+    "Sizing To Fit": "S 38\" M 41\" L 44\" XL 46\" 2XL 48\" 3XL 50\"",
+    "Size Exclusions": "",
+    "Washing Instructions": "Machine wash 30°. Gentle setting. Do not bleach. Iron low. Do not tumble dry. Do not dry clean",
+    "Jacket Length": "",
+    "Leg Length": "",
+    "Fabric": "Outer: 100% Polyester Oxford weave. Inner: 100% Polyester",
+    "Weight (GSM)": "Outer: 350gsm. Filling: 140gsm. Lining: 50gsm",
+    "Bag Capacity": "",
+    "Print Area": "",
+    "Embroidery Information": "",
+    "Bag Dimensions": "",
+    "Product Type": "Jackets",
+    "Gender": "Unisex",
+    "Age Group": "Adult",
+    "Accreditations": "Amfori BSCI",
+    "Tag": "Cut-away inner label",
+    "Sustainable/Organic": "No",
+    "Plus Sizes": "Yes",
+    "Categorisation": "Rebrandable|Plus Sizes|Jackets & Coats|Workwear|Outerwear Technical|Outerwear Parkas|Must Haves|Outerwear Full Collection|Warm Clothing|On Raladeal",
+    "Primary Colour": "Black",
+    "Colour Shade": "Black - Black",
+    "Pantone": "Black (Black)",
+    "RGB": "",
+    "CMYK": "0 0 0 100 (Black)",
+    "Carton Quantity": 10,
+    "Pack Quantity": 5,
+    "Vat Status": "Vatable in UK",
+    "Carton Price": 23,
+    "Pack Price": 24.85,
+    "Single Price": 26.9,
+    "Commodity Code": "6210200090",
+    "Item Weight in KG": 1.6,
+    "Country of Origin": "CN",
+    "Sku Status": "Live",
+    "Primary Product Image URL": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/d62a756f/67483f9015b286ee281eee7f/TS013_LS00_2025.jpg",
+    "Primary Product Image File Name": "TS013_LS00_2025.jpg",
+    "Primary Image Licence Expiry Date": "46022",
+    "Colour Image": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/555f0628/5c653f17173425182b0000625e321e2c.jpg",
+    "Colour Image File Name": "TS013_Black_FT.jpg",
+    "New Style": 0,
+    "New Colour": 0,
+    "New Size": 0,
+    "Size Guide": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/040fec44/61f3e542abc9960c52000037/TS013_SizeGuide.pdf",
+    "Spec Sheet": "https://cdn.pimber.ly/public/asset/raw/571f95845f13380f0056d06a/79b94f76/61ddafe9bdd8fa234c000012/ba2b1871/TS013_SpecSheet.pdf",
+    "EAN Code": "Not available"
+  }
+]
