@@ -6,8 +6,8 @@
         "ProductId": 1,
         "Name": "Atlantic White",
         "Prodcode": "ATLWHI",
-        "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/ATLWHI.jpg",
-        "ShapeName": "Atlantic",
+        "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/ATLWHI.jpg",//?? which should be consider high resolution(HiresImageUri) or lower
+        "ShapeName": "Atlantic",//??
         "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/ATLWHI.png",
         "Description": "A straight mug with a slightly exaggerated lip with a comfortable sized handle, the perfect give away to sit on any desk.",
         "Brand": "Keramikos",
@@ -19,8 +19,8 @@
         "PrintDyeSublimation": false,
         "PrintFullColour": false,
         "CategoryName": "Earthenware",
-        "IsEcoProduct": false,
-        "CreatePageUri": null,
+        "IsEcoProduct": false,//??
+        "CreatePageUri": null,//??
         "ProductSpecifications": [
           {
             "Id": 1,
@@ -47,8 +47,163 @@
             "SpecificationValue": "81"
           }
         ],
-        "OptionItems": [],
-        "AdditionalCharges": [],
+        "OptionItems": [//??
+        {
+          "Id": 1,
+          "Name": "Shaker Lid Black",
+          "ProdCode": "SHKLIDBK",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 2,
+          "Name": "Shaker Lid Clip Black",
+          "ProdCode": "SHKCLPBK",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 3,
+          "Name": "Shaker Lid Clip Dark Blue",
+          "ProdCode": "SHKCLPBL",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 4,
+          "Name": "Shaker Lid Clip Green",
+          "ProdCode": "SHKCLPGR",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 5,
+          "Name": "Shaker Lid Clip Light Blue",
+          "ProdCode": "SHKCLPLB",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 6,
+          "Name": "Shaker Lid Clip Orange",
+          "ProdCode": "SHKCLPOR",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 7,
+          "Name": "Shaker Lid Clip Pink",
+          "ProdCode": "SHKCLPPK",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 8,
+          "Name": "Shaker Lid Clip Purple",
+          "ProdCode": "SHKCLPPP",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 9,
+          "Name": "Shaker Lid Clip Red",
+          "ProdCode": "SHKCPRD",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 10,
+          "Name": "Shaker Lid Clip White",
+          "ProdCode": "SHKCLPWH",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 11,
+          "Name": "Shaker Lid Clip Yellow",
+          "ProdCode": "SHKCLPY",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 12,
+          "Name": "Shaker Lid Dark Blue",
+          "ProdCode": "SHKLIDBL",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 13,
+          "Name": "Shaker Lid Green",
+          "ProdCode": "SHKLIDGR",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 14,
+          "Name": "Shaker Lid Light Blue",
+          "ProdCode": "SHKLIDLB",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 15,
+          "Name": "Shaker Lid Orange",
+          "ProdCode": "SHKLIDOR",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 16,
+          "Name": "Shaker Lid Pink",
+          "ProdCode": "SHKLIDPK",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 17,
+          "Name": "Shaker Lid Pink",
+          "ProdCode": "SHLIDPK",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 18,
+          "Name": "Shaker Lid Purple",
+          "ProdCode": "SHKLIDPP",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 19,
+          "Name": "Shaker Lid Red",
+          "ProdCode": "SHKLIDRD",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 20,
+          "Name": "Shaker Lid White",
+          "ProdCode": "SHKLIDWH",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        },
+        {
+          "Id": 21,
+          "Name": "Shaker Lid Yellow",
+          "ProdCode": "SHKLIDY",
+          "UnitCost": 0.0,
+          "ImageUri": ""
+        }
+      ],
+        "AdditionalCharges": [//??
+        {
+          "Name": "Ink mixing charge",
+          "ChargePerOrder": 60.0,
+          "ChargePerItem": 0.0,
+          "QuantityFrom": 1
+        }
+      ],
         "DespatchPrices": [
           {
             "QuantityFrom": 36,
@@ -109,7 +264,7 @@
         "PrintTypes": [
           {
             "PrintTypeName": "Direct",
-            "PrintCodeId": 1,
+            "PrintCodeId": 1,//??
             "PrintArea": "185 x 70mm",
             "TypicalLeadTimes": "Typically 7-10 working days from art approval.",
             "PrintPrices": [
@@ -334,7 +489,7 @@
                 "UnitPrice": 1.42
               }
             ],
-            "OriginationPrices": [
+            "OriginationPrices": [//??
               {
                 "NumberOfColours": 1,
                 "QuantityFrom": 36,
