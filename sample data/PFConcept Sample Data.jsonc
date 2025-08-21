@@ -64,7 +64,7 @@
                 "decorationMandatory": "No",
                 "decoComments": ""
               },
-              "packaging": {
+              "packaging": {//??
                 "decoPackagingIndiv": "NO",
                 "decoPackagingIndivType": "",
                 "decoPackaging": "30 / Polybag"
@@ -78,7 +78,7 @@
             "countryOfOrigin": "BANGLADESH",
             "hsCode": "6110309900000000000000",//??
             "brand": "Roly",
-            "categoryData": {
+            "categoryData": {//?? we just consider a groupDesc from this
               "groupCode": "mc2",
               "groupDesc": "Clothing",
               "catCode": "sc206",
@@ -361,8 +361,8 @@
         }],
         "_createdDateTime": "2025-05-31T16:02:38.480",
         "_currency": "GBP",
-        "_language": "EN",
-        "_department": "CNL2",
+        "_language": "EN",//??
+        "_department": "CNL2",//??
         "_version": "V3"
       },
       "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"

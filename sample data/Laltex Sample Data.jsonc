@@ -15,8 +15,8 @@
 				"Supplier": "Laltex Promo",
 				"Category": "Health and Wellbeing",
 				"SubCategory": "Gifts",
-				"ProductIndicator": "",
-				"TariffCode": "6307909899",
+				"ProductIndicator": "",//??
+				"TariffCode": "6307909899",//??
 				"CountryOfOrigin": "CHINA",
 				"MinimumOrderQty": 25, 
 				"CartonQty": 1000,	
@@ -244,7 +244,7 @@
 						"SetupCharge": "£23.50",
 						"RptSetupCharge": "£17.50",
 						"ExtraColourSetupCharge": "N/A",
-						"DefaultPrintOption": true,
+						"DefaultPrintOption": true,//??
 						"PrintPrice": [
 							{
 								"NumColours": "1",
@@ -397,7 +397,7 @@
 						]
 					}
 				],
-				"PriorityService": [],
+				"PriorityService": [],//??
 				"ShippingCharge": [
 					{
 						"ServiceType": "ukstandard",
