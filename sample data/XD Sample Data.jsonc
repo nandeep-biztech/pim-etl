@@ -30,11 +30,11 @@
 				"ItemBoxLengthCM": 32.00, 
 				"ItemBoxWidthCM": 16.00, 
 				"ItemBoxHeightCM": 20.00,
-				"ItemBoxDimensions": "32 x 16 x 20 cm",  //??
+				"ItemBoxDimensions": "32 x 16 x 20 cm",  //?? no need
 				"OuterCartonLengthCM": 41.50,
 				"OuterCartonWidthCM": 28.00,
 				"OuterCartonHeightCM": 45.00,
-				"OuterCartonDimensions": "41.5 x 28 x 45 cm", //??
+				"OuterCartonDimensions": "41.5 x 28 x 45 cm", //?? no need
 				"OuterCartonWeightNetKG": 6.3,
 				"OuterCartonWeightGrossKG": 7.3,
 				"InnerboxQty": 1,
@@ -43,11 +43,11 @@
 				"Compliance": "Bisphenol A free materials used, Conform Food safe directive 1935/2004/EC & 2020/1245, Certificate of Recycled Claim Standard",
 				"Certifications": "https://static.xdconnects.com/ProductCertificates/Declaration of compliance V10200__f194503d4479460d9fc760010d32c18a.pdf, https://static.xdconnects.com/ProductCertificates/Statement of compliance V10200__61428cae599544a68b0de8a01e7645ba.pdf",
 				"Social Audits": "SMETA,BSCI",
-				"Eco": true,	//??
-				"Traceability": "RCS Blended",
+				"Eco": true,	//?? mapped in sustanability
+				"Traceability": "RCS Blended",//?? Not now
 				"Recycled Content Percent": 98.00,
-				"Leak Prevention": "Spillproof",
-				"Insulation": "Plastic",
+				"Leak Prevention": "Spillproof", // mapped in product specification
+				"Insulation": "Plastic",// mapped in product specification
 				"HoursHot": 2,
 				"HoursCold": 4,
 				"Total CO2 emissions": 0.43,
@@ -67,18 +67,18 @@
 				"MainImage Neutral": "https://static.xdconnects.com/ProductImages/Large/102001__B_1__087a6be7628d40e9a6ad486630493cbd.jpg",		//??
 				"ExtraImage1": "https://static.xdconnects.com/ProductImages/Large/102001__B_2__91c7a1182fff4b99b3b2ebb818c300b5.jpg",		//?? insert as gallery type in images
 				"ImagePrint": "https://static.xdconnects.com/ProductImages/Large/102001__D_100__b64789700e874f36a994215cfeb55987.jpg",		//?? insert as gallery type in images
-				"Product Box net weight plastic GR": 2.0,		//??
-				"Product Box net weight other GR": 4.0,		//??
-				"Product Box gross weight GR": 6.0,		//??
-				"ContentVolumeLiters": 0.60,		//??
-				"AllPrintCodes": "Pad Print Drinkware,Digital round 360-2,SilkScreen Round,Doming",		//??
-				"PrintCodeDefault": "Pad Print Drinkware",		//??
-				"PrintTechniqueDefault": "Pad print",		//??
-				"PrintPositionDefault": "item front middle",		//??
-				"MaxPrintWidthDefaultMM": 25.00,		//??
-				"MaxPrintHeightDefaultMM": 70.00,		//??
-				"MaxPrintAreaDefault": "25 x 70 mm",		//??
-				"MaxColorsDefault": 5,		//??
+				"Product Box net weight plastic GR": 2.0,		//?? no need
+				"Product Box net weight other GR": 4.0,		//??no need
+				"Product Box gross weight GR": 6.0,		//??no need
+				"ContentVolumeLiters": 0.60,		//?? no need
+				"AllPrintCodes": "Pad Print Drinkware,Digital round 360-2,SilkScreen Round,Doming",		//?? no need
+				"PrintCodeDefault": "Pad Print Drinkware",		//?? no need
+				"PrintTechniqueDefault": "Pad print",		//?? no need
+				"PrintPositionDefault": "item front middle",		//?? no need
+				"MaxPrintWidthDefaultMM": 25.00,		//?? no need
+				"MaxPrintHeightDefaultMM": 70.00,		//?? no need
+				"MaxPrintAreaDefault": "25 x 70 mm",		//?? no need
+				"MaxColorsDefault": 5,		//?? no need
 				"LineDrawingDefault": "https://static.xdconnects.com/ProductDecorationImages/102001__PadPrintDrinkware_itemfrontmiddle__89bb52a30883412eb0221b7d840897fe.png",		//??
 				"VariableDataPrinting": true,
 				"GiftWrappingPossible": true
@@ -89,15 +89,15 @@
 		"GET": "https://feeds.xindao.com/Feeds/Download/[UNIQUE_KEY_OF_PRODUCT_PRICES]/Xindao.V2.ProductPrices-en-gb",
 		"Response": [
 			{
-				"FeedCreatedDateTime": "2025-04-25T07:23:38.0914582+02:00",		//??
-				"ItemPriceLastModifiedDateTime": "2024-10-28T14:06:30Z",		//??
+				"FeedCreatedDateTime": "2025-04-25T07:23:38.0914582+02:00",		//?? no need
+				"ItemPriceLastModifiedDateTime": "2024-10-28T14:06:30Z",		//?? no need
 				"Currency": "GBP",
 				"ModelCode": "V10200",
 				"ItemCode": "102001",
 				"ItemName": "VINGA Cott RCS RPET water bottle, grey",		//??
-				"Outlet": true,		//??
-				"AllPrintCodes": "Pad Print Drinkware,Digital round 360-2,SilkScreen Round,Doming",		//??
-				"MOQBlankOrder": 1,		//??
+				"Outlet": true,		//?? no need
+				"AllPrintCodes": "Pad Print Drinkware,Digital round 360-2,SilkScreen Round,Doming",		//?? no need
+				"MOQBlankOrder": 1,		//?? consider moqWithoutPrint
 				"Qty1": 1,
 				"Qty2": 100,
 				"Qty3": 250,
@@ -116,8 +116,8 @@
 				"ItemPriceGross_Qty4": 4.82,
 				"ItemPriceGross_Qty5": 4.72,
 				"ItemPriceGross_Qty6": 4.63,
-				"AdditionalCostDesc": "",		//??
-				"AdditionalCost": ""		//??
+				"AdditionalCostDesc": "",		//?? non need
+				"AdditionalCost": ""		//?? consider additionalCharges in pricing on product level
 			},
 		]
 	},
@@ -125,11 +125,11 @@
 		"GET": "https://feeds.xindao.com/Feeds/Download/[UNIQUE_KEY_OF_PRINT_DATA]/Xindao.V3.PrintData-en-gb",
 		"Response": [
 			{
-				"FeedCreatedDateTime": "2025-04-25T07:23:41.2733096+02:00",		//??
-				"PrintDataLastModifiedDateTime": "2025-04-09T22:00:10.3480696Z",		//??
+				"FeedCreatedDateTime": "2025-04-25T07:23:41.2733096+02:00",		//?? no need
+				"PrintDataLastModifiedDateTime": "2025-04-09T22:00:10.3480696Z",		//?? no need
 				"ModelCode": "V10200",
 				"ItemCode": "102001",
-				"ItemName": "VINGA Cott RCS RPET water bottle, grey",		//??
+				"ItemName": "VINGA Cott RCS RPET water bottle, grey",		//?? no need
 				"PrintCode": "Pad Print Drinkware",
 				"PrintTechnique": "Pad print",
 				"Default": true,
@@ -137,14 +137,14 @@
 				"PrintPositionCode": "item front middle",
 				"MaxPrintWidthMM": 25.00,
 				"MaxPrintHeightMM": 70.00,
-				"MaxPrintArea": "25 x 70 mm",		//??
+				"MaxPrintArea": "25 x 70 mm",		//?? Already consider
 				"MaxColors": 5,
 				"LineDrawing": "https://static.xdconnects.com/ProductDecorationImages/102001__PadPrintDrinkware_itemfrontmiddle__89bb52a30883412eb0221b7d840897fe.png",		//??
-				"VRP_X": 707,		//?? coordinates.top_left_x?
-				"VRP_Y": 393,		//?? coordinates.top_left_y?
-				"VRP_Width": 92,		//??
-				"VRP_Height": 259,		//??
-				"VRP_URL": "https://static.xdconnects.com/PrintOptionVRP/102001_297724__67b00b6d17a0483aa183d08f66419d1e.png"		//??
+				"VRP_X": 707,		//?? coordinates.top_left_x? Yes
+				"VRP_Y": 393,		//?? coordinates.top_left_y? Yes
+				"VRP_Width": 92,		//?? consider in coordinated
+				"VRP_Height": 259,		//??  consider in coordinated
+				"VRP_URL": "https://static.xdconnects.com/PrintOptionVRP/102001_297724__67b00b6d17a0483aa183d08f66419d1e.png"		//?? consider in blankimages
 			},
 		]
 	},
@@ -158,13 +158,13 @@
 				"PrintCode": "CO2 Engraving 1",
 				"PrintTechnique": "CO2 Engraving",
 				"TechniqueType": "Print",
-				"ProductionSKU": "XCO2_1",		//??
+				"ProductionSKU": "XCO2_1",		//?? consider in methodCode
 				"SetupSKU": "XCO2_SetUp",		//??
 				"VDPSKU": "XCO2_VDP",		//??
 				"MOQPrintOrder": 1,		//??
 				"SetupNet": 25.00,
-				"PrintSampleNet": 25.00,		//??
-				"SmallOrderChargeNet": 0,		//??
+				"PrintSampleNet": 25.00,		//?? consider in setupCharges
+				"SmallOrderChargeNet": 0,		//?? consider in setupCharges
 				"VariableDataPrinting": true,
 				"PrintPriceNet_1": 1.30,
 				"PrintPriceNet_50": 0.57,
@@ -184,7 +184,7 @@
 				"PrintPriceGross_2500": 0.57,
 				"PrintPriceGross_5000": 0.54,
 				"PrintPriceGross_10000": 0.46,
-				"VDPPriceNet_1": 0.35,		//??
+				"VDPPriceNet_1": 0.35,		//?? Consider in VDP printing price whole things
 				"VDPPriceNet_50": 0.35,		//??
 				"VDPPriceNet_100": 0.35,		//??
 				"VDPPriceNet_250": 0.35,		//??
@@ -469,7 +469,7 @@
 		"GET": "https://feeds.xindao.com/Feeds/Download/[UNIQUE_KEY_OF_STOCK]/Xindao.V2.Stock-en-gb",
 		"Response": [
 			{
-				"FeedCreatedDateTime": "2025-04-25T07:25:31.2603929+02:00",		//??
+				"FeedCreatedDateTime": "2025-04-25T07:25:31.2603929+02:00",		//?? no need
 				"ModelCode": "V10200",
 				"ItemCode": "102001",
 				"ItemName": "VINGA Cott RCS RPET water bottle, grey",

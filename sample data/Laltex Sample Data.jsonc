@@ -15,8 +15,8 @@
 				"Supplier": "Laltex Promo",
 				"Category": "Health and Wellbeing",
 				"SubCategory": "Gifts",
-				"ProductIndicator": "",//??
-				"TariffCode": "6307909899",//??
+				"ProductIndicator": "",//?? no need
+				"TariffCode": "6307909899",//?? no need
 				"CountryOfOrigin": "CHINA",
 				"MinimumOrderQty": 25, 
 				"CartonQty": 1000,	
@@ -244,7 +244,7 @@
 						"SetupCharge": "£23.50",
 						"RptSetupCharge": "£17.50",
 						"ExtraColourSetupCharge": "N/A",
-						"DefaultPrintOption": true,//??
+						"DefaultPrintOption": true,//?? no need
 						"PrintPrice": [
 							{
 								"NumColours": "1",
@@ -397,7 +397,7 @@
 						]
 					}
 				],
-				"PriorityService": [],//??
+				"PriorityService": [],//?? no need
 				"ShippingCharge": [
 					{
 						"ServiceType": "ukstandard",
@@ -1029,9 +1029,9 @@
 						"ItemDescription": "'Venus' Solid WHITE Tyre Gauge with BLACK Trim",
 						"ItemColour": "White",
 						"ItemSize": "75x33x6mm",
-						"SeedType": null,
+						"SeedType": null,//?? not now
 						"PMS": "White",
-						"ItemIndicator": "",
+						"ItemIndicator": "", //?? no need
 						"ItemImages": [
 							"https://laltex-extranet.co.uk/images/AA0135WH.jpg"
 						],

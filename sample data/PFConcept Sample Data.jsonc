@@ -5,7 +5,7 @@
       "extDesc": "Classic sweatshirt with 1x1 elastane rib in collar, cuffs and waistband. Reinforced covered seams in collar. Removable label. The model is 185 cm and is wearing size L.",
       "keywords": "roly, Sweater, Sweaters, hoodie, hoodies, sweatshirt, sweatshirts, hooded sweater, hooded sweaters,Knitted,Knits, jumpers",
       "productComments": "Please check the size chart before ordering. Roly follows Spanish sizing which has a more slim-fit design.",
-      "attributes": {//??
+      "attributes": {//?? map with specificAttributes
         "attribute": [
           {
             "attributeSetting": "No",
@@ -25,7 +25,7 @@
           }
         ]
       },
-      "supplierAddress": "Gor Factory, s.a.,Ctra. Santomera / Abanilla Km 8.8,30620 Fortuna - Murcia - Spain",//??
+      "supplierAddress": "Gor Factory, s.a.,Ctra. Santomera / Abanilla Km 8.8,30620 Fortuna - Murcia - Spain",//?? no need
       "items": {
         "item": [
           {
@@ -42,15 +42,15 @@
               "diameterCm": "",
               "circumferenceCm": "",
               "SizeCombined": "",//??
-              "giftboxLengthCm": "",//??
-              "giftboxHeightCm": "",//??
-              "giftboxWidthCm": "",//??
-              "giftboxDiameterCm": "",//??
-              "giftboxSizeCombined": ""//??
+              "giftboxLengthCm": "",//??not now
+              "giftboxHeightCm": "",//??not now
+              "giftboxWidthCm": "",//??not now
+              "giftboxDiameterCm": "",//??not now
+              "giftboxSizeCombined": ""//??not now  
             },
             "qtyPerCarton": "30",
-            "decorationSettings": {//??
-              "decoDefault": {
+            "decorationSettings": {
+              "decoDefault": {//?? no need
                 "method": "Screenprint",
                 "leadTime": "2",
                 "leadTimeMaxQty": "250",
@@ -64,7 +64,7 @@
                 "decorationMandatory": "No",
                 "decoComments": ""
               },
-              "packaging": {//??
+              "packaging": {//?? need to check
                 "decoPackagingIndiv": "NO",
                 "decoPackagingIndivType": "",
                 "decoPackaging": "30 / Polybag"
@@ -72,17 +72,17 @@
             },
             "grossWeightKg": "12",
             "nettWeightKg": "11,4",
-            "exportLcm": "55",//??
-            "exportWcm": "36",//??
-            "exportHcm": "38",//??
+            "exportLcm": "55",//?? no need
+            "exportWcm": "36",//?? no need
+            "exportHcm": "38",//?? no need
             "countryOfOrigin": "BANGLADESH",
-            "hsCode": "6110309900000000000000",//??
+            "hsCode": "6110309900000000000000",//?? no need
             "brand": "Roly",
-            "categoryData": {//?? we just consider a groupDesc from this
+            "categoryData": {//?? we just consider a groupDesc from this 
               "groupCode": "mc2",
-              "groupDesc": "Clothing",
+              "groupDesc": "Clothing", // consider it as name
               "catCode": "sc206",
-              "catDesc": "Sweaters"
+              "catDesc": "Sweaters" // consider it as description
             },
             "colors": {
               "color": [{
@@ -93,12 +93,12 @@
                 "_colorCode": "YELLOW"
               }]
             },
-            "penInkColor": "",//??
+            "penInkColor": "",//?? no need
             "material": "Knit of 50% Cotton and 50% Polyester, 280 g/m2",
-            "simpleMaterial": "Cotton,Polyester",//??
-            "battery": {//??
-              "batteryIncluded": "No",
-              "batteryNr": "0",
+            "simpleMaterial": "Cotton,Polyester",//?? no need
+            "battery": {//?? no need whole obj
+              "batteryIncluded": "No", // consider this in specific attribute
+              "batteryNr": "0", // consider this in specific attribute
               "batterySizes": {
                 "types": [
                   {
@@ -115,8 +115,8 @@
               },
               "batteryWeight": ""
             },
-            "eanCode": "8713159626756",//??
-            "launchDate": "01-01-2024",//??
+            "eanCode": "8713159626756",
+            "launchDate": "01-01-2024",//?? no need
             "imageData": {
               "imageMain": "R10701B.jpg",
               "imageLogoY1": "R10701B_F1_SP_Y1.jpg",
@@ -139,16 +139,16 @@
             },
             "videoUrl1": "https://player.vimeo.com/video/899219556",
             "videoUrl2": "",
-            "markSegment": "Label",//??
-            "addOn": "",//??
-            "catalogues": {//??
+            "markSegment": "Label",//?? no need
+            "addOn": "",//?? no need
+            "catalogues": {//?? no need
               "catalog": {
                 "year": "",
                 "page": "",
                 "_type": ""
               }
             },
-            "themes": {//??
+            "themes": {//?? no need
               "theme": [
                 "Collections-clothing-roly-selection",
                 "Collections-clothing-unisex-clothing",
@@ -190,15 +190,15 @@
         "item": [
           {
             "currency": "GBP",
-            "clearance": "",
-            "decoCharge": "MR07,DTF02,DTRTS01,EMBF03,TRAT03",//??
-            "minDecoQty": "50",//??
+            "clearance": "",//?? no need
+            "decoCharge": "MR07,DTF02,DTRTS01,EMBF03,TRAT03",//?? no need
+            "minDecoQty": "50",
             "scales": {
               "scale": [
                 {
                   "priceBar": "1",
                   "nettPrice": "6.37",
-                  "type": "N",//??
+                  "type": "N",//?? not now
                   "industryCol": "11.67"
                 },
                 {
@@ -220,12 +220,12 @@
                   "industryCol": "11.3"
                 }
               ],
-              "_numberOfScales": "4"//??
+              "_numberOfScales": "4"//?? no need
             },
             "_itemcode": "R10701B0"
           }
         ],
-        "_numberOfItems": "210"//??
+        "_numberOfItems": "210"//?? no need
       },
       "_modelcode": "R1070"
     }
@@ -239,9 +239,9 @@
             "items": {
               "item": {
                 "stockDirect": "63",
-                "stockNextPo": "875",//??
-                "stockDateNextPo": "2025-06-17",//??
-                "StockFuture": "200",//??
+                "stockNextPo": "875",
+                "stockDateNextPo": "2025-06-17",
+                "StockFuture": "200",//?? no need
                 "stockLocation": "PL",
                 "_itemCode": "R10701B0"
               }
@@ -249,9 +249,9 @@
             "_modelCode": "R1070"
           }
         },
-        "_creationDateTime": "2025-06-04T00:43:02.443",//??
-        "_language": "EN",//??
-        "_department": "CGB1",//??
+        "_creationDateTime": "2025-06-04T00:43:02.443",
+        "_language": "EN",//?? no need
+        "_department": "CGB1",//?? no need
         "_version": "v3"
       },
       "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
@@ -361,8 +361,8 @@
         }],
         "_createdDateTime": "2025-05-31T16:02:38.480",
         "_currency": "GBP",
-        "_language": "EN",//??
-        "_department": "CNL2",//??
+        "_language": "EN",//?? no need
+        "_department": "CNL2",//?? no need
         "_version": "V3"
       },
       "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
@@ -370,7 +370,7 @@
   },
   "ProductPrintLabelFeed": {
     "model": {
-      "description": "Clasica unisex crewneck sweater",//??
+      "description": "Clasica unisex crewneck sweater",//?? no need
       "items": {
         "item": {
           "printfeedrefs": {

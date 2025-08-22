@@ -11,7 +11,7 @@
 				"country_of_origin": "CN",
 				"brand": "midocean",
 				"product_name": "TARGET",
-				"category_code": "MOBL&G_SRVCOP",
+				"category_code": "MOBL&G_SRVCOP",//?? no need 
 				"product_class": "Sport & receation accessories",
 				"dimensions": "10,5X8X2 CM",
 				"length": "10.5",
@@ -66,14 +66,14 @@
 						"sku": "AR1249-16",
 						"release_date": "2015-01-01",
 						"discontinued_date": "2099-12-31",
-						"product_proposition_category": "308",
+						"product_proposition_category": "308",// no need
 						"category_level1": "Office & Writing",
 						"category_level2": "Office accessories ",
 						"category_level3": "Desk lights & Accessories",
 						"color_description": "Matt Silver",
 						"color_group": "Silver",
-						"plc_status": "16",
-						"plc_status_description": "COLLECTION",
+						"plc_status": "16",//?? no need
+						"plc_status_description": "COLLECTION", //?? no need
 						"gtin": "8719941007840",
 						"color_code": "16",
 						"pms_color": "SILVER",
@@ -129,7 +129,7 @@
 				"product_name": "BASICS",
 				"category_code": "MOBOFF_CLCSOL",
 				"product_class": "Calculators",
-				"dimensions": "15,5X10X3 CM",
+				"dimensions": "15,5X10X3 CM",//?? already consider
 				"length": "15.5",
 				"length_unit": "cm",
 				"width": "10",
@@ -153,7 +153,7 @@
 				"carton_volume_unit": "m3",
 				"carton_gross_weight": "8.44",
 				"carton_gross_weight_unit": "kg",
-				"timestamp": "2025-03-07T08:09:47",
+				"timestamp": "2025-03-07T08:09:47", //?? 
 				"digital_assets": [
 					{
 						"url": "https://cdn1.midocean.com/document/declaration-of-sustainability/ar1253-green.pdf",
@@ -4466,7 +4466,7 @@
 					"master_id": "40000011",
 					"item_color_numbers": [
 						"16"
-					], //??
+					], //?? no need
 					"print_manipulation": "B",
 					"print_template": "https://printtemplates-v2.cdn.midocean.com/AR1249-print-template.pdf",
 					"printing_positions": [
@@ -4475,11 +4475,11 @@
 							"print_size_unit": "mm",
 							"max_print_size_height": 5.00,
 							"max_print_size_width": 25.00,
-							"rotation": 0.00,//??
-							"print_position_type": "Rectangle",
+							"rotation": 0.00,//?? no need
+							"print_position_type": "Rectangle", //?? 
 							"printing_techniques": [
 								{
-									"default": true,//??
+									"default": true,//?? no need
 									"id": "L3",
 									"max_colours": "1"
 								}
@@ -4488,7 +4488,7 @@
 								{
 									"distance_from_left": 275,
 									"distance_from_top": 820,
-									"sequence_no": 1 //?
+									"sequence_no": 1 //? no need
 								},
 								{
 									"distance_from_left": 720,
@@ -4500,7 +4500,7 @@
 								{
 									"print_position_image_blank": "https://printposition-images-api-v2.cdn.midocean.com/AR1249-16_POS1-no-area.jpg",
 									"print_position_image_with_area": "https://printposition-images-api-v2.cdn.midocean.com/AR1249-16_POS1.jpg",
-									"variant_color": "16"
+									"variant_color": "16" //? no need
 								}
 							]
 						},
@@ -9652,10 +9652,10 @@
 					"pricing_type": "AreaRange",
 					"setup": "18,00",
 					"setup_repeat": "9,00",
-					"next_colour_cost_indicator": "false",
+					"next_colour_cost_indicator": "false", //?? no need
 					"var_costs": [
 						{
-							"range_id": "A",
+							"range_id": "A",//?? no need
 							"area_from": "0",
 							"area_to": "25",
 							"scales": [
@@ -9957,7 +9957,7 @@
 					"pricing_type": "NumberOfColours",
 					"setup": "29,00",
 					"setup_repeat": "18,00",
-					"next_colour_cost_indicator": "true",
+					"next_colour_cost_indicator": "true",//?? no need
 					"var_costs": [
 						{
 							"range_id": "",
@@ -13203,8 +13203,8 @@
 				{
 					"sku": "KC4268-03",
 					"qty": 7076,
-					"first_arrival_date": "2025-05-13",//??
-					"first_arrival_qty": 5100,//??
+					"first_arrival_date": "2025-05-13",//?? no need
+					"first_arrival_qty": 5100,//?? no need
 					"next_arrival_date": "2025-05-20",
 					"next_arrival_qty": 5100
 				},

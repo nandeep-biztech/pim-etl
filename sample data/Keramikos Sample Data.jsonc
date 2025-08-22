@@ -7,7 +7,7 @@
         "Name": "Atlantic White",
         "Prodcode": "ATLWHI",
         "ImageUri": "https://www.mugsgalore.com/QuoteImages/ProductImages/ATLWHI.jpg",//?? which should be consider high resolution(HiresImageUri) or lower
-        "ShapeName": "Atlantic",//??
+        "ShapeName": "Atlantic",//?? consider in shape inside printing data
         "HiresImageUri": "https://keramikos.co.uk/wp-content/ProductsBySKU/ATLWHI.png",
         "Description": "A straight mug with a slightly exaggerated lip with a comfortable sized handle, the perfect give away to sit on any desk.",
         "Brand": "Keramikos",
@@ -19,9 +19,9 @@
         "PrintDyeSublimation": false,
         "PrintFullColour": false,
         "CategoryName": "Earthenware",
-        "IsEcoProduct": false,//??
-        "CreatePageUri": null,//??
-        "ProductSpecifications": [
+        "IsEcoProduct": false,//?? consider in sustanability
+        "CreatePageUri": null,//?? no need
+        "ProductSpecifications": [ // consider in specification
           {
             "Id": 1,
             "ProductId": 1,
@@ -47,7 +47,7 @@
             "SpecificationValue": "81"
           }
         ],
-        "OptionItems": [//??
+        "OptionItems": [//?? not now
         {
           "Id": 1,
           "Name": "Shaker Lid Black",
@@ -264,7 +264,7 @@
         "PrintTypes": [
           {
             "PrintTypeName": "Direct",
-            "PrintCodeId": 1,//??
+            "PrintCodeId": 1,//?? consider in methodCode
             "PrintArea": "185 x 70mm",
             "TypicalLeadTimes": "Typically 7-10 working days from art approval.",
             "PrintPrices": [
@@ -489,7 +489,7 @@
                 "UnitPrice": 1.42
               }
             ],
-            "OriginationPrices": [//??
+            "OriginationPrices": [//?? Ask to client
               {
                 "NumberOfColours": 1,
                 "QuantityFrom": 36,
